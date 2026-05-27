@@ -1,0 +1,23 @@
+.song-body {
+  font-size: var(--fs-lyric);
+  white-space: normal;
+}
+.song-line { margin: 0.15rem 0; }
+.song-line--refrain { font-weight: 700; color: var(--muted); margin-top: 0.6rem; }
+.song-line--blank { height: 0.6rem; }
+
+.seg {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: bottom;
+}
+.seg__chord {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-weight: 700;
+  color: var(--accent);
+  font-size: 0.8em;
+  line-height: 1;
+  min-height: 1em;
+  white-space: pre;
+}
+.seg__text { white-space: pre; }
