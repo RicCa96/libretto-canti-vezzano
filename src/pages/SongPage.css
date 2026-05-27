@@ -1,0 +1,20 @@
+.song-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 0.75rem 0 1rem;
+  font-size: 0.9rem;
+}
+.song-controls button {
+  border: 1px solid #d6d1c7;
+  background: #fff;
+  border-radius: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+.song-controls button[aria-pressed='true'] { background: var(--accent); color: #fff; border-color: var(--accent); }
+.song-controls .group { display: inline-flex; gap: 0.25rem; align-items: center; }
+.song-controls .group span { color: var(--muted); }
+.song-back { display: inline-block; margin-bottom: 0.5rem; }
+.song-title { margin: 0.2rem 0 0; }
