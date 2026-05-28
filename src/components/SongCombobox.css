@@ -21,12 +21,37 @@
 }
 
 .song-cb__opt {
+  display: flex;
+  align-items: center;
+  gap: var(--s-2);
   padding: var(--s-2) var(--s-3);
   font-family: var(--font-sans);
   font-size: var(--fs-body);
   color: var(--ink);
   cursor: pointer;
   line-height: 1.4;
+}
+
+.song-cb__title {
+  flex: 1;
+  min-width: 0;
+}
+
+.song-cb__number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  height: 1.35rem;
+  padding: 0 0.35rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: var(--fs-tiny);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
 }
 
 .song-cb__opt.is-active {

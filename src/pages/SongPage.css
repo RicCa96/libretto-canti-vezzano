@@ -21,6 +21,29 @@
   line-height: 1.05;
   color: var(--ink);
   margin: var(--s-3) 0 var(--s-2);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--s-2);
+}
+
+.song-title .song-number-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  height: 2rem;
+  padding: 0 0.55rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: var(--fs-small);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1;
 }
 
 @media (max-width: 640px) {

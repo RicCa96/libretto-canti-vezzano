@@ -61,8 +61,17 @@ export function Landing() {
                   <li key={i}>
                     <span className="slot-label">{slot.label}</span>
                     {song ? (
-                      <Link className="slot-title" to={`/canti/${song.id}`}>
-                        {song.title}
+                      <Link
+                        className="slot-title"
+                        to={`/canti/${song.id}`}
+                        aria-label={song.title}
+                      >
+                        {song.songNumber !== undefined && (
+                          <span className="song-number-chip" aria-hidden="true">
+                            {song.songNumber}
+                          </span>
+                        )}
+                        <span className="slot-title__text">{song.title}</span>
                       </Link>
                     ) : (
                       <span className="slot-title">{slot.songId}</span>

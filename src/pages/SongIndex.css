@@ -1,100 +1,141 @@
 .index-search {
-  position: sticky;
-  top: 4rem;
-  z-index: 5;
-  display: flex;
-  align-items: center;
-  gap: var(--s-2);
-  padding: 0 var(--s-3);
-  height: 44px;
-  background: var(--surface-2);
-  border: 1px solid var(--rule);
-  border-radius: var(--r-md);
-  margin: var(--s-3) 0 var(--s-4);
+    position: sticky;
+    top: 4rem;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: var(--s-2);
+    padding: 0 var(--s-3);
+    height: 44px;
+    background: var(--surface-2);
+    border: 1px solid var(--rule);
+    border-radius: var(--r-md);
+    margin: var(--s-3) 0 var(--s-4);
 }
 
 .index-search__icon {
-  color: var(--muted);
-  flex-shrink: 0;
+    color: var(--muted);
+    flex-shrink: 0;
 }
 
 .index-search__input {
-  flex: 1;
-  border: 0;
-  background: transparent;
-  font-family: var(--font-sans);
-  font-size: var(--fs-body);
-  color: var(--ink);
-  outline: none;
-  padding: 0;
+    flex: 1;
+    border: 0;
+    background: transparent;
+    font-family: var(--font-sans);
+    font-size: var(--fs-body);
+    color: var(--ink);
+    outline: none;
+    padding: 0;
 }
 
 .index-search__input::placeholder {
-  color: var(--muted);
+    color: var(--muted);
 }
 
 .index-search:focus-within {
-  border-color: var(--accent);
+    border-color: var(--accent);
 }
 
 .index-empty {
-  color: var(--muted);
-  font-style: italic;
-  margin-top: var(--s-4);
+    color: var(--muted);
+    font-style: italic;
+    margin-top: var(--s-4);
 }
 
 .index-group-letter {
-  display: block;
-  width: 100%;
-  appearance: none;
-  background: transparent;
-  border: 0;
-  border-bottom: 1px solid var(--rule);
-  cursor: pointer;
-  text-align: left;
-  font-family: var(--font-display);
-  font-style: normal;
-  font-weight: 600;
-  font-size: var(--fs-h2);
-  color: var(--accent);
-  margin: var(--s-5) 0 var(--s-2);
-  padding: 0 0 var(--s-1);
+    display: block;
+    width: 100%;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid var(--rule);
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--font-display);
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--fs-h2);
+    color: var(--accent);
+    margin: var(--s-5) 0 var(--s-2);
+    padding: 0 0 var(--s-1);
 }
 
 .index-group-letter:hover,
 .index-group-letter:focus-visible {
-  color: var(--accent-2);
-  outline: none;
+    color: var(--accent-2);
+    outline: none;
 }
 
 .index-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .index-list li {
-  border-bottom: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
 }
 
 .index-list li:last-child {
-  border-bottom: 0;
+    border-bottom: 0;
 }
 
 .index-list a {
-  display: block;
-  padding: var(--s-3) 0;
-  font-family: var(--font-sans);
-  font-weight: 500;
-  color: var(--ink);
-  text-decoration: none;
-  min-height: 44px;
+    display: block;
+    padding: var(--s-3) 0;
+    font-family: var(--font-sans);
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+    min-height: 44px;
+}
+
+.index-list a.index-list__link {
+    display: flex;
+    align-items: center;
+    gap: var(--s-2);
+}
+
+.index-list__title {
+    flex: 1;
+    min-width: 0;
 }
 
 .index-list a:hover {
-  color: var(--accent);
+    color: var(--accent);
+}
+
+.song-number-chip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.75rem;
+    height: 1.5rem;
+    padding: 0 0.4rem;
+    border-radius: 999px;
+    background: var(--surface-2);
+    border: 1px solid var(--rule);
+    color: var(--muted);
+    font-family: var(--font-sans);
+    font-size: var(--fs-tiny);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    flex-shrink: 0;
+}
+
+.song-chord-flag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent);
+    flex-shrink: 0;
+}
+
+.song-chord-icon {
+    display: block;
 }
 
 section[id^='letter-'] {
-  scroll-margin-top: calc(4rem + 44px + var(--s-4));
+    scroll-margin-top: calc(4rem + 44px + var(--s-4));
 }

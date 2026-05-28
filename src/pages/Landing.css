@@ -72,8 +72,32 @@
   text-decoration: none;
 }
 
+a.slot-title {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+}
+
 a.slot-title:hover {
   color: var(--accent);
+}
+
+.slot-title .song-number-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.75rem;
+  height: 1.5rem;
+  padding: 0 0.4rem;
+  border-radius: 999px;
+  background: var(--surface-2);
+  border: 1px solid var(--rule);
+  color: var(--muted);
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: var(--fs-tiny);
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 
 .today-updated {

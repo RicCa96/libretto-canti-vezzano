@@ -169,7 +169,12 @@ export function SongCombobox({
               }}
               onMouseEnter={() => setHighlight(i)}
             >
-              {song.title}
+              {song.songNumber !== undefined && (
+                <span className="song-cb__number" aria-hidden="true">
+                  {song.songNumber}
+                </span>
+              )}
+              <span className="song-cb__title">{song.title}</span>
             </li>
           ))}
         </ul>

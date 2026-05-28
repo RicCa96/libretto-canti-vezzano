@@ -1,6 +1,7 @@
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { songs } from '../data/songs/index.ts'
+import { hasChords } from '../lib/chordpro.ts'
 import { LetterJumpSheet } from '../components/LetterJumpSheet.tsx'
 import './SongIndex.css'
 
@@ -9,6 +10,22 @@ function normalize(s: string): string {
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
+}
+
+function ChordIcon() {
+  return (
+    <svg
+      className="song-chord-icon"
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M9 3v10.55A4 4 0 1 0 11 17V7h6V3H9z" />
+    </svg>
+  )
 }
 
 function SearchIcon() {
@@ -109,7 +126,23 @@ export function SongIndex() {
             <ul className="index-list">
               {list.map((song) => (
                 <li key={song.id}>
-                  <Link to={`/canti/${song.id}`}>{song.title}</Link>
+                  <Link
+                    to={`/canti/${song.id}`}
+                    className="index-list__link"
+                    aria-label={song.title}
+                  >
+                    {song.songNumber !== undefined && (
+                      <span className="song-number-chip" aria-hidden="true">
+                        {song.songNumber}
+                      </span>
+                    )}
+                    <span className="index-list__title">{song.title}</span>
+                    {hasChords(song.body) && (
+                      <span className="song-chord-flag" title="Con accordi">
+                        <ChordIcon />
+                      </span>
+                    )}
+                  </Link>
                 </li>
               ))}
             </ul>

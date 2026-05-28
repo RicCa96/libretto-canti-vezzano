@@ -31,7 +31,14 @@ export function SongPage() {
       <Link className="song-back" to="/canti">
         ← Indice
       </Link>
-      <h2 className="song-title">{song.title}</h2>
+      <h2 className="song-title">
+        {song.songNumber !== undefined && (
+          <span className="song-number-chip" aria-hidden="true">
+            {song.songNumber}
+          </span>
+        )}
+        <span className="song-title__text">{song.title}</span>
+      </h2>
 
       <div className="song-controls">
         {chorded && (
