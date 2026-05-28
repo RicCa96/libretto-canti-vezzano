@@ -21,11 +21,11 @@
   text-transform: uppercase;
   color: var(--accent);
   margin: var(--s-4) 0 var(--s-1);
-  text-align: center;
+  padding-left: 1rem;
 }
 
 .song-line--refrain-body {
-  text-align: center;
+  padding-left: 1rem;
   font-style: italic;
   color: var(--ink);
 }
