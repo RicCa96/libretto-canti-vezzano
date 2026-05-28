@@ -44,14 +44,27 @@
 }
 
 .index-group-letter {
+  display: block;
+  width: 100%;
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+  text-align: left;
   font-family: var(--font-display);
   font-style: normal;
   font-weight: 600;
   font-size: var(--fs-h2);
   color: var(--accent);
   margin: var(--s-5) 0 var(--s-2);
-  padding-bottom: var(--s-1);
-  border-bottom: 1px solid var(--rule);
+  padding: 0 0 var(--s-1);
+}
+
+.index-group-letter:hover,
+.index-group-letter:focus-visible {
+  color: var(--accent-2);
+  outline: none;
 }
 
 .index-list {
@@ -80,4 +93,8 @@
 
 .index-list a:hover {
   color: var(--accent);
+}
+
+section[id^='letter-'] {
+  scroll-margin-top: calc(4rem + 44px + var(--s-4));
 }

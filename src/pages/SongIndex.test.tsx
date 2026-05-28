@@ -34,4 +34,12 @@ describe('SongIndex', () => {
     await user.type(screen.getByRole('searchbox'), 'zzzzz-nope')
     expect(screen.getByText(/nessun canto/i)).toBeInTheDocument()
   })
+
+  it('opens the letter jump sheet when a letter header is clicked', async () => {
+    const user = userEvent.setup()
+    renderIndex()
+    const header = screen.getAllByRole('button', { name: /apri menu lettere/i })[0]
+    await user.click(header)
+    expect(screen.getByRole('dialog', { name: 'Salta a lettera' })).toBeInTheDocument()
+  })
 })

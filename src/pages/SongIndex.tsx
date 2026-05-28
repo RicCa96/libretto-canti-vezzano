@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { songs } from '../data/songs/index.ts'
+import { LetterJumpSheet } from '../components/LetterJumpSheet.tsx'
 import './SongIndex.css'
 
 function normalize(s: string): string {
@@ -33,6 +34,8 @@ function SearchIcon() {
 
 export function SongIndex() {
   const [query, setQuery] = useState('')
+  const [sheetOpen, setSheetOpen] = useState(false)
+  const lastTriggerRef = useRef<HTMLButtonElement | null>(null)
 
   const filtered = useMemo(() => {
     const q = normalize(query.trim())
@@ -51,6 +54,24 @@ export function SongIndex() {
     return [...map.entries()]
   }, [filtered])
 
+  const letters = useMemo(() => groups.map(([letter]) => letter), [groups])
+
+  function handleHeaderClick(e: React.MouseEvent<HTMLButtonElement>) {
+    lastTriggerRef.current = e.currentTarget
+    setSheetOpen(true)
+  }
+
+  function handlePick(letter: string) {
+    const el = document.getElementById(`letter-${letter}`)
+    el?.scrollIntoView({ block: 'start' })
+    setSheetOpen(false)
+  }
+
+  function handleClose() {
+    setSheetOpen(false)
+    lastTriggerRef.current?.focus()
+  }
+
   return (
     <>
       <div className="index-search">
@@ -68,8 +89,18 @@ export function SongIndex() {
         <p className="index-empty">Nessun canto trovato.</p>
       ) : (
         groups.map(([letter, list]) => (
-          <section key={letter}>
-            <h3 className="index-group-letter">{letter}</h3>
+          <section key={letter} id={`letter-${letter}`}>
+            <button
+              type="button"
+              className="index-group-letter"
+              aria-haspopup="dialog"
+              aria-expanded={sheetOpen}
+              aria-controls="letter-jump-sheet"
+              aria-label={`${letter} — apri menu lettere`}
+              onClick={handleHeaderClick}
+            >
+              {letter}
+            </button>
             <ul className="index-list">
               {list.map((song) => (
                 <li key={song.id}>
@@ -80,6 +111,12 @@ export function SongIndex() {
           </section>
         ))
       )}
+      <LetterJumpSheet
+        letters={letters}
+        open={sheetOpen}
+        onClose={handleClose}
+        onPick={handlePick}
+      />
     </>
   )
 }
