@@ -17,7 +17,7 @@ export function SongPage() {
     return (
       <>
         <Link className="song-back" to="/canti">
-          ← Torna all'indice dei canti
+          ← Indice
         </Link>
         <p>Canto non trovato.</p>
       </>
@@ -29,7 +29,7 @@ export function SongPage() {
   return (
     <div style={{ ['--fs-lyric' as string]: FONT_REM[size] }}>
       <Link className="song-back" to="/canti">
-        ← Torna all'indice dei canti
+        ← Indice
       </Link>
       <h2 className="song-title">{song.title}</h2>
 
