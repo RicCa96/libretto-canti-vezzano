@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import './LetterJumpSheet.css'
 
 type LetterJumpSheetProps = {
   letters: string[]
