@@ -6,15 +6,34 @@ type LetterJumpSheetProps = {
 }
 
 export function LetterJumpSheet({ letters, open, onClose, onPick }: LetterJumpSheetProps) {
-  void onClose
   if (!open) return null
+  // onClose used in later tasks for ESC/backdrop handling
+  void onClose
   return (
-    <div role="dialog" aria-modal="true" aria-label="Salta a lettera" id="letter-jump-sheet">
-      {letters.map((letter) => (
-        <button key={letter} type="button" onClick={() => onPick(letter)}>
-          {letter}
-        </button>
-      ))}
+    <div className="letter-sheet-root">
+      <div className="letter-sheet-backdrop" aria-hidden="true" />
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label="Salta a lettera"
+        id="letter-jump-sheet"
+        className="letter-sheet"
+      >
+        <div className="letter-sheet__handle" aria-hidden="true" />
+        <div className="letter-sheet__grid">
+          {letters.map((letter) => (
+            <button
+              key={letter}
+              type="button"
+              className="letter-sheet__chip"
+              aria-label={`Salta a ${letter}`}
+              onClick={() => onPick(letter)}
+            >
+              {letter}
+            </button>
+          ))}
+        </div>
+      </div>
     </div>
   )
 }

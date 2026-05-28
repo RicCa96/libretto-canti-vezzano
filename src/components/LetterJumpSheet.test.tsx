@@ -16,4 +16,19 @@ describe('LetterJumpSheet', () => {
     )
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument()
   })
+
+  it('renders one chip per letter when open', () => {
+    render(
+      <LetterJumpSheet
+        letters={['A', 'B', 'C']}
+        open
+        onClose={noop}
+        onPick={noop}
+      />,
+    )
+    expect(screen.getByRole('dialog', { name: 'Salta a lettera' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Salta a A' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Salta a B' })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Salta a C' })).toBeInTheDocument()
+  })
 })
