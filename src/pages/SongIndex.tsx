@@ -35,6 +35,7 @@ function SearchIcon() {
 export function SongIndex() {
   const [query, setQuery] = useState('')
   const [sheetOpen, setSheetOpen] = useState(false)
+  const [triggerLetter, setTriggerLetter] = useState<string | null>(null)
   const lastTriggerRef = useRef<HTMLButtonElement | null>(null)
 
   const filtered = useMemo(() => {
@@ -56,18 +57,23 @@ export function SongIndex() {
 
   const letters = useMemo(() => groups.map(([letter]) => letter), [groups])
 
-  const handleHeaderClick = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
+  const handleHeaderClick = useCallback((e: React.MouseEvent<HTMLButtonElement>, letter: string) => {
     lastTriggerRef.current = e.currentTarget
+    setTriggerLetter(letter)
     setSheetOpen(true)
   }, [])
 
   const handlePick = useCallback((letter: string) => {
-    document.getElementById(`letter-${letter}`)?.scrollIntoView({ block: 'start' })
+    const section = document.getElementById(`letter-${letter}`)
+    section?.scrollIntoView({ block: 'start' })
     setSheetOpen(false)
+    setTriggerLetter(null)
+    section?.querySelector<HTMLButtonElement>('button.index-group-letter')?.focus()
   }, [])
 
   const handleClose = useCallback(() => {
     setSheetOpen(false)
+    setTriggerLetter(null)
     lastTriggerRef.current?.focus()
   }, [])
 
@@ -93,10 +99,10 @@ export function SongIndex() {
               type="button"
               className="index-group-letter"
               aria-haspopup="dialog"
-              aria-expanded={sheetOpen}
+              aria-expanded={triggerLetter === letter ? true : undefined}
               aria-controls="letter-jump-sheet"
               aria-label={`${letter} — apri menu lettere`}
-              onClick={handleHeaderClick}
+              onClick={(e) => handleHeaderClick(e, letter)}
             >
               {letter}
             </button>
