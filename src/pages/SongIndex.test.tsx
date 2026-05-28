@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { render, screen } from '@testing-library/react'
+import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { MemoryRouter } from 'react-router-dom'
 import { SongIndex } from './SongIndex.tsx'
@@ -41,5 +41,30 @@ describe('SongIndex', () => {
     const header = screen.getAllByRole('button', { name: /apri menu lettere/i })[0]
     await user.click(header)
     expect(screen.getByRole('dialog', { name: 'Salta a lettera' })).toBeInTheDocument()
+  })
+
+  it('shows only filtered letters in the sheet', async () => {
+    const user = userEvent.setup()
+    renderIndex()
+    // Filter to a single song whose title starts with E
+    await user.type(screen.getByRole('searchbox'), 'eucar')
+    const header = screen.getAllByRole('button', { name: /apri menu lettere/i })[0]
+    await user.click(header)
+    const dialog = screen.getByRole('dialog', { name: 'Salta a lettera' })
+    // Exactly one chip, for the surviving letter group
+    const chips = within(dialog).getAllByRole('button')
+    expect(chips).toHaveLength(1)
+    expect(chips[0]).toHaveAccessibleName(/^Salta a [A-Z#]$/)
+  })
+
+  it('closes the sheet when a chip is clicked', async () => {
+    const user = userEvent.setup()
+    renderIndex()
+    const header = screen.getAllByRole('button', { name: /apri menu lettere/i })[0]
+    await user.click(header)
+    const dialog = screen.getByRole('dialog', { name: 'Salta a lettera' })
+    const firstChip = within(dialog).getAllByRole('button')[0]
+    await user.click(firstChip)
+    expect(screen.queryByRole('dialog', { name: 'Salta a lettera' })).not.toBeInTheDocument()
   })
 })
