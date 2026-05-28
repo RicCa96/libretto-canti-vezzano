@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+
 type LetterJumpSheetProps = {
   letters: string[]
   open: boolean
@@ -6,12 +8,24 @@ type LetterJumpSheetProps = {
 }
 
 export function LetterJumpSheet({ letters, open, onClose, onPick }: LetterJumpSheetProps) {
+  useEffect(() => {
+    if (!open) return
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') onClose()
+    }
+    window.addEventListener('keydown', handleKey)
+    return () => window.removeEventListener('keydown', handleKey)
+  }, [open, onClose])
+
   if (!open) return null
-  // onClose used in later tasks for ESC/backdrop handling
-  void onClose
+
   return (
     <div className="letter-sheet-root">
-      <div className="letter-sheet-backdrop" aria-hidden="true" />
+      <div
+        className="letter-sheet-backdrop"
+        aria-hidden="true"
+        onClick={onClose}
+      />
       <div
         role="dialog"
         aria-modal="true"
