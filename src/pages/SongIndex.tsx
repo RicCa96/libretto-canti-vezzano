@@ -1,4 +1,4 @@
-import { useMemo, useRef, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { songs } from '../data/songs/index.ts'
 import { LetterJumpSheet } from '../components/LetterJumpSheet.tsx'
@@ -56,21 +56,20 @@ export function SongIndex() {
 
   const letters = useMemo(() => groups.map(([letter]) => letter), [groups])
 
-  function handleHeaderClick(e: React.MouseEvent<HTMLButtonElement>) {
+  const handleHeaderClick = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
     lastTriggerRef.current = e.currentTarget
     setSheetOpen(true)
-  }
+  }, [])
 
-  function handlePick(letter: string) {
-    const el = document.getElementById(`letter-${letter}`)
-    el?.scrollIntoView({ block: 'start' })
+  const handlePick = useCallback((letter: string) => {
+    document.getElementById(`letter-${letter}`)?.scrollIntoView({ block: 'start' })
     setSheetOpen(false)
-  }
+  }, [])
 
-  function handleClose() {
+  const handleClose = useCallback(() => {
     setSheetOpen(false)
     lastTriggerRef.current?.focus()
-  }
+  }, [])
 
   return (
     <>
