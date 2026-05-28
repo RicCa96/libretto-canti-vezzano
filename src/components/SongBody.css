@@ -1,23 +1,51 @@
 .song-body {
+  font-family: var(--font-sans);
   font-size: var(--fs-lyric);
-  white-space: normal;
+  color: var(--ink-2);
+  line-height: 1.6;
 }
-.song-line { margin: 0.15rem 0; }
-.song-line--refrain { font-weight: 700; color: var(--muted); margin-top: 0.6rem; }
-.song-line--blank { height: 0.6rem; }
+
+.song-line {
+  margin: 0.15rem 0;
+}
+
+.song-line--blank {
+  height: 0.6rem;
+}
+
+.song-line--refrain {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: var(--fs-tiny);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: var(--s-4) 0 var(--s-1);
+  text-align: center;
+}
+
+.song-line--refrain-body {
+  text-align: center;
+  font-style: italic;
+  color: var(--ink);
+}
 
 .seg {
   display: inline-flex;
   flex-direction: column;
   vertical-align: bottom;
 }
+
 .seg__chord {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-family: var(--font-mono);
   font-weight: 700;
   color: var(--accent);
-  font-size: 0.8em;
+  font-size: 0.82em;
   line-height: 1;
   min-height: 1em;
   white-space: pre;
 }
-.seg__text { white-space: pre; }
+
+.seg__text {
+  white-space: pre;
+}

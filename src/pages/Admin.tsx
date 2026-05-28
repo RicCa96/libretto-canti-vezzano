@@ -5,6 +5,10 @@ import './Admin.css'
 
 const DEFAULT_LABELS = ['Inizio', 'Offertorio', 'Comunione', 'Fine']
 
+function isErrorStatus(status: string): boolean {
+  return /^(Password errata|Errore)/.test(status)
+}
+
 export function Admin() {
   const [password, setPassword] = useState('')
   const [slots, setSlots] = useState<Slot[]>([])
@@ -99,7 +103,11 @@ export function Admin() {
         Salva
       </button>
 
-      {status && <p className="status">{status}</p>}
+      {status && (
+        <p className={isErrorStatus(status) ? 'status status--error' : 'status'}>
+          {status}
+        </p>
+      )}
     </div>
   )
 }

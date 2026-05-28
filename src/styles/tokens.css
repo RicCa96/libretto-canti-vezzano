@@ -1,0 +1,56 @@
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --bg:        #fbf6ee;
+  --surface:   #ffffff;
+  --surface-2: #f3ead7;
+
+  /* Ink */
+  --ink:       #1f1410;
+  --ink-2:     #3d2c1f;
+  --muted:     #6b513a;
+  --rule:      #e3d4bd;
+
+  /* Brand */
+  --accent:    #8b1a1a;
+  --accent-2:  #a83232;
+  --accent-on: #ffffff;
+  --focus:     #b8862a;
+
+  /* Spacing */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+
+  /* Radii */
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-pill: 999px;
+
+  /* Shadow */
+  --shadow: 0 1px 2px rgba(31, 20, 16, 0.06);
+
+  /* Type */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-sans:    'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono:    ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, monospace;
+
+  --fs-display:    2rem;
+  --fs-display-sm: 1.75rem;
+  --fs-h2:         1.5rem;
+  --fs-h3:         1.25rem;
+  --fs-body:       1rem;
+  --fs-small:      0.875rem;
+  --fs-tiny:       0.75rem;
+
+  /* Reader-controlled lyric size (default; song page overrides inline) */
+  --fs-lyric: 1.1rem;
+
+  /* Layout */
+  --maxw: 44rem;
+}

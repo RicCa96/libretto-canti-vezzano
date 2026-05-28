@@ -36,17 +36,21 @@ export function Landing() {
           sezione "La Messa di oggi" e toccalo: verrai portato subito al testo.
         </p>
         <p>
-          Sotto al titolo di ogni canto trovi il link "← Torna all'indice dei
-          canti" per tornare indietro. Buon canto!
+          Sotto al titolo di ogni canto trovi il link "← Indice" per tornare
+          indietro. <em>Buon canto!</em>
         </p>
       </section>
 
       <section className="today">
         <h2>La Messa di oggi</h2>
-        {error && <p>Impossibile caricare i canti di oggi. Riprova più tardi.</p>}
-        {!error && today === null && <p>Caricamento…</p>}
+        {error && (
+          <p className="today-message">
+            Impossibile caricare i canti di oggi. Riprova più tardi.
+          </p>
+        )}
+        {!error && today === null && <p className="today-message">Caricamento…</p>}
         {!error && today !== null && today.slots.length === 0 && (
-          <p>Nessun canto impostato per oggi.</p>
+          <p className="today-message">Nessun canto impostato per oggi.</p>
         )}
         {!error && today !== null && today.slots.length > 0 && (
           <>
@@ -57,9 +61,11 @@ export function Landing() {
                   <li key={i}>
                     <span className="slot-label">{slot.label}</span>
                     {song ? (
-                      <Link to={`/canti/${song.id}`}>{song.title}</Link>
+                      <Link className="slot-title" to={`/canti/${song.id}`}>
+                        {song.title}
+                      </Link>
                     ) : (
-                      <span>{slot.songId}</span>
+                      <span className="slot-title">{slot.songId}</span>
                     )}
                   </li>
                 )

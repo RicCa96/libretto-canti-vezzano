@@ -1,20 +1,79 @@
+.song-back {
+  display: inline-block;
+  margin: var(--s-2) 0 var(--s-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-tiny);
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-decoration: none;
+}
+.song-back:hover {
+  color: var(--accent-2);
+}
+
+.song-title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--fs-display);
+  line-height: 1.05;
+  color: var(--ink);
+  margin: var(--s-3) 0 var(--s-2);
+}
+
+@media (max-width: 640px) {
+  .song-title {
+    font-size: var(--fs-display-sm);
+  }
+}
+
 .song-controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: var(--s-2);
   align-items: center;
-  margin: 0.75rem 0 1rem;
-  font-size: 0.9rem;
+  margin: var(--s-3) 0 var(--s-5);
 }
+
 .song-controls button {
-  border: 1px solid #d6d1c7;
-  background: #fff;
-  border-radius: 0.4rem;
-  padding: 0.3rem 0.6rem;
+  height: 32px;
+  padding: 0 var(--s-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
   cursor: pointer;
+  transition: background-color 120ms, border-color 120ms, color 120ms;
 }
-.song-controls button[aria-pressed='true'] { background: var(--accent); color: #fff; border-color: var(--accent); }
-.song-controls .group { display: inline-flex; gap: 0.25rem; align-items: center; }
-.song-controls .group span { color: var(--muted); }
-.song-back { display: inline-block; margin-bottom: 0.5rem; }
-.song-title { margin: 0.2rem 0 0; }
+
+@media (hover: hover) {
+  .song-controls button:hover {
+    border-color: var(--accent);
+  }
+}
+
+.song-controls button[aria-pressed='true'] {
+  background: var(--accent);
+  color: var(--accent-on);
+  border-color: var(--accent);
+}
+
+.song-controls .group {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+  margin-left: var(--s-2);
+}
+
+.song-controls .group > span {
+  color: var(--muted);
+  font-size: var(--fs-tiny);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin-right: var(--s-1);
+}
