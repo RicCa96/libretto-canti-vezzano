@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 
 type LetterJumpSheetProps = {
   letters: string[]
@@ -8,6 +8,8 @@ type LetterJumpSheetProps = {
 }
 
 export function LetterJumpSheet({ letters, open, onClose, onPick }: LetterJumpSheetProps) {
+  const firstChipRef = useRef<HTMLButtonElement | null>(null)
+
   useEffect(() => {
     if (!open) return
     function handleKey(e: KeyboardEvent) {
@@ -16,6 +18,19 @@ export function LetterJumpSheet({ letters, open, onClose, onPick }: LetterJumpSh
     window.addEventListener('keydown', handleKey)
     return () => window.removeEventListener('keydown', handleKey)
   }, [open, onClose])
+
+  useEffect(() => {
+    if (!open) return
+    const previous = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => {
+      document.body.style.overflow = previous
+    }
+  }, [open])
+
+  useEffect(() => {
+    if (open) firstChipRef.current?.focus()
+  }, [open])
 
   if (!open) return null
 
@@ -35,9 +50,10 @@ export function LetterJumpSheet({ letters, open, onClose, onPick }: LetterJumpSh
       >
         <div className="letter-sheet__handle" aria-hidden="true" />
         <div className="letter-sheet__grid">
-          {letters.map((letter) => (
+          {letters.map((letter, i) => (
             <button
               key={letter}
+              ref={i === 0 ? firstChipRef : undefined}
               type="button"
               className="letter-sheet__chip"
               aria-label={`Salta a ${letter}`}

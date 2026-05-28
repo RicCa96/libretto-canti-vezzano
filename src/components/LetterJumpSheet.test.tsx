@@ -72,4 +72,22 @@ describe('LetterJumpSheet', () => {
     await user.click(document.querySelector('.letter-sheet-backdrop') as HTMLElement)
     expect(onClose).toHaveBeenCalledTimes(1)
   })
+
+  it('focuses the first chip when opened', () => {
+    render(
+      <LetterJumpSheet letters={['A', 'B']} open onClose={noop} onPick={noop} />,
+    )
+    expect(screen.getByRole('button', { name: 'Salta a A' })).toHaveFocus()
+  })
+
+  it('locks body scroll while open and restores it on close', () => {
+    const { rerender } = render(
+      <LetterJumpSheet letters={['A']} open onClose={noop} onPick={noop} />,
+    )
+    expect(document.body.style.overflow).toBe('hidden')
+    rerender(
+      <LetterJumpSheet letters={['A']} open={false} onClose={noop} onPick={noop} />,
+    )
+    expect(document.body.style.overflow).toBe('')
+  })
 })
