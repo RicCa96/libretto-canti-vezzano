@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Redis } from '@upstash/redis'
-import songIds from '../src/data/song-ids.json'
-import { validateTodayPayload, type TodaySet } from '../src/lib/todaySchema.ts'
+import songIds from '../src/data/song-ids.json' with { type: 'json' }
+import { validateTodayPayload, type TodaySet } from '../src/lib/todaySchema.js'
 
 const redis = Redis.fromEnv()
 const KEY = 'today'
@@ -23,15 +23,15 @@ export default async function handler(
       return res.status(401).json({ error: 'unauthorized' })
     }
     const result = validateTodayPayload(req.body, VALID_IDS)
-    if (!result.ok) {
-      return res.status(400).json({ error: result.error })
+    if (result.ok) {
+      const value: TodaySet = {
+        updatedAt: new Date().toISOString(),
+        slots: result.value.slots,
+      }
+      await redis.set(KEY, value)
+      return res.status(200).json(value)
     }
-    const value: TodaySet = {
-      updatedAt: new Date().toISOString(),
-      slots: result.value.slots,
-    }
-    await redis.set(KEY, value)
-    return res.status(200).json(value)
+    return res.status(400).json({ error: result.error })
   }
 
   res.setHeader('Allow', 'GET, POST')
