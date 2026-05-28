@@ -33,50 +33,108 @@
 .admin input:focus,
 .admin select:focus {
   border-color: var(--accent);
+  outline: none;
+}
+
+.admin .slot-list {
+  list-style: none;
+  margin: var(--s-3) 0 0;
+  padding: 0;
 }
 
 .admin .slot-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--s-2);
+  display: grid;
+  grid-template-columns: auto 9rem 1fr auto;
+  gap: var(--s-3);
   align-items: end;
   margin: var(--s-3) 0;
   padding: var(--s-3);
   background: var(--surface);
   border: 1px solid var(--rule);
   border-radius: var(--r-md);
+  transition: border-color 120ms, opacity 120ms, transform 120ms;
 }
 
-.admin .slot-row > div {
+.admin .slot-row.is-dragging {
+  opacity: 0.5;
+}
+
+.admin .slot-row.is-drop-target {
+  border-color: var(--accent);
+  border-style: dashed;
+}
+
+.admin .slot-field {
   min-width: 0;
 }
 
-.admin .slot-row select {
-  flex: 1;
-  min-width: 0;
+.admin .slot-field label {
+  margin-top: 0;
+}
+
+.admin .slot-handle {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  min-height: 44px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  font-size: var(--fs-body);
+  letter-spacing: -2px;
+  cursor: grab;
+  border-radius: var(--r-sm);
+}
+
+.admin .slot-handle:hover {
+  color: var(--ink);
+  background: var(--surface-2);
+}
+
+.admin .slot-handle:active {
+  cursor: grabbing;
+}
+
+.admin .slot-actions {
+  display: flex;
+  gap: var(--s-2);
+  align-items: end;
 }
 
 .admin button {
-  height: 36px;
+  height: 44px;
   padding: 0 var(--s-3);
   font-family: var(--font-sans);
   font-size: var(--fs-small);
   font-weight: 500;
   color: var(--ink);
   background: var(--surface);
-  border: 1px dashed var(--rule);
+  border: 1px solid var(--rule);
   border-radius: var(--r-md);
   cursor: pointer;
   transition: border-color 120ms, color 120ms, background-color 120ms;
 }
 
-.admin button:hover {
+.admin button:hover:not(:disabled) {
   border-color: var(--accent);
   color: var(--accent);
 }
 
+.admin button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.admin .add {
+  margin-top: var(--s-3);
+  border-style: dashed;
+}
+
 .admin .save {
-  height: 44px;
   margin-top: var(--s-4);
   padding: 0 var(--s-5);
   background: var(--accent);
@@ -92,6 +150,27 @@
 }
 
 @media (max-width: 640px) {
+  .admin .slot-row {
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'handle label'
+      'handle song'
+      'handle actions';
+    align-items: stretch;
+  }
+  .admin .slot-handle {
+    grid-area: handle;
+  }
+  .admin .slot-field--label {
+    grid-area: label;
+  }
+  .admin .slot-field--song {
+    grid-area: song;
+  }
+  .admin .slot-actions {
+    grid-area: actions;
+    margin-top: var(--s-2);
+  }
   .admin .save {
     width: 100%;
   }
