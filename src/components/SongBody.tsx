@@ -10,9 +10,25 @@ type Props = {
 
 export function SongBody({ body, chordsOn, transpose }: Props) {
   const lines = parseChordPro(body)
+
+  // Annotate lyric lines that fall inside a refrain block (from a refrain-label
+  // line up to the next blank line). Purely presentational; the parser is unchanged.
+  let inRefrain = false
+  const decorated = lines.map((line) => {
+    if (line.type === 'blank') {
+      inRefrain = false
+      return { line, inRefrain: false as const }
+    }
+    if (line.type === 'refrain-label') {
+      inRefrain = true
+      return { line, inRefrain: false as const }
+    }
+    return { line, inRefrain }
+  })
+
   return (
     <div className="song-body">
-      {lines.map((line, i) => {
+      {decorated.map(({ line, inRefrain: isRefrainBody }, i) => {
         if (line.type === 'blank') {
           return <div key={i} className="song-line song-line--blank" />
         }
@@ -23,8 +39,11 @@ export function SongBody({ body, chordsOn, transpose }: Props) {
             </div>
           )
         }
+        const lineClass = isRefrainBody
+          ? 'song-line song-line--refrain-body'
+          : 'song-line'
         return (
-          <div key={i} className="song-line">
+          <div key={i} className={lineClass}>
             {line.segments.map((seg, j) => (
               <span key={j} className="seg">
                 {chordsOn && (
