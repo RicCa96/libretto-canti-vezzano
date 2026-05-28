@@ -1,29 +1,3 @@
-:root {
-  --fs-lyric: 1.1rem;
-  --maxw: 44rem;
-  --accent: #c0392b;
-  --ink: #1a1a1a;
-  --muted: #666;
-  --bg: #fbfaf7;
-  --rule: #e4e0d8;
-  --font-display: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  --s-2: 0.5rem;
-  --s-3: 0.75rem;
-  --s-4: 1rem;
-  --fs-h3: 1.1rem;
-  --fs-small: 0.9rem;
-}
-
-* { box-sizing: border-box; }
-
-body {
-  margin: 0;
-  font-family: var(--font-display);
-  color: var(--ink);
-  background: var(--bg);
-  line-height: 1.5;
-}
-
 .app-header {
   position: sticky;
   top: 0;
@@ -82,5 +56,3 @@ main {
   margin: 0 auto;
   padding: var(--s-4);
 }
-
-a { color: var(--accent); }

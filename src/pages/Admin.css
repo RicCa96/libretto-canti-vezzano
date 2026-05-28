@@ -102,3 +102,7 @@
   font-style: italic;
   color: var(--muted);
 }
+
+.admin .status--error {
+  color: var(--accent);
+}
