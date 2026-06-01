@@ -3,24 +3,24 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "vieni-e-seguimi",
   title: "VIENI E SEGUIMI",
-  body: `Lascia che il mondo vada per la sua strada.
-Lascia che l'uomo ritorni alla sua casa.
-Lascia che la gente accumuli la sua fortuna.
-Ma tu, tu vieni e seguimi, tu, vieni e seguimi!
+  body: `Lascia [La]che il mondo [Sim7]vada per la sua [La]strada.
+Lascia [Do#m]che l'uomo ri[Fa#m]torni alla sua [Mi]casa.
+Lascia [Re]che la gente accumuli la sua [La]fortuna.
+Ma [Mi]tu, tu [Re]vieni e [La]seguimi, [Mi]tu, [Re]vieni e [La]seguimi!
 
-Lascia che la barca in mare spieghi la vela.
-Lascia che trovi affetto chi segue il cuore.
-Lascia che dall'albero cadano i frutti maturi.
-Ma tu, tu vieni e seguimi, tu, vieni e seguimi!
+Lascia [La]che la barca in [Sim7]mare spieghi la [La]vela.
+Lascia [Do#m]che trovi [Fa#m]affetto chi segue il [Mi]cuore.
+Lascia [Re]che dall'albero cadano i frutti ma[La]turi.
+Ma [Mi]tu, tu [Re]vieni e [La]seguimi, [Mi]tu, [Re]vieni e se[Fa#m]guimi!
 
-E sarai luce per gli uomini, e sarai sale della terra,
-e nel mondo deserto aprirai una strada nuova!
-E sarai luce per gli uomini, e sarai sale della terra,
-e nel mondo deserto aprirai una strada nuova!
+E [Fa#]sarai luce per gli [Si]uomini, e [Fa#]sarai sale della [Do#m]terra, [Mi]
+e nel mondo de[Fa#]serto aprirai una [Si]strada nuova!
+E [Fa#]sarai luce per gli [Si]uomini, e [Fa#]sarai sale della [Do#m]terra, [Mi]
+e nel mondo de[Fa#]serto aprirai una [Si]strada nuova!
 
-E per questa strada va', va',
-e non voltarti indietro, va',
-e non voltarti indietro.`,
+E per [Fa#]questa strada [Sol#m]va', [Fa#]va',
+e [Si]non voltarti indietro, [Fa#]va',
+e [Si]non voltarti in[Fa#]dietro.`,
 }
 
 export default song

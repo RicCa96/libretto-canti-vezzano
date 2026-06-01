@@ -3,35 +3,35 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "io-ti-amo-signore-mia-forza-tu-sei",
   title: "IO TI AMO SIGNORE, MIA FORZA TU SEI",
-  body: `D:  Io ti amo Signore, mia forza Tu sei
-Mia rupe in cui mi rifugio
-U:  Mia potente salvezza, mio scudo Tu sei
-Io Ti invoco, Tu sei il Dio potente
-D:  La tua mano Tu stendi, dalle acque mi salvi
-Signore, in te io confido
-U:  Tu mi cingi di forza, mi spiani la via
-In eterno io Ti loderò
-T:   Se tu sei con me, io non temerò
+  body: `D:  Io ti [Do]amo Signore, mia [Fa7+]forza Tu sei
+Mia [Lam]rupe in cui mi ri[Fa7+]fugio
+U:  Mia po[Do]tente salvezza, mio [Fa7+]scudo Tu sei
+Io Ti in[Lam]voco, Tu sei il Dio po[Fa7+]tente
+D:  La tua [Lam]mano Tu stendi, dalle [Fa7+]acque mi salvi
+Si[Do/Mi]gnore, in te io con[Fa7+]fido
+U:  Tu mi [Do/Mi]cingi di forza, mi s[Fa7+]piani la via
+In e[Do/Mi]terno io Ti lode[Sol4]rò
+T:   Se tu [Lam]sei [Fa7+]con [Sol4/7]me, io non [Do/Mi]te[Fa7+]me[Sol4]rò
 
 RIT.
-Benedetto sei, noi cantiamo a Te
-Acclamiamo al tuo santo nom
-Benedetto sei Signor, sei il glorioso Redentor
-Ed eterno è il tuo amore per noi
-Sei Re, sei Re, sei Re
-Noi ti adoriam
-Sei Re, sei Re, sei Re
-Noi ti adoriam
+Bene[Lam]detto sei, noi can[Fa7+]tiamo a Te
+Accla[Do/Mi]miamo al tuo santo [Sol]nom
+Bene[Lam]detto sei Signor, sei il glo[Fa7+]rioso Redentor
+Ed e[Do/Mi]terno è il tuo amore per [Sol4]noi
+Sei [Lam]Re, sei [Fa7+]Re, sei [Do/Mi]Re
+Noi ti ado[Sol4]riam
+Sei [Lam]Re, sei [Fa7+]Re, sei [Do/Mi]Re
+Noi ti ado[Sol4]riam
 
-D:  Io ti amo Signore, mia roccia tu sei
-Mia fortezza, mio liberatore
-U:  Nell'angoscia ti prego, il mio grido tu ascolti
-Il riparo mi doni Signore
-D:  La tua mano tu stendi, dalle acque mi salvi
-Signore, in te io confido
-U:  Tu mi cingi di forza, mi spiani la via
-In eterno io ti loderò
-T:   Se tu sei con me, io non temerò
+D:  Io ti [Do]amo Signore, mia [Fa7+]roccia tu sei
+Mia for[Lam]tezza, mio libera[Fa7+]tore
+U:  Nell'an[Do]goscia ti prego, il mio [Fa7+]grido tu ascolti
+Il ri[Lam]paro mi doni Si[Fa7+]gnore
+D:  La tua [Lam]mano tu stendi, dalle [Fa7+]acque mi salvi
+Si[Do/Mi]gnore, in te io con[Fa7+]fido
+U:  Tu mi [Do/Mi]cingi di forza, mi s[Fa7+]piani la via
+In e[Do/Mi]terno io ti lode[Sol4]rò
+T:   Se tu [Lam]sei [Fa7+]con [Sol4/7]me, io non [Do/Mi]te[Fa7+]me[Sol4]rò
 
 RIT.
 x2`,

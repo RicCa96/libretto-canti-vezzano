@@ -1,37 +1,35 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "tu-sei-re",
-  title: "TU SEI RE",
-  body: `RIT.
-Tu sei Re, Tu sei Re - e
-Sei Re Gesù!
-Tu sei Re, Tu sei Re - e
-Sei Re Gesù!
+    id: "tu-sei-re",
+    title: "TU SEI RE",
+    body: `RIT.
+[Re]Tu sei Re, [La]Tu sei Re - [Sim]e
+Sei Re Ge[Sol]sù!
+[Re]Tu sei Re, [La]Tu sei Re - [Sim]e
+Sei Re Ge[Sol]sù!
 
-Noi eleviamo i nostri cuori|
-Noi eleviam le nostre mani|x2
-Rivolte verso il Tuo trono |volte
-Lodando Te!|
-
-RIT.
-Tu sei Re, Tu sei Re - e
-Sei Re Gesù!
-Tu sei Re, (tu sei Re)
-Tu sei Re - e (tu sei Re - e)
-Sei Re Gesù!
-
-Noi eleviamo i nostri cuori|
-Noi eleviam le nostre mani|x2
-Rivolte verso il Tuo trono |volte
-Lodando Te!|
+Noi [Re]eleviamo i nostri cuori, noi [La]eleviam le nostre mani
+Ri[Sim]volte verso il Tuo trono, lodando [Sol]Te!
+Noi [Re]eleviamo i nostri cuori, noi [La]eleviam le nostre mani
+Ri[Sim]volte verso il Tuo trono, lodando [Sol]Te!
 
 RIT.
-Tu sei Re, Tu sei Re - e
-Sei Re Gesù!
-Tu sei Re, (tu sei Re)
-Tu sei Re - e (tu sei Re - e)
-Sei Re Gesù!`,
+[Re]Tu sei Re, [La]Tu sei Re - [Sim]e
+Sei Re Ge[Sol]sù!
+[Re]Tu sei Re, [La]Tu sei Re - [Sim]e
+Sei Re Ge[Sol]sù!
+
+Noi [Re]eleviamo i nostri cuori, noi [La]eleviam le nostre mani
+Ri[Sim]volte verso il Tuo trono, lodando [Sol]Te!
+Noi [Re]eleviamo i nostri cuori, noi [La]eleviam le nostre mani
+Ri[Sim]volte verso il Tuo trono, lodando [Sol]Te!
+
+RIT.
+[Re]Tu sei Re, [La]Tu sei Re - [Sim]e
+Sei Re Ge[Sol]sù!
+[Re]Tu sei Re, [La]Tu sei Re - [Sim]e
+Sei Re Ge[Sol]sù!`,
 }
 
 export default song

@@ -4,30 +4,30 @@ const song: Song = {
   id: "la-mia-anima-canta",
   title: "LA MIA ANIMA CANTA",
   body: `RIT.
-La mia anima canta
-la grandezza del Signore,
-il mio spirito esulta
-nel mio salvatore.
-Nella mia povertà
-l’Infinito mi ha guardata,
-in eterno ogni creatura
-mi chiamerà beata.
+[Do]La mia [Re]anima [Sol]canta
+la [Mim]grandezza del Si[Lam7]gnore,
+il [Si]mio spirito [Do]esulta
+nel [Re]mio sa[Sol]lvatore.
+[Do]Nella [Re]mia pove[Sol]rtà
+l'In[Mim]finito mi ha [Lam7]guardata,
+in [Si]eterno ogni crea[Do]tura
+mi [Re]chiamerà [Sol]beata.
 
-La mia gioia è nel Signore
-che ha compiuto grandi cose in me,
-la mia lode al Dio fedele
-che ha soccorso il suo popolo
-e non ha dimenticato
-le sue promesse d’amore.
+La mia [Lam]gioia è nel Si[Sim]gnore
+che ha com[Do]piuto grandi [Sim]cose in me,
+la mia [Lam]lode al Dio fe[Sim]dele
+che ha soc[Do]corso il suo po[Sim]polo
+e non [Sol]ha dimenticato
+le [Do]sue prome[Dom]sse d'a[Sol]more.
 
 RIT.
 
-Ha disperso i superbi
-nei pensieri inconfessabili,
-ha deposto i potenti,
-ha risollevato gli umili,
-ha saziato gli affamati
-e aperto ai ricchi le mani.
+Ha di[Lam]sperso i supe[Sim]rbi
+nei pen[Do]sieri inconfessa[Sim]bili,
+ha de[Lam]posto i poten[Sim]ti,
+ha ri[Do]sollevato gli u[Sim]mili,
+ha sa[Sol]ziato gli affamati
+e a[Do]perto ai ri[Dom]cchi le [Sol]mani.
 
 RIT.`,
 }

@@ -4,42 +4,42 @@ const song: Song = {
   id: "andate-per-le-strade",
   title: "ANDATE PER LE STRADE",
   body: `RIT.
-Andate per le strade in tutto il mondo,
-chiamate i miei amici per far festa:
-c'è un posto per ciascuno alla mia mensa.
+[Sim]Andate per le [Re]strade in [Sol]tutto il [La]mondo,
+chi[Fa#7]amate i miei [Sim]amici [La]per far [Re]festa:
+c'è un [Sim]posto per cia[Sol]scuno alla [La]mia [Sim]mensa. [La]
 
-Nel vostro cammino annunciate il Vangelo
-dicendo “È vicino il Regno dei cieli!”
-Guarite i malati, mondate i lebbrosi
-rendete la vita a chi l'ha perduta.
-
-RIT.
-
-Vi è stato donato un amore gratuito,
-ugualmente donate con gioia e per amore;
-con voi non prendete né oro né argento,
-perché l'operaio ha diritto al suo cibo.
+Nel [Re]vostro [Sol]cammino annun[La]ciate il [Re]Vangelo
+[Sim]dicendo “È [Mim]vicino il [Fa#m]Regno dei [Sim]cieli!”
+Gua[Re]rite i [Sol]malati, [La]mondate i leb[Re]brosi
+ren[Sim]dete la [Fa#7]vita a [Do#]chi l'ha per[Fa#7]duta. [Sim]
 
 RIT.
 
-Entrando in una casa donatele la pace,
-se c'è chi vi rifiuta e non accoglie il dono
-la pace torni a voi e uscite dalla casa
-scuotendo la polvere dai vostri calzari.
+Vi è [Re]stato do[Sol]nato un a[La]more gra[Re]tuito,
+ugual[Sim]mente do[Mim]nate con [Fa#m]gioia e per a[Sim]more;
+con [Re]voi non [Sol]prendete né [La]oro né ar[Re]gento,
+per[Sim]ché l'[Fa#7]operaio ha [Do#]diritto al suo [Fa#7]cibo. [Sim]
 
 RIT.
 
-Ecco io vi mando come agnelli in mezzo ai lupi
-siate dunque avveduti come sono i serpenti,
-ma liberi e chiari come le colombe,
-dovrete sopportare prigioni e tribunali.
+En[Re]trando in una [Sol]casa do[La]natele la [Re]pace,
+se [Sim]c'è chi vi [Mim]rifiuta e [Fa#m]non accoglie il [Sim]dono
+la [Re]pace torni a [Sol]voi e [La]uscite dalla [Re]casa
+scuo[Sim]tendo la [Fa#7]polvere dai [Do#]vostri [Fa#7]calzari. [Sim]
 
 RIT.
 
-Nessuno è più grande del proprio maestro
-né il servo è più grande del suo padrone.
-Se hanno odiato me odieranno anche voi
-ma voi non temete io non vi lascio soli.
+[Re]Ecco io vi [Sol]mando come [La]agnelli in mezzo ai [Re]lupi
+siate [Sim]dunque avve[Mim]duti come [Fa#m]sono i ser[Sim]penti,
+ma [Re]liberi e [Sol]chiari [La]come le co[Re]lombe,
+do[Sim]vrete so[Fa#7]pportare pri[Do#]gioni e tri[Fa#7]bunali. [Sim]
+
+RIT.
+
+Ne[Re]ssuno è più [Sol]grande del [La]proprio ma[Re]estro
+né il [Sim]servo è più [Mim]grande [Fa#m]del suo pa[Sim]drone.
+Se [Re]hanno [Sol]odiato me odie[La]ranno anche [Re]voi
+ma [Sim]voi non te[Fa#7]mete io non [Do#]vi lascio [Fa#7]soli. [Sim]
 
 RIT.`,
 }

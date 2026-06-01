@@ -4,43 +4,43 @@ const song: Song = {
   id: "luce-di-verita",
   title: "LUCE DI VERITÀ",
   body: `RIT.
-Luce di verità, fiamma di carità,
-vincolo di unità, Spirito Santo Amore.
-Dona la libertà, dona la santità,
-fa' dell'umanità il tuo canto di lode.
+[Do]Luce di veri[Fa]tà, [Do]fiamma di cari[Mim]tà,
+[Fa]vincolo di uni[Do]tà, [Lam]Spirito [Re7]Santo A[Fa]mo[Sol]re.
+[Do]Dona la libe[Fa]rtà, [Do]dona la santità,
+[Fa]fa' dell'umani[Do]tà [Lam]il tuo [Sib]canto di [Fa]lo[Sol]de.
 
-Ci poni come luce sopra un monte:
-in noi l'umanità vedrà il tuo volto
-Ti testimonieremo fra le genti:
-in noi l'umanità vedrà il tuo voltoSpirito, vieni.
-
-RIT.
-Luce di verità, fiamma di carità,
-vincolo di unità, Spirito Santo Amore.
-Dona la libertà, dona la santità,
-fa' dell'umanità il tuo canto di lode.
-
-Cammini accanto a noi lungo la strada,
-si realizzi in noi la tua missione.
-Attingeremo forza dal tuo cuore,
-si realizzi in noi la tua missione.Spirito, vieni.
+[Lam]Ci poni come [Sol]luce sopra un [Do]mon[Fa]te:
+[Rem]in noi l'umanità ve[Do]drà il tuo [Sol]volto
+[Fa]Ti testimonie[Sol]remo fra le [Do]gen[Fa]ti:
+[Rem]in noi l'umanità ve[Do]drà il tuo [Sol]volto. Spirito, vieni.
 
 RIT.
-Luce di verità, fiamma di carità,
-vincolo di unità, Spirito Santo Amore.
-Dona la libertà, dona la santità,
-fa' dell'umanità il tuo canto di lode.
+[Do]Luce di veri[Fa]tà, [Do]fiamma di cari[Mim]tà,
+[Fa]vincolo di uni[Do]tà, [Lam]Spirito [Re7]Santo A[Fa]mo[Sol]re.
+[Do]Dona la libe[Fa]rtà, [Do]dona la santità,
+[Fa]fa' dell'umani[Do]tà [Lam]il tuo [Sib]canto di [Fa]lo[Sol]de.
 
-Come sigillo posto sul tuo cuore,
-ci custodisci, Dio, nel tuo amore.
-Hai dato la tua vita per salvarci,
-ci custodisci, Dio, nel tuo amore.Spirito, vieni.
+[Lam]Cammini accanto a [Sol]noi lungo la s[Do]tra[Fa]da,
+[Rem]si realizzi in [Do]noi la tua miss[Sol]ione.
+[Fa]Attingeremo [Sol]forza dal tuo [Do]cuo[Fa]re,
+[Rem]si realizzi in [Do]noi la tua miss[Sol]ione. Spirito, vieni.
 
 RIT.
-Luce di verità, fiamma di carità,
-vincolo di unità, Spirito Santo Amore.
-Dona la libertà, dona la santità,
-fa' dell'umanità il tuo canto di lode.`,
+[Do]Luce di veri[Fa]tà, [Do]fiamma di cari[Mim]tà,
+[Fa]vincolo di uni[Do]tà, [Lam]Spirito [Re7]Santo A[Fa]mo[Sol]re.
+[Do]Dona la libe[Fa]rtà, [Do]dona la santità,
+[Fa]fa' dell'umani[Do]tà [Lam]il tuo [Sib]canto di [Fa]lo[Sol]de.
+
+[Lam]Come sigillo [Sol]posto sul tuo [Do]cuo[Fa]re,
+[Rem]ci custodisci, [Do]Dio, nel tuo a[Sol]more.
+[Fa]Hai dato la tua [Sol]vita per sa[Do]lvar[Fa]ci,
+[Rem]ci custodisci, [Do]Dio, nel tuo a[Sol]more. Spirito, vieni.
+
+RIT.
+[Do]Luce di veri[Fa]tà, [Do]fiamma di cari[Mim]tà,
+[Fa]vincolo di uni[Do]tà, [Lam]Spirito [Re7]Santo A[Fa]mo[Sol]re.
+[Do]Dona la libe[Fa]rtà, [Do]dona la santità,
+[Fa]fa' dell'umani[Do]tà [Lam]il tuo [Sib]canto di [Fa]lo[Sol]de.`,
 }
 
 export default song

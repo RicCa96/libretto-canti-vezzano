@@ -4,25 +4,29 @@ const song: Song = {
   id: "alleluia-taize",
   title: "ALLELUIA (TAIZÉ)",
   body: `RIT.
-Alleluia, alleluia, alleluia, alleluia, alleluia!
-Alleluia, alleluia, alleluia, alleluia, alleluia!
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]alle[Do]luia, [Sol]allelu[Sol7]ia!
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]allelu[Do]ia, [Sol]allelu[Do]ia![Sol]
 
-1.Canto per Cristo che mi libererà quando verrà nella gloria,
-quando la vita con Lui rinascerà, alleluia, alleluia!
-
-oppure
-
-2.Canto per Cristo, in Lui rifiorirà ogni speranza perduta,
-ogni creatura con Lui risorgerà, alleluia, alleluia!
-
-oppure
-
-3.Cristo è risorto, è vivo in mezzo a noi, viene a portarci la pace,
-vinta è la morte nel nome di Gesù, alleluia, alleluia!
+[Do]Canto per C[Sol]risto che [Lam]mi libe[Mim]rerà [Fa]quando [Do]verrà nella [Sol]gloria[Sol7],
+[Do]quando la [Sol]vita con [Lam]Lui rina[Mim]scerà, [Fa]alle[Do]luia, [Sol]allelu[Do]ia![Sol]
 
 RIT.
-Alleluia, alleluia, alleluia, alleluia, alleluia!
-Alleluia, alleluia, alleluia, alleluia, alleluia`,
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]alle[Do]luia, [Sol]allelu[Sol7]ia!
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]allelu[Do]ia, [Sol]allelu[Do]ia![Sol]
+
+[Do]Canto per C[Sol]risto, in [Lam]Lui rifi[Mim]orirà [Fa]ogni spe[Sol]ranza perdu[Sol7]ta,
+[Do]ogni cre[Sol]atura con [Lam]Lui riso[Mim]rgerà, [Fa]alle[Do]luia, [Sol]allelu[Do]ia![Sol]
+
+RIT.
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]alle[Do]luia, [Sol]allelu[Sol7]ia!
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]allelu[Do]ia, [Sol]allelu[Do]ia![Sol]
+
+[Do]Cristo è ri[Sol]sorto, è [Lam]vivo in mezzo a [Mim]noi, [Fa]viene a por[Sol]tarci la pa[Sol7]ce,
+[Do]vinta è la [Sol]morte nel [Lam]nome di Ge[Mim]sù, [Fa]alle[Do]luia, [Sol]allelu[Do]ia![Sol]
+
+RIT.
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]alle[Do]luia, [Sol]allelu[Sol7]ia!
+[Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]allelu[Do]ia, [Sol]allelu[Do]ia`,
 }
 
 export default song

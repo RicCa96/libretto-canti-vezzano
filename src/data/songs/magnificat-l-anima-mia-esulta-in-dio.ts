@@ -2,42 +2,42 @@ import type { Song } from '../types.ts'
 
 const song: Song = {
   id: "magnificat-l-anima-mia-esulta-in-dio",
-  title: "MAGNIFICAT (L’ANIMA MIA ESULTA IN DIO)",
-  body: `Dio ha fatto in me cose grandi,
-Lui che guarda l’umile servo
-e disperde i superbi nell’orgoglio del cuore.
+  title: "MAGNIFICAT (L'ANIMA MIA ESULTA IN DIO)",
+  body: `[Sol]Dio [Do]ha fatto in [Sim]me cose [Mim]grandi,
+[Do7+]Lui [Lam7]che guarda [Re]l'umile [Sol7+]servo
+e di[Do]sperde i su[Lam]perbi nell'or[Si]goglio del [Mim]cuore. [Mi]
 
 RIT.
-L’anima mia esulta in Dio, mio Salvatore
-L’anima mia esulta in Dio, mio Salvatore
-la Sua salvezza canterò.
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Mi]
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Do]
+La [Do]Sua salvezza [Re]cante[Sol]rò.
 
-Lui, onnipotente e santo,
-Lui abbatte i grandi dai troni
-e solleva dal fango il Suo umile servo.
-
-RIT.
-L’anima mia esulta in Dio, mio Salvatore
-L’anima mia esulta in Dio, mio Salvatore
-la Sua salvezza canterò.
-
-Lui misericordia infinita,
-Lui che rende povero il ricco
-e ricolma di beni chi si affida al Suo amore.
+[Sol]Lui, [Do]Onnipo[Sim]tente e [Mim]Santo,
+[Do7+]Lui [Lam7]abbatte i [Re]grandi dai [Sol7+]troni
+e so[Do]lleva dal [Lam]fango il Suo [Si]umile [Mim]servo. [Mi]
 
 RIT.
-L’anima mia esulta in Dio, mio Salvatore
-L’anima mia esulta in Dio, mio Salvatore
-la Sua salvezza canterò.
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Mi]
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Do]
+La [Do]Sua salvezza [Re]cante[Sol]rò.
 
-Lui amore sempre fedele
-Lui guida il Suo servo Israele
-e ricorda il Suo patto stabilito per sempre.
+[Sol]Lui [Do]miseri[Sim]cordia in[Mim]finita,
+[Do7+]Lui [Lam7]che rende [Re]povero il [Sol7+]ricco
+e ri[Do]colma di [Lam]beni chi si [Si]affida al [Mim]Suo amore. [Mi]
 
 RIT.
-L’anima mia esulta in Dio, mio Salvatore
-L’anima mia esulta in Dio, mio Salvatore
-la Sua salvezza canterò.`,
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Mi]
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Do]
+La [Do]Sua salvezza [Re]cante[Sol]rò.
+
+[Sol]Lui [Do]amore [Sim]sempre fe[Mim]dele
+[Do7+]Lui [Lam]guida il [Re]Suo servo [Sol7+]Israele
+e ri[Do]corda il Suo [Lam]patto stabi[Si]lito per [Mim]sempre. [Mi]
+
+RIT.
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Mi]
+[Lam]L'a[Re7]nima [Sol]mia [Do]esulta in [Lam]Dio, [Si]mio Salva[Mim]tore. [Do]
+La [Do]Sua salvezza [Re]cante[Sol]rò.`,
 }
 
 export default song

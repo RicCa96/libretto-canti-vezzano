@@ -3,31 +3,31 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "te-al-centro-del-mio-cuore",
   title: "TE AL CENTRO DEL MIO CUORE",
-  body: `Ho bisogno di incontrarti nel mio cuore,
-di trovare Te, di stare insieme a Te.
-Unico riferimento del mio andare,
-unica ragione Tu, unico sostegno Tu,
-al centro del mio cuore ci sei solo Tu.
+  body: `[Rem]Ho bisogno di incontrarti nel mio [Fa]cuore,
+di trovare [Lam]Te, di stare insieme a [Sib]Te.
+Unico [Solm]riferimento del mio an[Rem]dare,
+[Sib]unica ragione [Do]Tu, u[Lam]nico sostegno [Rem]Tu,
+al [Sib]centro del mio cu[Do]ore ci sei solo [Fa]Tu.
 
-Anche il cielo gira intorno e non ha pace,
-ma c'è un punto fermo: è quella stella là.
-La stella polare è fissa ed è la sola,
-la stella polare Tu, la stella sicura Tu,
-al centro del mio cuore ci sei solo Tu.
-
-RIT.
-Tutto ruota intorno a Te, in funzione di Te
-e poi non importa il “come”, il “dove”, il “se”.
-
-Che Tu splenda sempre al centro del mio cuore,
-il significato allora sarai Tu.
-Quello che farò sarà soltanto Amore.
-Unico sostegno Tu, la stella polare Tu,
-al centro del mio cuore ci sei solo Tu.
+[Rem]Anche il cielo gira intorno e non ha [Fa]pace,
+ma c'è un [Lam]punto fermo: è quella stella [Sib]là.
+La stella [Solm]polare è fissa ed è la [Rem]sola,
+[Sib]la stella polare [Do]Tu, la [Lam]stella sicura [Rem]Tu,
+al cen[Sib]tro del mio cu[Do]ore ci sei solo [Fa]Tu.
 
 RIT.
-Tutto ruota intorno a Te, in funzione di Te
-e poi non importa il “come”, il “dove”, il “se”.`,
+[Fa]Tutto [Lam]ruota intorno a [Sib]Te, in funzione di [Lam]Te [Rem]
+e poi [Lam]non importa il [Sib]come, il dove, il [Do]se.
+
+[Rem]Che Tu splenda sempre al centro del mio [Fa]cuore,
+il [Lam]significato allora sarai [Sib]Tu.
+Quello [Solm]che farò sarà soltanto [Rem]Amore.
+[Sib]Unico sostegno [Do]Tu, la ste[Lam]lla polare [Rem]Tu,
+al [Sib]centro del mio cu[Do]ore ci sei solo [Fa]Tu.
+
+RIT.
+[Fa]Tutto [Lam]ruota intorno a [Sib]Te, in funzione di [Lam]Te [Rem]
+e poi [Lam]non importa il [Sib]come, il dove, il [Do]se.`,
 }
 
 export default song

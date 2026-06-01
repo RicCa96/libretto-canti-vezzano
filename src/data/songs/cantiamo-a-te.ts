@@ -3,20 +3,20 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "cantiamo-a-te",
   title: "CANTIAMO A TE",
-  body: `Cantiamo a Te Signore della vita
-il nome Tuo è grande sulla terra
-tutto parla di Te e canta la Tua gloria,
-grande Tu sei e compi meraviglie Tu sei Dio
+  body: `[Re]Cantia[Mim]mo a [Re]Te Si[Mim]gnore della [La4]vit[La]a
+[Re]il no[Mim]me [Re]Tuo è [Mim]grande sulla [La7]terra
+tutto [Re]parla di [Fa#m]Te e [Mim]canta la [La]Tua gloria,
+[Re]grande Tu [Fa#m]sei e [Mim]compi mera[La7]viglie Tu sei [Re]Dio
 
-Cantiamo a Te Signore Gesù Cristo
-figlio di Dio venuto sulla terra
-fatto uomo per noi nel grembo di Maria, dolce
-Gesù risorto dalla morte sei con noi.
+[Re]Cantia[Mim]mo a [Re]Te Si[Mim]gnore Gesù [La4]Cri[La]sto
+[Re]figlio [Mim]di [Re]Dio ve[Mim]nuto sulla [La7]terra
+fatto [Re]uomo per [Fa#m]noi nel [Mim]grembo di [La]Maria, dolce
+[Re]Gesù ri[Fa#m]sorto [Mim]dalla [La7]morte sei con [Re]noi.
 
-Cantiamo a Te amore senza fine
-Tu che sei Dio lo Spirito del Padre
-vivi dentro di noi e guida i nostri passi,
-accendi in noi il fuoco dell’eterna carità.`,
+[Re]Cantia[Mim]mo a [Re]Te a[Mim]more senza [La4]fi[La]ne
+[Re]Tu [Mim]che sei [Re]Dio lo Spi[Mim]rito del [La7]Padre
+vivi [Re]dentro di [Fa#m]noi e [Mim]guida i nostri [La]passi,
+[Re]accendi in [Fa#m]noi il [Mim]fuoco dell’[La7]eterna ca[Re]rità.`,
 }
 
 export default song

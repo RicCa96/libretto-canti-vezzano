@@ -3,39 +3,39 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "come-tu-mi-vuoi",
   title: "COME TU MI VUOI",
-  body: `Eccomi Signor, vengo a te mio Re
-che si compia in me la tua volontà
-Eccomi Signor, vengo a te mio Dio
-plasma il cuore mio e di te vivrò
-Se tu lo vuoi Signore manda me
-e il tuo nome annuncerò.
+  body: `[Sol]Eccomi Signor, [Lam7]vengo a te mio Re,
+[Mim]che si compia in me la tua [Sol]volontà.[Re]
+[Sol]Eccomi Signor, [Lam7]vengo a te mio Dio,
+[Mim]plasma il cuore mio [Sim7]e di te vivrò.
+[Do7+]Se tu lo [Do]vuoi Si[Re]gnore manda [Do7+]me,
+[Lam]e il tuo nome a[Sim]nnunce[Re4]rò.
 
 RIT.
-Come tu mi vuoi io sarò,
-dove tu mi vuoi io andrò.
-Questa vita io voglio donarla a te
-per dar gloria al tuo nome mio Re.
-Come tu mi vuoi io sarò,
-dove tu mi vuoi io andrò.
-Se mi guida il tuo amore paura non ho,
-per sempre io sarò come tu mi vuoi.
+[Re]Come tu mi [Sol]vuoi io sa[Re]rò,
+dove tu mi [Mim]vuoi io an[Sim7]drò.
+Questa [Do]vita io voglio donar[Sim7]la a [Mim]te
+per dar [Fa]gloria al tuo nome mio [Re4]Re.
+[Re]Come tu mi [Do7+]vuoi io [Re]sarò,
+[Si7]dove tu mi [Mim]vuoi io [Sim7]andrò.
+Se mi [Do7+]guida il tuo a[Re]more pa[Si7]ura non [Mim]ho,
+per [Lam]sem[Sim]pre io [Do]sa[Re4]rò, [Re]come tu mi vuoi[Sol].
 
-Eccomi Signor, vengo a te mio Re
-che si compia in me la tua volontà
-Eccomi Signor, vengo a te mio Dio
-plasma il cuore mio e di te vivrò
-Tra le tue mani mai più vacillerò
-e strumento tuo sarò.
+[Sol]Eccomi Signor, [Lam7]vengo a te mio Re,
+[Mim]che si compia in me la tua [Sol]volontà.[Re]
+[Sol]Eccomi Signor, [Lam7]vengo a te mio Dio,
+[Mim]plasma il cuore mio e [Sim7]di te vivrò.
+[Do7+]Tra le tu[Do]e mani mai [Re]più vacill[Do7+]erò,
+[Lam]e strumento t[Sim]uo sar[Re4]ò.
 
 RIT.
-Come tu mi vuoi io sarò,
-dove tu mi vuoi io andrò.
-Questa vita io voglio donarla a te
-per dar gloria al tuo nome mio Re.
-Come tu mi vuoi io sarò,
-dove tu mi vuoi io andrò.
-Se mi guida il tuo amore paura non ho,
-per sempre io sarò come tu mi vuoi.`,
+[Re]Come tu mi [Sol]vuoi io sa[Re]rò,
+dove tu mi [Mim]vuoi io an[Sim7]drò.
+Questa [Do]vita io voglio donar[Sim7]la a [Mim]te
+per dar [Fa]gloria al tuo nome mio [Re4]Re.
+[Re]Come tu mi [Do7+]vuoi io [Re]sarò,
+[Si7]dove tu mi [Mim]vuoi io [Sim7]andrò.
+Se mi [Do7+]guida il tuo a[Re]more pa[Si7]ura non [Mim]ho,
+per [Lam]sem[Sim]pre io [Do]sa[Re4]rò, [Re]come tu mi vuoi[Sol].`,
 }
 
 export default song

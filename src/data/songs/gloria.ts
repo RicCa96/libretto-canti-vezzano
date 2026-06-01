@@ -2,39 +2,39 @@ import type { Song } from '../types.ts'
 
 const song: Song = {
   id: "gloria",
-  title: "GLORIA",
+  title: "GLORIA (MARIANO)",
   body: `RIT.
-Gloria a Dio nell'alto dei cieli
-e pace in terra agli uomini che egli ama.
-Gloria a Dio nell'alto dei cieli
-e pace in terra agli uomini che egli ama.
+[Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
+e [Sim]pace in terra agli [Do]uomini che egli [La4]ama. [La]
+[Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
+e [Sim]pace in terra agli [Do]uomini che egli [La4]ama. [La]
 
-Noi ti lodiamo ti benediciamo, ti adoriamo ti glorifichiamo,
-ti rendiamo grazie per la tua immensa gloria.
-Signore Dio, Re del cielo, Dio Padre onnipotente,
-Figlio unigenito Cristo Gesù!
-
-RIT.
-Gloria a Dio nell'alto dei cieli
-e pace in terra agli uomini che egli ama.
-
-Signore Dio, Agnello di Dio Figlio del Padre onnipotente.
-Tu che togli i peccati del mondo abbi pietà di noi.
-Tu che togli i peccati del mondo, accogli benigno la nostra preghiera.
-Tu che siedi alla destra del Padre, abbi pietà di noi.
+[Re]Noi ti lodiamo [La]ti benediciamo, [Sim7]ti adoriamo [La]ti glorifichiamo,
+[Re]ti rendiamo [La]grazie per la [Sol]tua im[La]mensa [Re]gloria.
+[Re]Signore Dio, [La]Re del cielo, [Sim7]Dio Padre o[La]nnipotente,
+[Re]Figlio uni[La]genito [Sol]Cristo Ge[La]sù[Re]!
 
 RIT.
-Gloria a Dio nell'alto dei cieli
-e pace in terra agli uomini che egli ama.
+[Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
+e [Sim]pace in terra agli [Do]uomini che egli [La4]ama. [La]
 
-Tu solo il Santo, Tu solo il Signore, Tu l'Altissimo, Gesù Cristo,
-con lo Spirito Santo nella gloria del Padre.
+[Re]Signore Dio, [La]Agnello di Dio [Sim7]Figlio del Padre [La]onnipotente.
+[Re]Tu che togli i [La]peccati del mondo [Sol]abbi pie[La]tà di [Re]noi.
+[Re]Tu che togli i [La]peccati del mondo, [Sol]accogli benigno la [La]nostra pre[Re]ghiera.
+[Re]Tu che siedi alla [La]destra del Padre, [Sim7]abbi pie[La]tà di noi.
 
 RIT.
-Gloria a Dio nell'alto dei cieli
-e pace in terra agli uomini che egli ama.
-Gloria a Dio nell'alto dei cieli
-e pace in terra agli uomini che egli ama.`,
+[Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
+e [Sim]pace in terra agli [Do]uomini che egli [La4]ama. [La]
+
+[Re]Tu solo il Santo, Tu [La]solo il Signore, [Sim]Tu l'Altissimo, Ge[La]sù Cristo,
+[Re]con lo Spirito Sa[La]nto nella [Sol]gloria [La]del Pa[Re]dre.
+
+RIT.
+[Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
+e [Sim]pace in terra agli [Do]uomini che egli [La4]ama. [La]
+[Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
+e [Sim]pace in terra agli [Do]uomini che egli [La4]ama. [La]`,
 }
 
 export default song

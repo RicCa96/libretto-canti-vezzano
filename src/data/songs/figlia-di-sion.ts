@@ -3,35 +3,35 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "figlia-di-sion",
   title: "FIGLIA DI SION",
-  body: `D’improvviso mi son svegliata: il mio cuore è un battito d’ali
-tra i colori del nuovo giorno da lontano l’ho visto arrivare.
-È vestito di rosso il mio re, una fiamma sull’orizzonte
-oro scende dai suoi capelli ed i fiumi ne son tutti colmi.
+  body: `[La]D’improvviso mi [La7+]son svegliata: [La7]il mio cuore è un [Re]battito d’ali [Rem]
+fra i colori del [La]nuovo giorno, da lon[Mi]tano l’ho visto arri[La]vare.
+[La]È vestito di [La7+]rosso il mio re, [La7]una fiamma sull’[Re]orizzonte [Rem]
+oro scende dai [La]suoi capelli ed i [Mi]fiumi ne son tutti [La]colmi.
 
 RIT.
-D’oro e di gemme mi vestirò,
-di tutte le donne sarò la più bella,
-e quando il mio signore mi guarderà
-d’amore il suo cuore traboccherà.
+[Re]D’oro e di [Mi]gemme mi vesti[La]rò, [La7]
+[Re]di tutte le [Mi]donne sarò la più [La]bella, [La7]
+[Re]e quando il [Mi]mio signore [Fa#m]mi guarde[Si]rà
+[Re]d’amore il suo [Mi]cuore trabocche[La]rà.
 
-Fate presto, correte tutti: è il mio sposo che arriva già,
-sulla strada stendete i mantelli, aprite le porte della città.
-Quando il re vedrà la sua sposa figlia di Sion mi chiamerà,
-né giorno, né notte, né sole, né luna:
-della sua luce mi ricoprirà.
-
-RIT.
-D’oro e di gemme mi vestirò,
-di tutte le donne sarò la più bella,
-e quando il mio signore mi guarderà
-d’amore il suo cuore traboccherà.
+[La]Fate presto, cor[La7+]rete tutti: è [La7]il mio sposo che ar[Re]riva già, [Rem]
+sulla strada sten[La]dete i mantelli, ap[Mi]rite le porte [La]della città.
+[La]Quando il re ve[La7+]drà la sua sposa [La7]figlia di Sion mi chi[Re]amerà,
+né [Rem]giorno, né notte, né [La]sole, né luna:
+[Mi]della sua luce mi [La]ricoprirà.
 
 RIT.
-D’oro e di gemme ti vestirai,
-(2)di tutte le donne sarai la più bella,
-e quando il tuo signore ti guarderà
-d’amore il suo cuore traboccherà.
-D’amore il suo cuore traboccherà.`,
+[Re]D’oro e di [Mi]gemme mi vesti[La]rò, [La7]
+[Re]di tutte le [Mi]donne sarò la più [La]bella, [La7]
+[Re]e quando il [Mi]mio signore [Fa#m]mi guarde[Si]rà
+[Re]d’amore il suo [Mi]cuore trabocche[La]rà.
+
+RIT.
+[Re]D’oro e di [Mi]gemme ti vesti[La]rai, [La7]
+(2)[Re]di tutte le [Mi]donne sarai la più [La]bella, [La7]
+[Re]e quando il [Mi]tuo signore [Fa#m]ti guarde[Si]rà
+[Re]d’amore il suo [Mi]cuore trabocche[La]rà.
+[Re]D’amore il suo [Mi]cuore trabocche[La]rà.`,
 }
 
 export default song

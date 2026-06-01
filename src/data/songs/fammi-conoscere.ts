@@ -4,40 +4,40 @@ const song: Song = {
   id: "fammi-conoscere",
   title: "FAMMI CONOSCERE",
   body: `RIT.
-Fammi conoscere la tua volontà.
-Parla ti ascolto Signore!
-La mia felicità è fare il tuo volere:
-porterò con me la tua Parola.
+[Re]Fammi co[Mim]noscere la [Mi]tua volontà[Re].
+[Sol]Parla ti a[Re]scolto Si[Mi]gno[La]re!
+[Sol]La mia fe[La]licità è [Fa#]fare il tuo vo[Sim]lere:
+[Sol]porterò con [Re]me la tua Pa[La]ro[Re]la. [Do]
 
-Lampada ai miei passi e' la tua Parola
-luce sul mio cammino.
-Ogni giorno la mia volontà
-trova une guida in Te.
-
-RIT.
-Fammi conoscere la tua volontà.
-Parla ti ascolto Signore!
-La mia felicità è fare il tuo volere:
-porterò con me la tua Parola.
-
-Porterò con me i tuoi insegnamenti: danno al mio cuore gioia ! La Tua Parola e' fonte di luce: dona saggezza ai semplici.
+[Fa]Lampada ai miei [Do]passi [Rem]e' la tua Pa[Do]rola
+[Rem]luce sul [Sib]mio cam[Fa]mi[Do]no.
+[Fa]Ogni [Do]giorno [Rem]la mia volon[Do]tà
+[Rem]trova une [Sibm]guida in [Fa]Te. [La7]
 
 RIT.
-Fammi conoscere la tua volontà.
-Parla ti ascolto Signore!
-La mia felicità è fare il tuo volere:
-porterò con me la tua Parola.
+[Re]Fammi co[Mim]noscere la [Mi]tua volontà[Re].
+[Sol]Parla ti a[Re]scolto Si[Mi]gno[La]re!
+[Sol]La mia fe[La]licità è [Fa#]fare il tuo vo[Sim]lere:
+[Sol]porterò con [Re]me la tua Pa[La]ro[Re]la. [Do]
 
-La mia bocca impari la tua lode,
-sempre ti renda grazie.
-Ogni momento canti il tuo amore,
-la mia speranza e' in Te.
+[Fa]Porterò con [Do]me i [Rem]tuoi insegna[Do]menti: [Rem]danno al mio [Sib]cuore [Fa]gio[Do]ia ! [Fa]La Tua Pa[Do]rola e' [Rem]fonte di [Do]luce: [Rem]dona sag[Sibm]gezza ai [Fa]sempli[La7]ci.
 
 RIT.
-Fammi conoscere la tua volontà.
-Parla ti ascolto Signore!
-La mia felicità è fare il tuo volere:
-porterò con me la tua Parola.`,
+[Re]Fammi co[Mim]noscere la [Mi]tua volontà[Re].
+[Sol]Parla ti a[Re]scolto Si[Mi]gno[La]re!
+[Sol]La mia fe[La]licità è [Fa#]fare il tuo vo[Sim]lere:
+[Sol]porterò con [Re]me la tua Pa[La]ro[Re]la. [Do]
+
+[Fa]La mia [Do]bocca im[Rem]pari la tua [Do]lode,
+[Rem]sempre ti [Sib]renda [Fa]gra[Do]zie.
+[Fa]Ogni mo[Do]mento [Rem]canti il tuo a[Do]more,
+[Rem]la mia spe[Sibm]ranza e' in [Fa]Te. [La7]
+
+RIT.
+[Re]Fammi co[Mim]noscere la [Mi]tua volontà[Re].
+[Sol]Parla ti a[Re]scolto Si[Mi]gno[La]re!
+[Sol]La mia fe[La]licità è [Fa#]fare il tuo vo[Sim]lere:
+[Sol]porterò con [Re]me la tua Pa[La]ro[Re]la. [Do]`,
 }
 
 export default song

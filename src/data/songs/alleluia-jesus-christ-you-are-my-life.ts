@@ -4,29 +4,29 @@ const song: Song = {
   id: "alleluia-jesus-christ-you-are-my-life",
   title: "ALLELUIA (JESUS CHRIST YOU ARE MY LIFE)",
   body: `RIT.
-Jesus Christ you are my life, alleluia, alleluia!
-Jesus Christ you are my life, You are my life, alleluia!
+[Re]Jesus [La]Christ [Sol]you are my [Re]life, [Mim]allelu[Sim]ia, [Mim]allelu[La]ia!
+[Re]Jesus [La]Christ [Sim]you are my [Fa#m]life, [Sol]You are [Re]my life, [La]allelu[Re]ia!
 
-Tu sei vita sei verità Tu sei la nostra vita.
-Camminando insieme a Te, vivremo in Te per sempre
-
-RIT.
-Jesus Christ you are my life, alleluia, alleluia!
-Jesus Christ you are my life, You are my life, alleluia!
-
-Ci raccogli nell'unità, Riuniti nell'amore.
-Nella gioia dinanzi a Te, Cantando la Tua gloria
+[Fa#]Tu sei [Sim]vita [Fa#]sei veri[Sim]tà [Sol]Tu sei la [Re]nostra [Mim]vi[La]ta.
+[Fa#]Cammi[Sim]nando in[Sol]sieme a [Re]Te, [Sol]vivremo in [Re]Te per [Sol]sem[La]pre
 
 RIT.
-Jesus Christ you are my life, alleluia, alleluia!
-Jesus Christ you are my life, You are my life, alleluia!
+[Re]Jesus [La]Christ [Sol]you are my [Re]life, [Mim]allelu[Sim]ia, [Mim]allelu[La]ia!
+[Re]Jesus [La]Christ [Sim]you are my [Fa#m]life, [Sol]You are [Re]my life, [La]allelu[Re]ia!
 
-Nella gioia camminerem portando il Tuo Vangelo.
-Testimoni di carità, figli di Dio nel mondo.
+[Fa#]Ci ra[Sim]ccogli [Fa#]nell'uni[Sim]tà, [Sol]Riuniti [Re]nell'[Mim]amo[La]re.
+[Fa#]Nella gio[Sim]ia dina[Sol]nzi a [Re]Te, [Sol]Cantando [Re]la Tua [Sol]glo[La]ria
 
 RIT.
-Cristo vive in mezzo a noi, alleluia, alleluia!
-(2)Cristo vive in mezzo a noi, in mezzo a noi, alleluia!`,
+[Re]Jesus [La]Christ [Sol]you are my [Re]life, [Mim]allelu[Sim]ia, [Mim]allelu[La]ia!
+[Re]Jesus [La]Christ [Sim]you are my [Fa#m]life, [Sol]You are [Re]my life, [La]allelu[Re]ia!
+
+[Fa#]Nella [Sim]gioia [Fa#]cammine[Sim]rem [Sol]portando il [Re]Tuo [Mim]Van[La]gelo.
+[Fa#]Testimo[Sim]ni di [Sol]cari[Re]tà, [Sol]figli di Dio [Re]nel [Sol]mon[La]do.
+
+RIT.
+[Re]Cristo [La]vive [Sol]in mezzo a [Re]noi, [Mim]allelu[Sim]ia, [Mim]allelu[La]ia!
+[Re]Cristo [La]vive [Sim]in mezzo a [Fa#m]noi, [Sol]in mezzo a [Re]noi, [La]allelu[Re]ia!`,
 }
 
 export default song

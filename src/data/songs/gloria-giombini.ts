@@ -3,34 +3,34 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "gloria-giombini",
   title: "GLORIA (GIOMBINI)",
-  body: `Gloria! Gloria! A Dio nell’alto dei cieli: gloria!
-E pace! (E pace in terra!)
-E pace! (In terra agli uomini di buona volontà)
-In terra agli uomini di buona volontà.
+  body: `[Do]Glo[Sol]o[Do]ria! [Do]Glo[Sol]o[Do]ria! [Do]A [Mim]Dio nell'[Lam]alto dei [Fa]cieli: [Do]glo[Sol]o[Do]ria!
+[Do]E pa[Sol]a[Do]ce! (E pace in terra!)
+[Do]E pa[Sol]a[Do]ce! (In terra agli [Mim]uomini di [Lam]buona volon[Fa]tà)
+[Do]In te[Mim]rra agli [Lam]uomi[Fa]ni di [Do]buona volon[Sol]tà. [Do7]
 
-Noi Ti lodiamo, (Noi Ti lodiamo)
-Ti benediciamo, (Ti benediciamo)
-Ti adoriamo, (Ti adoriamo)
-Ti glorifichiamo! (Ti glorifichiamo!)
-Ti rendiamo grazie per la tua gloria immensa.
+Noi [Fa]Ti lodiamo, (Noi Ti lodiamo)
+[Do]Ti benediciamo, (Ti benediciamo)
+Ti a[Fa]doriamo, (Ti adoriamo)
+[Sol]Ti glorifichiamo! (Ti glorifichi[Sol7]amo!)
+[Do]Ti ren[Sol]dia[Do]mo [Do]gra[Sol]a[Do]zie [Mim]per la Tua [Lam]glo[Fa]ria im[Do]me[Sol]en[Do]sa.
 
-Signore, Figlio unigenito, Gesù Cristo, Signore Dio.
-Agnello di Dio, Figlio del Padre.
-Tu che togli i peccati, i peccati del mondo, abbi pietà di noi, abbi pietà di noi.
-Tu che togli i peccati, i peccati del mondo, accogli, accogli la nostra supplica.
-Tu che siedi alla destra, alla destra del Padre abbi pietà di noi, abbi pietà di noi!
+[Lam]Signore, Figlio [Mim]unigenito, Gesù [Fa]Cristo, Si[Sol]gnore [Do]Dio.
+Agn[Lam]ello di [Mim]Dio, [Fa]Figlio del [Mi4]Pa[Mi]dre.
+[Lam]Tu che togli i [Mim]peccati, [Lam]i peccati del [Mim]mondo, [Fa]abbi pi[Do]età di noi, [Re]abbi [Sol4]pietà di [Sol]noi.
+[Lam]Tu che togli i [Mim]peccati, [Lam]i peccati del [Mim]mondo, ac[Fa]cogli, [Do]accogli [Re7]la no[Sol4]stra suppli[Sol]ca.
+[Do]Tu che siedi alla [Sol]destra, [Lam]alla destra del [Mim]Padre [Fa]abbi pi[Do]età di noi, [Re7]abbi pietà [Sol4]di [Sol]noi!
 
-Perché Tu solo il Santo, (perché Tu solo il Santo)
-Tu solo il Signore, (Tu solo il Signore)
-Tu solo l’Altissimo (Tu solo l’Altissimo)
-Gesù Cristo,(Gesù Cristo)
-Con lo Spirito Santo nella gloria di Dio Padre. Amen!
+[Fa]Perché Tu solo il Santo, (perché Tu solo il Santo)
+[Do]Tu solo il Signore, (Tu solo il Signore)
+[Fa]Tu solo l'Altissimo (Tu solo l'Altissimo)
+[Sol]Gesù Cristo, (Gesù [Sol7]Cristo)
+[Do]Con [Sol]lo [Do]Spirito Sa[Sol]a[Do]nto [Mim]nella [Lam]gloria di [Fa]Dio [Do]Padre. A[Sol]men[Do]!
 
-Con lo Spirito (e con lo Spirito Santo)
-Santo (nella gloria di Dio Padre. Amen!)
-nella gloria di Dio Padre. Amen!
+[Do]Con [Sol]lo [Do]Spirito (e con lo Spirito Santo)
+[Do]Sa[Sol]a[Do]nto (nella gloria di Dio Padre. Amen!)
+nella [Mim]gloria [Lam]di Dio [Fa]Padre. A[Do]men[Sol]! [Do]
 (nella gloria di Dio Padre. Amen!)
-nella gloria di Dio Padre. Amen!`,
+nella [Mim]gloria [Lam]di Dio [Fa]Padre. A[Do]men[Sol]! [Do]`,
 }
 
 export default song

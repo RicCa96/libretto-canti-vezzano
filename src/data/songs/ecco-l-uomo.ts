@@ -3,38 +3,38 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "ecco-l-uomo",
   title: "ECCO L’UOMO",
-  body: `Nella memoria di questa passione
-noi ti chiediamo perdono, Signore
-per ogni volta che abbiamo lasciato
-il tuo fratello morire da solo
+  body: `[Mim]Nella memoria di [Lam]questa passione
+[Re7]noi ti chiediamo per[Sol]dono, Si[Si7]gnore
+[Mim]per ogni volta che ab[Lam]biamo lasciato
+[Re7]il tuo fratello mo[Si]rire da [Si7]solo
 
 RIT.
-Noi ti preghiamo, uomo della croce,
-figlio e fratello, noi speriamo in Te!
-Noi ti preghiamo, uomo della croce,
-e fratello, noi speriamo in Te!
+[Mim]Noi ti pre[Lam]ghiamo, [Re7]uomo della [Sol]croce,
+[Mim]figlio e frat[Fa#m]ello, [Si7]noi speriamo in [Mim]Te!
+[Mim]Noi ti pre[Lam]ghiamo, [Re7]uomo della [Sol]croce,
+[Mim]e fra[Fa#m]tello, [Si7]noi speriamo in [Mim]Te!
 
-Nella memoria di questa tua morte
-noi ti chiediamo coraggio, Signore,
-per ogni volta che il dono d’amore
-ci chiederà di soffrire da soli.
-
-RIT.
-Noi ti preghiamo, uomo della croce,
-figlio e fratello, noi speriamo in Te!
-Noi ti preghiamo, uomo della croce,
-e fratello, noi speriamo in Te!
-
-Nella memoria dell’ultima cena
-noi spezzeremo di nuovo il tuo pane
-ed ogni volta il tuo Corpo donato
-sarà la nostra speranza di vita.
+[Mim]Nella memoria di [Lam]questa tua morte
+[Re7]noi ti chiediamo co[Sol]raggio, Si[Si7]gnore,
+[Mim]per ogni volta che il [Lam]dono d’amore
+[Re7]ci chiederà di sof[Si]frire da [Si7]soli.
 
 RIT.
-Noi ti preghiamo, uomo della croce,
-figlio e fratello, noi speriamo in Te!
-Noi ti preghiamo, uomo della croce,
-e fratello, noi speriamo in Te!`,
+[Mim]Noi ti pre[Lam]ghiamo, [Re7]uomo della [Sol]croce,
+[Mim]figlio e frat[Fa#m]ello, [Si7]noi speriamo in [Mim]Te!
+[Mim]Noi ti pre[Lam]ghiamo, [Re7]uomo della [Sol]croce,
+[Mim]e fra[Fa#m]tello, [Si7]noi speriamo in [Mim]Te!
+
+[Mim]Nella memoria dell’[Lam]ultima cena
+[Re7]noi spezzeremo di [Sol]nuovo il tuo [Si7]pane
+[Mim]ed ogni volta il tuo [Lam]Corpo donato
+[Re7]sarà la nostra spe[Si]ranza di [Si7]vita.
+
+RIT.
+[Mim]Noi ti pre[Lam]ghiamo, [Re7]uomo della [Sol]croce,
+[Mim]figlio e frat[Fa#m]ello, [Si7]noi speriamo in [Mim]Te!
+[Mim]Noi ti pre[Lam]ghiamo, [Re7]uomo della [Sol]croce,
+[Mim]e fra[Fa#m]tello, [Si7]noi speriamo in [Mim]Te!`,
 }
 
 export default song

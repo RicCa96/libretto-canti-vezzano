@@ -3,42 +3,42 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "cristo-e-risorto",
   title: "CRISTO È RISORTO",
-  body: `Era quasi l’alba, quando
-le due donne giunsero al sepolcro,
-e apparve un angelo.
-“Perché mai cercate il Nazareno qui tra i morti:
-non sapete che è risorto?”
+  body: `[Do]Era quasi l’alba, quando
+le d[Mim]ue donne giunsero al sepolcro,
+e app[Fa]arve un ange[Sol7]lo. [Do]
+[Do]“Perché mai cercate il Nazareno [Mim]qui tra i morti:
+non sapete che è [Fa]risor[Sol7]to?” [Do]
 
 RIT.
-Cristo è risorto,
-è vivo, è con noi:
-non ha potere ormai
-la morte su di Lui!
+[Lam]Cristo è ri[Mim]sorto,
+è v[Fa]ivo, è con noi: [Do]
+[Fa]non ha pote[Do]re ormai
+la mo[Rem]rte su di [Sol7]Lui! [Do]
 
-Stava in pianto Maddalena
-sulla soglia del sepolcro.
-“Donna, perché piangi?”
-È il Signore che le parla
-e Maria lo riconosce,
-e corre a dirlo a tutti.
-
-RIT.
-
-Poi Gesù per strada si affiancò
-agli amici scoraggiati,
-ma non lo conobbero.
-Quando poi lo videro
-nell’atto di spezzare il pane,
-allora in lui credettero.
+[Do]Stava in pianto Maddalena
+sulla s[Mim]oglia del sepolcro.
+“[Fa]Donna, perché piang[Sol7]i?” [Do]
+[Do]È il Signore che le parla
+e [Mim]Maria lo riconosce,
+e corre a [Fa]dirlo a [Sol7]tutti. [Do]
 
 RIT.
 
-Stavano i discepoli
-riuniti nel cenacolo
-e Gesù fu in mezzo a loro.
-“Pace a voi! Guardate:
-sono proprio io: credete!
-Resterò con voi per sempre”.
+[Do]Poi Gesù per strada si affiancò
+a[Mim]gli amici scoraggiati,
+ma non lo [Fa]conobbe[Sol7]ro. [Do]
+[Do]Quando poi lo videro
+nell’atto [Mim]di spezzare il pane,
+allora in lu[Fa]i crede[Sol7]ttero. [Do]
+
+RIT.
+
+[Do]Stavano i discepoli
+riuni[Mim]ti nel cenacolo
+e Gesù fu i[Fa]n mezzo a [Sol7]loro. [Do]
+[Do]“Pace a voi! Guardate:
+sono propri[Mim]o io: credete!
+Resterò con voi [Fa]per sem[Sol7]pre”. [Do]
 
 RIT.`,
 }

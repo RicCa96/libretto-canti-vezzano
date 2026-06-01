@@ -4,15 +4,15 @@ const song: Song = {
   id: "alleluia-passeranno-i-cieli",
   title: "ALLELUIA (PASSERANNO I CIELI)",
   body: `RIT.
-Alle - alleluia, alleluia, alleluia
-alleluia, alleluia, alleluia, alleluia!
+[Re]Alle - alle[La]luia, a-[Sim]alleluia [Fa#m]alleluia
+[Sol]alleluia [Re]allelu[Mim]ia, [La]a-[Re]alle[Sol]luia, al[La]lelu[Re]ia!
 
-Passeranno i cieli e passerà la terra: la sua Parola non passerà.
-Alleluia, alleluia!
+[Re]Passeranno i [La]cieli e [Sim]passerà la [Fa#m]terra: [Sol]la sua Parola [Re]non passe[Mim]rà.[La]
+A-[Re]alle[Sol]luia, al[La]lelu[Re]ia!
 
 RIT.
-Alle - alleluia, alleluia, alleluia
-alleluia, alleluia, alleluia, alleluia!`,
+[Re]Alle - alle[La]luia, a-[Sim]alleluia [Fa#m]alleluia
+[Sol]alleluia [Re]allelu[Mim]ia, [La]a-[Re]alle[Sol]luia, al[La]lelu[Re]ia!`,
 }
 
 export default song

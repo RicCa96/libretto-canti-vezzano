@@ -4,19 +4,19 @@ const song: Song = {
   id: "alleluia-la-nostra-festa",
   title: "ALLELUIA (LA NOSTRA FESTA)",
   body: `RIT.
-Alleluia, alleluia!
-Alleluia, alleluia!
-Alleluia, alleluia!
-Alleluia!
+[Do]Allelu[Fa]ia, alleluia!
+[Do]Alleluia, [Sol]alleluia!
+[Do]Allelu[Fa]ia, alleluia!
+[Do]Alle[Sol]luia![Do]
 
-La nostra festa non deve finire, non deve finire e non finirà.
-La nostra festa non deve finire, non deve finire e non finirà.
+[Do]La nostra [Fa]festa non [Sol]deve fi[Do]nire, non [Lam]deve fi[Rem]nire e [Sol]non fi[Do]nirà.
+[Do]La nostra [Fa]festa non [Sol]deve fi[Do]nire, non [Lam]deve fi[Rem]nire e [Sol]non fi[Do]nirà.
 
 RIT.
-Alleluia, alleluia!
-Alleluia, alleluia!
-Alleluia, alleluia!
-Alleluia!`,
+[Do]Allelu[Fa]ia, alleluia!
+[Do]Alleluia, [Sol]alleluia!
+[Do]Allelu[Fa]ia, alleluia!
+[Do]Alle[Sol]luia![Do]`,
 }
 
 export default song
