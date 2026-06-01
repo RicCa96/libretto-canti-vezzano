@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "chord-ids": "tsx scripts/generate-chord-ids.ts",
+    "predev": "npm run chord-ids",
     "dev": "vite",
+    "prebuild": "npm run chord-ids",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

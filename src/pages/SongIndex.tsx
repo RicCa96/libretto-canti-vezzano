@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom'
 import { songs } from '../data/songs/index.ts'
 import { hasChords } from '../lib/chordpro.ts'
 import { LetterJumpSheet } from '../components/LetterJumpSheet.tsx'
+import chordIds from '../data/chord-ids.json'
 import './SongIndex.css'
+
+const chordPdfIds = new Set<string>(chordIds)
 
 function normalize(s: string): string {
   return s
@@ -24,6 +27,39 @@ function ChordIcon() {
       focusable="false"
     >
       <path d="M9 3v10.55A4 4 0 1 0 11 17V7h6V3H9z" />
+    </svg>
+  )
+}
+
+function PdfChordIcon() {
+  return (
+    <svg
+      className="song-chord-icon"
+      width="14"
+      height="14"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <polyline points="14 2 14 8 20 8" />
+      <text
+        x="12"
+        y="17.5"
+        textAnchor="middle"
+        fontSize="6"
+        fontWeight="700"
+        fill="currentColor"
+        stroke="none"
+        fontFamily="sans-serif"
+      >
+        PDF
+      </text>
     </svg>
   )
 }
@@ -137,10 +173,19 @@ export function SongIndex() {
                       </span>
                     )}
                     <span className="index-list__title">{song.title}</span>
-                    {hasChords(song.body) && (
-                      <span className="song-chord-flag" title="Con accordi">
-                        <ChordIcon />
+                    {chordPdfIds.has(song.id) ? (
+                      <span
+                        className="song-chord-flag song-chord-flag--pdf"
+                        title="Spartito PDF"
+                      >
+                        <PdfChordIcon />
                       </span>
+                    ) : (
+                      hasChords(song.body) && (
+                        <span className="song-chord-flag" title="Con accordi">
+                          <ChordIcon />
+                        </span>
+                      )
                     )}
                   </Link>
                 </li>

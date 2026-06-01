@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { songById } from '../data/songs/index.ts'
+import chordIds from '../data/chord-ids.json'
 import { hasChords } from '../lib/chordpro.ts'
 import { SongBody } from '../components/SongBody.tsx'
 import { useFontSize, FONT_SIZES, FONT_REM } from '../hooks/useFontSize.ts'
 import './SongPage.css'
+
+const chordPdfIds = new Set<string>(chordIds)
 
 export function SongPage() {
   const { id } = useParams()
@@ -24,7 +27,9 @@ export function SongPage() {
     )
   }
 
-  const chorded = hasChords(song.body)
+  const hasPdf = chordPdfIds.has(song.id)
+  const chorded = hasChords(song.body) || hasPdf
+  const showPdf = chordsOn && hasPdf
 
   return (
     <div style={{ ['--fs-lyric' as string]: FONT_REM[size] }}>
@@ -50,7 +55,7 @@ export function SongPage() {
             Accordi {chordsOn ? 'on' : 'off'}
           </button>
         )}
-        {chorded && chordsOn && (
+        {chorded && chordsOn && !hasPdf && (
           <span className="group">
             <span>Tono</span>
             <button type="button" aria-label="Abbassa tono" onClick={() => setTranspose((t) => t - 1)}>
@@ -61,23 +66,42 @@ export function SongPage() {
             </button>
           </span>
         )}
-        <span className="group">
-          <span>Testo</span>
-          {FONT_SIZES.map((fs) => (
-            <button
-              key={fs}
-              type="button"
-              aria-pressed={size === fs}
-              aria-label={`Dimensione testo ${fs}`}
-              onClick={() => setSize(fs)}
-            >
-              {fs.toUpperCase()}
-            </button>
-          ))}
-        </span>
+        {!showPdf && (
+          <span className="group">
+            <span>Testo</span>
+            {FONT_SIZES.map((fs) => (
+              <button
+                key={fs}
+                type="button"
+                aria-pressed={size === fs}
+                aria-label={`Dimensione testo ${fs}`}
+                onClick={() => setSize(fs)}
+              >
+                {fs.toUpperCase()}
+              </button>
+            ))}
+          </span>
+        )}
       </div>
 
-      <SongBody body={song.body} chordsOn={chordsOn} transpose={transpose} />
+      {showPdf ? (
+        <object
+          className="song-chord-pdf"
+          data={`/chords/${song.id}.pdf`}
+          type="application/pdf"
+          aria-label={`Spartito con accordi: ${song.title}`}
+        >
+          <p>
+            Il tuo browser non riesce a mostrare il PDF.{' '}
+            <a href={`/chords/${song.id}.pdf`} target="_blank" rel="noreferrer">
+              Apri lo spartito
+            </a>
+            .
+          </p>
+        </object>
+      ) : (
+        <SongBody body={song.body} chordsOn={chordsOn} transpose={transpose} />
+      )}
     </div>
   )
 }
