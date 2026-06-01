@@ -1,0 +1,31 @@
+import type { Song } from '../types.ts'
+
+const song: Song = {
+  id: "la-vera-gioia",
+  title: "LA VERA GIOIA",
+  body: `La vera gioia nasce nella pace,
+la vera gioia non consuma il cuore,
+è come fuoco con il suo calore
+e dona vita quando il cuore muore;
+la vera gioia costruisce il mondo
+e porta luce nell’oscurità.
+
+La vera gioia nasce dalla luce,
+che splende viva in un cuore puro,
+la verità sostiene la sua fiamma
+perciò non teme ombra né menzogna,
+la vera gioia libera il tuo cuore,
+ti rende canto nella libertà.
+
+La vera gioia vola sopra il mondo
+ed il peccato non potrà fermarla,
+le sue ali splendono di grazia,
+dono di Cristo e della sua salvezza
+e tutti unisce come in un abbraccio,
+e tutti ama nella carità
+
+E tutti unisce come in un abbraccio,
+e tutti ama nella carità.`,
+}
+
+export default song

@@ -1,0 +1,25 @@
+import type { Song } from '../types.ts'
+
+const song: Song = {
+  id: "resta-con-noi-signore-la-sera",
+  title: "RESTA CON NOI, SIGNORE, LA SERA",
+  body: `Resta con noi, Signore, la sera, resta con noi, e avremo la pace.
+
+RIT.
+Resta con noi, non ci lasciar, la notte mai più scenderà.
+Resta con noi, non ci lasciar per le vie del mondo, o Signor!
+
+Ti porteremo ai nostri fratelli, Ti porteremo lungo le strade.
+
+RIT.
+Resta con noi, non ci lasciar, la notte mai più scenderà.
+Resta con noi, non ci lasciar per le vie del mondo, o Signor!
+
+Voglio donarti queste mie mani, voglio donarti questo mio cuore.
+
+RIT.
+Resta con noi, non ci lasciar, la notte mai più scenderà.
+Resta con noi, non ci lasciar per le vie del mondo, o Signor!`,
+}
+
+export default song

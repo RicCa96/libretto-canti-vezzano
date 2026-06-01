@@ -1,0 +1,27 @@
+import type { Song } from '../types.ts'
+
+const song: Song = {
+  id: "invochiamo-la-tua-presenza",
+  title: "INVOCHIAMO LA TUA PRESENZA",
+  body: `[Rem]Invochiamo la [Sib]tua presenza, [Fa]vieni Si[Do]gnor, [Rem]invochiamo la [Sib]tua presenza [Fa]scendi su di [Do]noi.
+[Solm]Vieni Consola[Rem]tore, dona [Sib]pace ed umil[Do]tà, [Solm]acqua viva d'a[Rem]more questo [Sib]cuore apriamo a [La4]te[La].
+
+RIT.
+[Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi. [Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi.
+[Sib]Vieni su [Do]noi, [La]Marana[Rem]thà, [Sib]vieni su [Do]noi Spirito. [Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi.
+[Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi. scendi su di noi.
+
+[Rem]Invochiamo la [Sib]tua presenza, [Fa]vieni Si[Do]gnor, [Rem]invochiamo la [Sib]tua presenza [Fa]scendi su di [Do]noi.
+[Solm]Vieni luce dei [Rem]cuori, dona [Sib]forza e fedel[Do]tà [Solm]fuoco eterno d'a[Rem]more questa [Sib]vita offriamo a [La4]te[La].
+
+RIT.
+[Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi. [Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi.
+[Sib]Vieni su [Do]noi, [La]Marana[Rem]thà, [Sib]vieni su [Do]noi Spirito. [Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi.
+[Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi. scendi su di
+RIT.
+[Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi. [Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi.
+[Sib]Vieni su [Do]noi, [La]Marana[Rem]thà, [Sib]vieni su [Do]noi Spirito. [Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi.
+[Rem]Vieni Spirito, [Sib]vieni Spirito [Fa]scendi su di [Do]noi. scendi su di noi.`,
+}
+
+export default song

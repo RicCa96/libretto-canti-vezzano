@@ -1,0 +1,39 @@
+import type { Song } from '../types.ts'
+
+const song: Song = {
+  id: "prima-corinzi-tredici",
+  title: "PRIMA CORINZI TREDICI",
+  body: `Anche se io conoscessi e parlassi
+la lingua di ogni creatura di Dio,
+anche se un giorno arrivassi a capire
+i misteri e le forze che spingono il mondo.
+Anche se dalla mia bocca venissero
+scienza e parole ispirate dal cielo
+e possedessi pienezza di fede
+da muovere i monti e riempire le valli,
+
+Ma non avessi la carità risuonerei come un bronzo.
+Se non donassi la vita ogni giorno
+sarei come un timpano che vibra da solo.
+Se non avessi la carità non servirebbero a nulla
+gesti d'amore, sorrisi di pace:
+sarei come un cembalo che suona per sé.
+
+La carità è paziente e benigna,
+conosce il rispetto, non cerca interesse;
+la carità non si adira, del torto subito
+non serba nessuna memoria.
+La carità non sopporta ingiustizie,
+dal falso rifugge, del vero si nutre;
+la carità si appassiona di tutto,
+di tutto ha speranza, di tutti ha fiducia:
+
+Non avrà fine la carità scompariranno i profeti.
+Solo tre doni per noi resteranno
+la fede, l'amore e ancora speranza.
+Ma più importante è la carità, più forte di ogni sapienza.
+Ciò che è perfetto verrà, sarà un mondo
+di gioia e di pace che ci attenderà.`,
+}
+
+export default song

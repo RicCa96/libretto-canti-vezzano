@@ -1,0 +1,45 @@
+import type { Song } from '../types.ts'
+
+const song: Song = {
+  id: "come-fuoco-vivo",
+  title: "COME FUOCO VIVO",
+  body: `RIT.
+Come fuoco vivo si accende in noi
+un'immensa felicità
+che mai più nessuno ci toglierà
+perché tu sei ritornato.
+Chi potrà tacere, da ora in poi,
+che sei tu in cammino con noi,
+che la morte è vinta per sempre,
+che ci hai ridonato la vita?
+
+Spezzi il pane davanti a noi
+mentre il sole è al tramonto:
+ora gli occhi ti vedono, sei tu! Resta con noi.
+
+RIT.
+Come fuoco vivo si accende in noi
+un'immensa felicità
+che mai più nessuno ci toglierà
+perché tu sei ritornato.
+Chi potrà tacere, da ora in poi,
+che sei tu in cammino con noi,
+che la morte è vinta per sempre,
+che ci hai ridonato la vita?
+
+E per sempre ti mostrerai
+in quel gesto d'amore:
+mani che ancora spezzano pane d'eternità.
+
+RIT.
+Come fuoco vivo si accende in noi
+un'immensa felicità
+che mai più nessuno ci toglierà
+perché tu sei ritornato.
+Chi potrà tacere, da ora in poi,
+che sei tu in cammino con noi,
+che la morte è vinta per sempre,
+che ci hai ridonato la vita?`,
+}
+
+export default song
