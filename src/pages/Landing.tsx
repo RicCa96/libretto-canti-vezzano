@@ -125,6 +125,7 @@ export function Landing() {
                                             <Link
                                                 className="slot-title"
                                                 to={`/canti/${song.id}`}
+                                                state={{ from: '/' }}
                                                 aria-label={song.title}
                                             >
                                                 {song.songNumber !== undefined && (

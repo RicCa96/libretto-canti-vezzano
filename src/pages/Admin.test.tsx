@@ -16,13 +16,36 @@ describe('Admin', () => {
 
     render(<Admin />)
 
+    await waitFor(() => expect(fetchMock).toHaveBeenCalledWith('/api/today'))
+
     await user.type(screen.getByLabelText(/password/i), 'secret')
     await user.click(screen.getByRole('button', { name: /aggiungi/i }))
     await user.click(screen.getByRole('button', { name: /salva/i }))
 
-    await waitFor(() => expect(fetchMock).toHaveBeenCalled())
-    const [, options] = fetchMock.mock.calls[0]
-    expect(options.method).toBe('POST')
+    await waitFor(() =>
+      expect(
+        fetchMock.mock.calls.some(([, opts]) => opts?.method === 'POST'),
+      ).toBe(true),
+    )
+    const postCall = fetchMock.mock.calls.find(([, opts]) => opts?.method === 'POST')!
+    const [, options] = postCall
     expect(options.headers['x-admin-password']).toBe('secret')
+  })
+
+  it('prefills slots with the current saved list', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        updatedAt: 'now',
+        slots: [{ label: 'Inizio', songId: 'adeste-fideles' }],
+      }),
+    })
+    vi.stubGlobal('fetch', fetchMock)
+
+    render(<Admin />)
+
+    await waitFor(() =>
+      expect(screen.getByDisplayValue('Inizio')).toBeInTheDocument(),
+    )
   })
 })

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import { songById } from '../data/songs/index.ts'
 import chordIds from '../data/chord-ids.json'
 import { hasChords } from '../lib/chordpro.ts'
@@ -11,6 +11,10 @@ const chordPdfIds = new Set<string>(chordIds)
 
 export function SongPage() {
   const { id } = useParams()
+  const location = useLocation()
+  const fromHome = (location.state as { from?: string } | null)?.from === '/'
+  const backTo = fromHome ? '/' : '/canti'
+  const backLabel = fromHome ? '← Messa di oggi' : '← Indice'
   const song = id ? songById.get(id) : undefined
   const [chordsOn, setChordsOn] = useState(false)
   const [transpose, setTranspose] = useState(0)
@@ -19,8 +23,8 @@ export function SongPage() {
   if (!song) {
     return (
       <>
-        <Link className="song-back" to="/canti">
-          ← Indice
+        <Link className="song-back" to={backTo}>
+          {backLabel}
         </Link>
         <p>Canto non trovato.</p>
       </>
@@ -33,8 +37,8 @@ export function SongPage() {
 
   return (
     <div style={{ ['--fs-lyric' as string]: FONT_REM[size] }}>
-      <Link className="song-back" to="/canti">
-        ← Indice
+      <Link className="song-back" to={backTo}>
+        {backLabel}
       </Link>
       <h2 className="song-title">
         {song.songNumber !== undefined && (

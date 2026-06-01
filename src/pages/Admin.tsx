@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { songs } from '../data/songs/index.ts'
 import { SongCombobox } from '../components/SongCombobox.tsx'
-import type { Slot } from '../lib/todaySchema.ts'
+import type { Slot, TodaySet } from '../lib/todaySchema.ts'
 import './Admin.css'
 
 const DEFAULT_LABELS = ['Inizio', 'Offertorio', 'Comunione', 'Fine']
@@ -14,8 +14,32 @@ export function Admin() {
   const [password, setPassword] = useState('')
   const [slots, setSlots] = useState<Slot[]>([])
   const [status, setStatus] = useState('')
+  const [loading, setLoading] = useState(true)
   const [dragIndex, setDragIndex] = useState<number | null>(null)
   const [dragOverIndex, setDragOverIndex] = useState<number | null>(null)
+
+  useEffect(() => {
+    let active = true
+    fetch('/api/today')
+      .then((r) => {
+        if (!r.ok) throw new Error('bad response')
+        return r.json() as Promise<TodaySet>
+      })
+      .then((data) => {
+        if (!active) return
+        const validIds = new Set(songs.map((s) => s.id))
+        setSlots(data.slots.filter((s) => validIds.has(s.songId)))
+      })
+      .catch(() => {
+        if (active) setStatus('Errore nel caricamento della lista corrente.')
+      })
+      .finally(() => {
+        if (active) setLoading(false)
+      })
+    return () => {
+      active = false
+    }
+  }, [])
 
   const addSlot = () => {
     const label = DEFAULT_LABELS[slots.length] ?? 'Canto'
@@ -98,6 +122,8 @@ export function Admin() {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
+
+      {loading && <p className="status">Caricamento lista corrente…</p>}
 
       <ul className="slot-list">
         {slots.map((slot, i) => {
