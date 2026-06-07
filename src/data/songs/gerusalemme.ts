@@ -6,7 +6,7 @@ const song: Song = {
   body: `[Solm]( . stru[Fa]men[Solm]tale . [Fa])
 
 Gerusa[Fa]lemme, città del Si[Sib]gnore, verso di [Solm7]te torneranno i tuoi [Do]figli,
-per abi[Fa]tar nella casa del [Sib]Padre, palpite[Rem]rà di gioia il tuo [do]cuore.
+per abi[Fa]tar nella casa del [Sib]Padre, palpite[Rem]rà di gioia il tuo [Do]cuore.
 Potrai rial[Rem]zarti e vestirti di [Fa]luce, poiché la [Sib]luce viene a [Do]te.
 Ti chiame[Solm7]ranno città del Si[Fa4]gno[Fa]re, perché la [Sib]gloria di [Do7]Dio è [Do4]su di [Fa]te.
 

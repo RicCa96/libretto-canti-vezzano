@@ -9,7 +9,7 @@ const song: Song = {
 [Re]Agnello di Dio, che [Sim]togli i peccati del [Sol]mondo,
 [Mim]abbi pie[Re]tà di [La]noi.
 
-[Fa#m]Agnello di Dio, che [Sim]togli i peccati del [Sol]mondo,
+[Re]Agnello di Dio, che [Sim]togli i peccati del [Sol]mondo,
 [Mim]dona a [La]noi la [Sol]pace[Re].`,
 }
 
