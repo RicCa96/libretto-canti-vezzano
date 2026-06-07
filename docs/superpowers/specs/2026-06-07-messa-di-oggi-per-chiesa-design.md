@@ -5,7 +5,7 @@
 
 ## Summary
 
-Split the "Messa di oggi" section into one songlist per church. Churches are a fixed, code-defined list of five: `Vezzano`, `Puianello`, `Montalto`, `Pecorile`, `La Vecchia`. The admin page edits each church's list independently; the landing page renders all five lists stacked.
+Split the "Messa di oggi" section into one songlist per church. Churches are a fixed, code-defined list of five: `Vezzano`, `Puianello`, `Montalto`, `Pecorile`, `La Vecchia`. The admin page edits each church's list independently; the landing page exposes the five lists through a tabset, one church visible at a time.
 
 ## Motivation
 
@@ -92,32 +92,59 @@ Loading: when fetching `/api/today`, filter slots per church through `validIds` 
 
 The "Come uso il libretto?" intro section is unchanged.
 
-Replace the single `<section className="today">` with:
+Replace the single `<section className="today">` with a tabset: one tab per church, the active church's songlist below the tabs.
+
+State:
+- `activeChurch: Church` — local UI state, defaults to `CHURCHES[0]`.
+
+Layout:
 
 ```
 <section className="today">
   <h2>La Messa di oggi</h2>
   {error message OR loading message OR (
-    {CHURCHES.map(church => (
-      <section className="today-church" key={church}>
-        <h3>{church}</h3>
-        {empty list → <p>Nessun canto impostato.</p>}
-        {non-empty → existing <ul className="today-list"> rendering, iterating churches[church]}
-      </section>
-    ))}
+    <div className="today-tabs" role="tablist" aria-label="Chiesa">
+      {CHURCHES.map(church => (
+        <button
+          key={church}
+          role="tab"
+          aria-selected={church === activeChurch}
+          aria-controls={`today-panel-${slug(church)}`}
+          id={`today-tab-${slug(church)}`}
+          className={'today-tab' + (church === activeChurch ? ' today-tab--active' : '')}
+          onClick={() => setActiveChurch(church)}
+        >
+          {church}
+        </button>
+      ))}
+    </div>
+    <div
+      role="tabpanel"
+      id={`today-panel-${slug(activeChurch)}`}
+      aria-labelledby={`today-tab-${slug(activeChurch)}`}
+      className="today-panel"
+    >
+      {churches[activeChurch].length === 0
+        ? <p className="today-message">Nessun canto impostato.</p>
+        : <ul className="today-list">…existing slot rows…</ul>}
+    </div>
     {updatedAt && <p className="today-updated">Aggiornato: …</p>}
   )}
 </section>
 ```
 
-A single `updatedAt` line appears once, at the bottom of the section (the payload updates atomically). Error and loading states are global (one message at top of section, no per-church variants).
+The `slug` helper reuses `src/lib/slugify.ts` (already in the project) to derive stable DOM ids from church names (e.g. `La Vecchia` → `la-vecchia`).
 
-Slot rendering inside each church list is unchanged: number chip, `<Link>` to `/canti/:id` with `state={{ from: '/' }}`, label span.
+A single `updatedAt` line appears once, below the active panel (payload updates atomically). Error and loading states are global, shown in place of the tabs.
+
+Slot rendering inside the active panel is unchanged: number chip, `<Link>` to `/canti/:id` with `state={{ from: '/' }}`, label span.
+
+Keyboard behaviour: native `<button>` tab order suffices; no arrow-key tab navigation required (deferred).
 
 ### Styles
 
 - `src/pages/Admin.css`: add `.church-tabs` (flex row of buttons), `.church-tab` (button), `.church-tab--active` (highlighted state).
-- `src/pages/Landing.css`: add `.today-church` (per-church block), heading style for `<h3>`.
+- `src/pages/Landing.css`: add `.today-tabs` (flex row of tab buttons), `.today-tab` / `.today-tab--active`, `.today-panel` (active songlist container).
 
 No restructuring of unrelated classes.
 
@@ -138,7 +165,7 @@ Update or add:
 - `src/lib/todaySchema.test.ts`: valid full payload accepted; missing church key rejected; unknown church key rejected; invalid slot inside a church rejected.
 - `api/today.test.ts`: GET returns empty churches map when no data; GET returns empty churches map for legacy flat data; POST writes full churches map; POST rejects malformed payload; 401 still enforced.
 - `src/pages/Admin.test.tsx`: tabs render five buttons; clicking a tab switches the visible slot list; editing one church does not modify another; save POSTs all five churches.
-- `src/pages/Landing.test.tsx`: five church sections render; empty churches show empty message; non-empty churches render slot rows; single `updatedAt` line shown; error state shows one message; loading state shows one message.
+- `src/pages/Landing.test.tsx`: five tab buttons render; first church active by default; clicking a tab updates `aria-selected` and swaps the visible songlist; empty active church shows empty message; non-empty active church renders slot rows; single `updatedAt` line shown; error state shows one message and hides tabs; loading state shows one message and hides tabs.
 
 ## Out of scope
 
