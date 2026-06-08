@@ -1,4 +1,4 @@
-import { CHURCHES, type Church } from './churches.ts'
+import { CHURCHES, type Church } from './churches.js'
 
 export type Slot = { label: string; songId: string }
 export type TodaySet = {
