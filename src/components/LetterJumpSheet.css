@@ -54,13 +54,12 @@
   border-radius: var(--r-md);
   cursor: pointer;
   padding: 0;
+  transition: border-color var(--t-fast), color var(--t-fast), background-color var(--t-fast);
 }
 
-.letter-sheet__chip:hover,
-.letter-sheet__chip:focus-visible {
-  color: var(--accent);
-  border-color: var(--accent);
-  outline: none;
+.letter-sheet__chip:hover {
+  border-color: var(--hover-border);
+  color: var(--hover-fg);
 }
 
 @keyframes letter-sheet-fade-in {
