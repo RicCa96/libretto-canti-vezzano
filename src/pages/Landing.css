@@ -49,12 +49,6 @@
   color: var(--accent);
 }
 
-.intro-summary:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-radius: var(--r-sm, 4px);
-}
-
 .intro h2 {
   font-family: var(--font-display);
   font-weight: 600;
@@ -126,12 +120,6 @@
 .intro-item > summary:hover,
 .intro-item > summary:focus-visible {
   color: var(--accent);
-}
-
-.intro-item > summary:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-  border-radius: var(--r-sm, 4px);
 }
 
 .intro-item__body {
@@ -253,12 +241,12 @@ a.slot-title:hover {
   border: 1px solid var(--rule);
   border-radius: var(--r-md);
   cursor: pointer;
-  transition: border-color 120ms, color 120ms, background-color 120ms;
+  transition: border-color var(--t-fast), color var(--t-fast), background-color var(--t-fast);
 }
 
 .today-tab:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--hover-border);
+  color: var(--hover-fg);
 }
 
 .today-tab--active,
@@ -292,12 +280,12 @@ a.slot-title:hover {
   font-size: var(--fs-tiny);
   letter-spacing: 0.04em;
   padding: 0.35rem var(--s-3);
-  transition: border-color 120ms, color 120ms;
+  transition: border-color var(--t-fast), color var(--t-fast);
 }
 
 .today-favorite__btn:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--hover-border);
+  color: var(--hover-fg);
 }
 
 .today-favorite__btn--active {
