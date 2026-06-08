@@ -4,12 +4,16 @@ import { songById } from '../data/songs/index.ts'
 import { CHURCHES, type Church } from '../lib/churches.ts'
 import { slugify } from '../lib/slugify.ts'
 import type { TodaySet } from '../lib/todaySchema.ts'
+import { useFavoriteChurch } from '../hooks/useFavoriteChurch.ts'
 import './Landing.css'
 
 export function Landing() {
   const [today, setToday] = useState<TodaySet | null>(null)
   const [error, setError] = useState(false)
-  const [activeChurch, setActiveChurch] = useState<Church>(CHURCHES[0])
+  const { favorite, setFavorite, clearFavorite } = useFavoriteChurch()
+  const [activeChurch, setActiveChurch] = useState<Church>(
+    () => favorite ?? CHURCHES[0],
+  )
 
   useEffect(() => {
     let active = true
@@ -118,6 +122,7 @@ export function Landing() {
             <div className="today-tabs" role="tablist" aria-label="Chiesa">
               {CHURCHES.map((church) => {
                 const isActive = church === activeChurch
+                const isFavorite = church === favorite
                 return (
                   <button
                     key={church}
@@ -126,13 +131,39 @@ export function Landing() {
                     aria-selected={isActive}
                     aria-controls={`today-panel-${slugify(church)}`}
                     id={`today-tab-${slugify(church)}`}
+                    aria-label={isFavorite ? `${church} (preferita)` : undefined}
                     className={'today-tab' + (isActive ? ' today-tab--active' : '')}
                     onClick={() => setActiveChurch(church)}
                   >
+                    {isFavorite && (
+                      <span className="today-tab__star" aria-hidden="true">
+                        ★
+                      </span>
+                    )}
                     {church}
                   </button>
                 )
               })}
+            </div>
+
+            <div className="today-favorite">
+              {favorite === activeChurch ? (
+                <button
+                  type="button"
+                  className="today-favorite__btn today-favorite__btn--active"
+                  onClick={clearFavorite}
+                >
+                  ★ Rimuovi preferita
+                </button>
+              ) : (
+                <button
+                  type="button"
+                  className="today-favorite__btn"
+                  onClick={() => setFavorite(activeChurch)}
+                >
+                  ☆ Imposta come preferita
+                </button>
+              )}
             </div>
 
             <div

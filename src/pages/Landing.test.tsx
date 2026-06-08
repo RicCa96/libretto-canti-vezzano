@@ -17,8 +17,13 @@ function mockFetchOnce(data: unknown) {
   )
 }
 
+const FAVORITE_KEY = 'libretto-favorite-church'
+
 describe('Landing', () => {
-  afterEach(() => vi.unstubAllGlobals())
+  afterEach(() => {
+    vi.unstubAllGlobals()
+    localStorage.clear()
+  })
 
   it('renders the instructions section', () => {
     mockFetchOnce({ updatedAt: '', churches: EMPTY_MAP })
@@ -107,6 +112,68 @@ describe('Landing', () => {
     await waitFor(() =>
       expect(screen.getByText(/Nessun canto impostato\./)).toBeInTheDocument(),
     )
+  })
+
+  it('preselects the stored favorite church on load', async () => {
+    localStorage.setItem(FAVORITE_KEY, 'Montalto')
+    mockFetchOnce({ updatedAt: '', churches: EMPTY_MAP })
+    render(
+      <MemoryRouter>
+        <Landing />
+      </MemoryRouter>,
+    )
+    const tab = await screen.findByRole('tab', { name: /Montalto/ })
+    expect(tab).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('falls back to the first church when the stored favorite is invalid', async () => {
+    localStorage.setItem(FAVORITE_KEY, 'NotAChurch')
+    mockFetchOnce({ updatedAt: '', churches: EMPTY_MAP })
+    render(
+      <MemoryRouter>
+        <Landing />
+      </MemoryRouter>,
+    )
+    const tab = await screen.findByRole('tab', { name: CHURCHES[0] })
+    expect(tab).toHaveAttribute('aria-selected', 'true')
+  })
+
+  it('marks the active church as favorite and persists it, with a star in the tab', async () => {
+    mockFetchOnce({ updatedAt: '', churches: EMPTY_MAP })
+    const user = userEvent.setup()
+    render(
+      <MemoryRouter>
+        <Landing />
+      </MemoryRouter>,
+    )
+    await user.click(await screen.findByRole('tab', { name: 'Puianello' }))
+    await user.click(screen.getByRole('button', { name: /Imposta come preferita/i }))
+
+    expect(localStorage.getItem(FAVORITE_KEY)).toBe('Puianello')
+    expect(
+      screen.getByRole('tab', { name: /Puianello.*preferita/i }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('button', { name: /Rimuovi preferita/i }),
+    ).toBeInTheDocument()
+  })
+
+  it('clears the favorite when the active church is already the favorite', async () => {
+    localStorage.setItem(FAVORITE_KEY, 'Pecorile')
+    mockFetchOnce({ updatedAt: '', churches: EMPTY_MAP })
+    const user = userEvent.setup()
+    render(
+      <MemoryRouter>
+        <Landing />
+      </MemoryRouter>,
+    )
+    await screen.findByRole('tab', { name: /Pecorile.*preferita/i })
+    await user.click(screen.getByRole('button', { name: /Rimuovi preferita/i }))
+
+    expect(localStorage.getItem(FAVORITE_KEY)).toBeNull()
+    expect(
+      screen.getByRole('button', { name: /Imposta come preferita/i }),
+    ).toBeInTheDocument()
   })
 
   it('shows a single error message and hides tabs on fetch failure', async () => {
