@@ -77,7 +77,7 @@
   margin-top: 0;
 }
 
-.admin .slot-handle {
+.admin button.slot-handle {
   align-self: stretch;
   display: flex;
   align-items: center;
@@ -95,12 +95,12 @@
   border-radius: var(--r-sm);
 }
 
-.admin .slot-handle:hover {
+.admin button.slot-handle:hover {
   color: var(--ink);
   background: var(--surface-2);
 }
 
-.admin .slot-handle:active {
+.admin button.slot-handle:active {
   cursor: grabbing;
 }
 
@@ -139,7 +139,7 @@
   border-style: dashed;
 }
 
-.admin .save {
+.admin button.save {
   margin-top: var(--s-4);
   padding: 0 var(--s-5);
   background: var(--accent);
@@ -148,7 +148,7 @@
   font-weight: 600;
 }
 
-.admin .save:hover {
+.admin button.save:hover {
   background: var(--press-bg);
   border-color: var(--press-border);
   color: var(--accent-on);
@@ -163,7 +163,7 @@
       'handle actions';
     align-items: stretch;
   }
-  .admin .slot-handle {
+  .admin button.slot-handle {
     grid-area: handle;
   }
   .admin .slot-field--label {
@@ -176,7 +176,7 @@
     grid-area: actions;
     margin-top: var(--s-2);
   }
-  .admin .save {
+  .admin button.save {
     width: 100%;
   }
 }
@@ -198,7 +198,7 @@
   margin: var(--s-4) 0 0;
 }
 
-.admin .church-tab {
+.admin button.church-tab {
   height: 36px;
   padding: 0 var(--s-3);
   font-family: var(--font-sans);
@@ -212,13 +212,13 @@
   transition: border-color var(--t-fast), color var(--t-fast), background-color var(--t-fast);
 }
 
-.admin .church-tab:hover {
+.admin button.church-tab:hover {
   border-color: var(--hover-border);
   color: var(--hover-fg);
 }
 
-.admin .church-tab--active,
-.admin .church-tab--active:hover {
+.admin button.church-tab--active,
+.admin button.church-tab--active:hover {
   background: var(--accent);
   color: var(--accent-on);
   border-color: var(--accent);
