@@ -30,9 +30,14 @@
   border-radius: var(--r-md);
 }
 
+.admin input,
+.admin select {
+  transition: border-color var(--t-fast);
+}
+
 .admin input:focus,
 .admin select:focus {
-  border-color: var(--accent);
+  border-color: var(--hover-border);
   outline: none;
 }
 
@@ -60,7 +65,7 @@
 }
 
 .admin .slot-row.is-drop-target {
-  border-color: var(--accent);
+  border-color: var(--hover-border);
   border-style: dashed;
 }
 
