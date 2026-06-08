@@ -173,19 +173,18 @@ export function SongIndex() {
                       </span>
                     )}
                     <span className="index-list__title">{song.title}</span>
-                    {chordPdfIds.has(song.id) ? (
+                    {hasChords(song.body) && (
+                      <span className="song-chord-flag" title="Con accordi">
+                        <ChordIcon />
+                      </span>
+                    )}
+                    {chordPdfIds.has(song.id) && (
                       <span
                         className="song-chord-flag song-chord-flag--pdf"
                         title="Spartito PDF"
                       >
                         <PdfChordIcon />
                       </span>
-                    ) : (
-                      hasChords(song.body) && (
-                        <span className="song-chord-flag" title="Con accordi">
-                          <ChordIcon />
-                        </span>
-                      )
                     )}
                   </Link>
                 </li>
