@@ -5,6 +5,7 @@ export function Layout() {
         <>
             <header className="app-header">
                 <Link to="/" className="app-header__brand">
+                    <img src="/logo.jpg" alt="" className="app-header__logo" aria-hidden="true"/>
                     <h1>Libretto dei Canti</h1>
                 </Link>
                 <nav className="app-header__nav">
