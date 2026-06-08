@@ -18,6 +18,15 @@ export function Layout() {
             <main>
                 <Outlet/>
             </main>
+            <footer className="app-footer">
+                <img src="/logo.jpg" alt="" className="app-footer__logo" aria-hidden="true"/>
+                <div className="app-footer__text">
+                    <p className="app-footer__title">Unità Pastorale Don Ennio Melioli</p>
+                    <p className="app-footer__sub">
+                        Parrocchie di: La Vecchia, Montalto, Paderna, Pecorile, Puianello, Vezzano sul Crostolo
+                    </p>
+                </div>
+            </footer>
         </>
     )
 }
