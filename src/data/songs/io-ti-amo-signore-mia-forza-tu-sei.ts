@@ -11,7 +11,7 @@ D:  La tua [Lam]mano Tu stendi, dalle [Fa7+]acque mi salvi
 Si[Do/Mi]gnore, in te io con[Fa7+]fido
 U:  Tu mi [Do/Mi]cingi di forza, mi s[Fa7+]piani la via
 In e[Do/Mi]terno io Ti lode[Sol4]rò
-T:   Se tu [Lam]sei [Fa7+]con [Sol4/7]me, io non [Do/Mi]te[Fa7+]me[Sol4]rò
+T:   Se tu [Lam]sei [Fa7+]con [Sol4]me[Sol7], io non [Do/Mi]te[Fa7+]me[Sol4]rò
 
 RIT.
 Bene[Lam]detto sei, noi can[Fa7+]tiamo a Te
@@ -31,7 +31,7 @@ D:  La tua [Lam]mano tu stendi, dalle [Fa7+]acque mi salvi
 Si[Do/Mi]gnore, in te io con[Fa7+]fido
 U:  Tu mi [Do/Mi]cingi di forza, mi s[Fa7+]piani la via
 In e[Do/Mi]terno io ti lode[Sol4]rò
-T:   Se tu [Lam]sei [Fa7+]con [Sol4/7]me, io non [Do/Mi]te[Fa7+]me[Sol4]rò
+T:   Se tu [Lam]sei [Fa7+]con [Sol4]me[Sol7], io non [Do/Mi]te[Fa7+]me[Sol4]rò
 
 RIT.
 x2`,

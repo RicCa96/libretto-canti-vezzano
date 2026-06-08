@@ -32,8 +32,8 @@ di [Do#m]tutto ha speranza, di [La]tutti ha fi[Si7]ducia:
 [Sol]Non avrà fine la [Re]carità [Mim]scompariranno i pro[Do]fe[Si7]ti.
 [Do]Solo tre [Re7]doni per [Sol]noi reste[Mi7]ranno
 la [Lam]fede, l'a[Lam7]more e an[Re7]cora speranza.
-[Sol]Ma più importante è la [Re]carità, [Mim]più forte di ogni sa[do]pien[Si7]za.
-[Do]Ciò che è per[re7]fetto ver[Sol]rà, sarà un [Mi7]mondo
+[Sol]Ma più importante è la [Re]carità, [Mim]più forte di ogni sa[Do]pien[Si7]za.
+[Do]Ciò che è per[Re7]fetto ver[Sol]rà, sarà un [Mi7]mondo
 di [Lam]gioia e di [Lam7]pace che ci [Re7]attende[Sol]rà.`,
 }
 

@@ -11,11 +11,11 @@ const song: Song = {
 [Mim]Dio dell'impossibile, [Do]Re di tutti i secoli [Sol]vieni nella tua maes[Re]tà
 
 RIT.
-[Mim]Re dei [Do]re, i [Sol]popoli ti acclamano, i [re]cieli ti proclamano
+[Mim]Re dei [Do]re, i [Sol]popoli ti acclamano, i [Re]cieli ti proclamano
 [Mim]re dei [Do]re, [Sol]luce degli uomini, [Re]regna col tuo amore tra [Mim]no - [Do]oi - [Sol]oh - [Re]oh
 [Mim]oh - [Do]oh - [Sol]oh - [Re]oh - [Mim]oh
 
-[Mim]Ci hai riscat[Do]tati dalla [Sol]stretta delle [re]tenebre
+[Mim]Ci hai riscat[Do]tati dalla [Sol]stretta delle [Re]tenebre
 [Mim]Perché po[Do]tessimo glo[Sol]rificare [Re]te
 [Mim]Hai river[Do]sato in noi la [Sol]vita del tuo [Re]Spirito [Mim]per [Do]a - [Sol]mo - [Re]re
 
@@ -23,7 +23,7 @@ RIT.
 [Mim]Dio dell'impossibile, [Do]Re di tutti i secoli [Sol]vieni nella tua maes[Re]tà
 
 RIT.
-[Mim]Re dei [Do]re, i [Sol]popoli ti acclamano, i [re]cieli ti proclamano
+[Mim]Re dei [Do]re, i [Sol]popoli ti acclamano, i [Re]cieli ti proclamano
 [Mim]re dei [Do]re, [Sol]luce degli uomini, [Re]regna col tuo amore tra [Mim]no - [Do]oi - [Sol]oh - [Re]oh
 [Mim]oh - [Do]oh - [Sol]oh - [Re]oh - [Mim]oh
 
@@ -36,7 +36,7 @@ Figlio dell'Altissimo, povero tra i poveri vieni a dimorare tra noi
 Dio dell'impossibile, re di tutti i secoli vieni nella tua maes[Re]tà
 
 RIT.
-[Mim]Re dei [Do]re, i [Sol]popoli ti acclamano, i [re]cieli ti proclamano
+[Mim]Re dei [Do]re, i [Sol]popoli ti acclamano, i [Re]cieli ti proclamano
 [Mim]re dei [Do]re, [Sol]luce degli uomini, [Re]regna col tuo amore tra [Mim]no - [Do]oi - [Sol]oh - [Re]oh
 [Mim]oh - [Do]oh - [Sol]oh - [Re]oh - [Mim]oh`,
 }

@@ -23,7 +23,7 @@ RIT.
 [Sol]“Pace a [Re]voi”: sia un'im[La]pronta nei [Sim]secoli.
 [Sol]“Pace a [Re]voi”: segno [La]d'uni[Sim]tà.
 [Sol]“Pace a [Re]voi”: sia l'ab[La]braccio tra i [Sim]popoli,
-la [Do]tua promessa all'umani[LA4]tà[La].
+la [Do]tua promessa all'umani[La4]tà[La].
 
 RIT.
 “Pace [Re]sia, pace a voi”: la tua [Sol]pace sarà sulla [Sim]terra com'è nei [La4]cieli[La].

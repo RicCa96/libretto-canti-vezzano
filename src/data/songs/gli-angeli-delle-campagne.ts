@@ -18,7 +18,7 @@ RIT.
 [Re]Glo[Si]____[Mim]____[La]____[Re]____[Sol]____[Mi]____[La7]ria   [Re]in [La]ex[Re]cel[La]sis [Re]De - [La]e - [Re]o.
 
 [Re]Oggi è nato in [La]una [Re]stalla nella notturna o[La]scuri[Re]tà.
-Egli è il Verbo, [La]s'è incar[Ra]nato e venne in questa [La]pover[Ra]tà.
+Egli è il Verbo, [La]s'è incar[Re]nato e venne in questa [La]pover[Re]tà.
 
 RIT.
 [Re]Glo[Si]____[Mim]____[La]____[Re]____[Sol]____[Mi]____[La7]ria   [Re]in [La]ex[Re]cel[La]sis [Re]De[La]o.

@@ -28,7 +28,7 @@ RIT.
 
 Da[Re]vanti a noi l'umanità [Sol]lotta, soffre e spera,
 [Re]come una terra che nell'ar[Mim]sura chiede l'acqua da un [Sim]cielo senza [Fa#m]nuvole,
-ma che [sol]sempre le può [Sol]dare vita.
+ma che [Mim]sempre le può [Sol]dare vita.
 [Re]Con Te sa[Fa#m]remo sor[Sol]gente d'acqua [Mim]pura, con Te fra [Re]noi il de[Sol]serto fiori[La4]rà[La].
 
 RIT.

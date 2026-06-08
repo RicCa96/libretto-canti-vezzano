@@ -8,7 +8,7 @@ const song: Song = {
 [Do]E [Sol]nella [Mi]tua st[Lam]rada [Fa]cammine[Do]rò.
 
 [Do]Ti segui[Sol]rò nella [Lam]via dell'a[Fa]more
-[Do]e [Sol]done[MI]rò al [Lam]mondo [Fa]la vi[Do]ta.
+[Do]e [Sol]done[Mi]rò al [Lam]mondo [Fa]la vi[Do]ta.
 
 RIT.
 [Do]Ti segui[Sol]rò, ti [Lam]seguirò o Si[Fa]gnore

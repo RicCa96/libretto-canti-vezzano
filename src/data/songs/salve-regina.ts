@@ -13,7 +13,7 @@ Vita, dol[Re]cezza, speranza [Do]nostra, [Sol]salve! Salve Re[Re]gina!
 [Sol]A te ricor[Lam]riamo, [Do]esuli figli di [Sol]Eva.
 [Mim]A te sospi[Sim]riamo, pian[Do]genti, in questa valle di [Re]lacrime.
 [Sol]Avvocata [Lam]nostra, [Do]volgi a noi gli occhi [Sol]tuoi,
-[Mim]mostraci dopo questo e[Sim]silio il [Do]frutto del tuo seno, Ge[re]sù.
+[Mim]mostraci dopo questo e[Sim]silio il [Do]frutto del tuo seno, Ge[Re]sù.
 
 RIT.
 [Sol]Salve Re[Re]gina, [Do]Mad[Mim]re [Lam]di miseri[Sol]cordia.

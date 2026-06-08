@@ -7,7 +7,7 @@ const song: Song = {
 [Do]sia santifi[La]cato il nome [Do]Tuo,
 venga il Tuo [Sol]regno. sia fatta [Re]la Tua [Re7]volon[Sol]tà[Sol7],
 come in [Do]cielo [Re]così in [Sim]terra[Mim],
-come in [LAm]cielo così in [Re]ter[Sol]ra.
+come in [Lam]cielo così in [Re]ter[Sol]ra.
 
 Dacci [Sol]oggi il [La]nostro [Sol]pane
 [Do]dacci il nostro [La]pane quoti[Do]diano

@@ -8,7 +8,7 @@ const song: Song = {
 [Lam]Né morte o [Mim]vita [Fa]ci separe[Do]rà
 [Rem]dall'amore in [Lam]Cri- [Rem]sto Si[Do]gno [Sol]-o -[Do]re.
 
-[Do]Chi ci se[Sol]pare[Lam]rà [Fa]dalla sua [mim]pace,
+[Do]Chi ci se[Sol]pare[Lam]rà [Fa]dalla sua [Mim]pace,
 [Rem]la persecu[Lam]zione, [Fa]forse il do[Sol]lore?
 [Lam]Nessun po[Mim]tere [Fa]ci separe[Do]rà
 [Rem]da colui che è [Lam]mo - [Rem]rto per [Do]no[Sol]-o -[Do]i.
