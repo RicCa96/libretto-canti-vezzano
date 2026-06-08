@@ -1,10 +1,15 @@
 import { useEffect, useState } from 'react'
 import { songs } from '../data/songs/index.ts'
 import { SongCombobox } from '../components/SongCombobox.tsx'
+import { CHURCHES, type Church } from '../lib/churches.ts'
 import type { Slot, TodaySet } from '../lib/todaySchema.ts'
 import './Admin.css'
 
 const DEFAULT_LABELS = ['Inizio', 'Offertorio', 'Comunione', 'Fine']
+
+function emptyChurches(): Record<Church, Slot[]> {
+  return Object.fromEntries(CHURCHES.map((c) => [c, [] as Slot[]])) as unknown as Record<Church, Slot[]>
+}
 
 function isErrorStatus(status: string): boolean {
   return /^(Password errata|Errore)/.test(status)
@@ -12,7 +17,8 @@ function isErrorStatus(status: string): boolean {
 
 export function Admin() {
   const [password, setPassword] = useState('')
-  const [slots, setSlots] = useState<Slot[]>([])
+  const [churches, setChurches] = useState<Record<Church, Slot[]>>(emptyChurches)
+  const [activeChurch, setActiveChurch] = useState<Church>(CHURCHES[0])
   const [status, setStatus] = useState('')
   const [loading, setLoading] = useState(true)
   const [dragIndex, setDragIndex] = useState<number | null>(null)
@@ -28,7 +34,13 @@ export function Admin() {
       .then((data) => {
         if (!active) return
         const validIds = new Set(songs.map((s) => s.id))
-        setSlots(data.slots.filter((s) => validIds.has(s.songId)))
+        const incoming = data.churches ?? {}
+        const cleaned = emptyChurches()
+        for (const church of CHURCHES) {
+          const list = Array.isArray(incoming[church]) ? incoming[church] : []
+          cleaned[church] = list.filter((s) => validIds.has(s.songId))
+        }
+        setChurches(cleaned)
       })
       .catch(() => {
         if (active) setStatus('Errore nel caricamento della lista corrente.')
@@ -41,31 +53,31 @@ export function Admin() {
     }
   }, [])
 
+  const slots = churches[activeChurch]
+  const setSlots = (next: Slot[]) =>
+    setChurches((c) => ({ ...c, [activeChurch]: next }))
+
   const addSlot = () => {
     const label = DEFAULT_LABELS[slots.length] ?? 'Canto'
-    setSlots((s) => [...s, { label, songId: songs[0]?.id ?? '' }])
+    setSlots([...slots, { label, songId: songs[0]?.id ?? '' }])
   }
   const updateSlot = (i: number, patch: Partial<Slot>) => {
-    setSlots((s) => s.map((slot, j) => (j === i ? { ...slot, ...patch } : slot)))
+    setSlots(slots.map((slot, j) => (j === i ? { ...slot, ...patch } : slot)))
   }
   const removeSlot = (i: number) => {
-    setSlots((s) => s.filter((_, j) => j !== i))
+    setSlots(slots.filter((_, j) => j !== i))
   }
   const moveSlot = (from: number, to: number) => {
-    if (from === to || to < 0) return
-    setSlots((s) => {
-      if (to >= s.length) return s
-      const next = s.slice()
-      const [item] = next.splice(from, 1)
-      next.splice(to, 0, item)
-      return next
-    })
+    if (from === to || to < 0 || to >= slots.length) return
+    const next = slots.slice()
+    const [item] = next.splice(from, 1)
+    next.splice(to, 0, item)
+    setSlots(next)
   }
 
   const onDragStart = (i: number) => (e: React.DragEvent<HTMLElement>) => {
     setDragIndex(i)
     e.dataTransfer.effectAllowed = 'move'
-    // Required for Firefox to initiate drag.
     e.dataTransfer.setData('text/plain', String(i))
   }
   const onDragOver = (i: number) => (e: React.DragEvent<HTMLElement>) => {
@@ -94,7 +106,7 @@ export function Admin() {
           'content-type': 'application/json',
           'x-admin-password': password,
         },
-        body: JSON.stringify({ slots }),
+        body: JSON.stringify({ churches }),
       })
       if (res.status === 401) {
         setStatus('Password errata.')
@@ -124,6 +136,24 @@ export function Admin() {
       />
 
       {loading && <p className="status">Caricamento lista corrente…</p>}
+
+      <div className="church-tabs" role="tablist" aria-label="Chiesa">
+        {CHURCHES.map((church) => {
+          const isActive = church === activeChurch
+          return (
+            <button
+              key={church}
+              type="button"
+              role="tab"
+              aria-selected={isActive}
+              className={'church-tab' + (isActive ? ' church-tab--active' : '')}
+              onClick={() => setActiveChurch(church)}
+            >
+              {church}
+            </button>
+          )
+        })}
+      </div>
 
       <ul className="slot-list">
         {slots.map((slot, i) => {

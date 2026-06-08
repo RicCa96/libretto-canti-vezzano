@@ -234,3 +234,40 @@ a.slot-title:hover {
   font-size: var(--fs-tiny);
   margin-top: var(--s-3);
 }
+
+.today-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin: 0 0 var(--s-3);
+}
+
+.today-tab {
+  height: 36px;
+  padding: 0 var(--s-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
+  cursor: pointer;
+  transition: border-color 120ms, color 120ms, background-color 120ms;
+}
+
+.today-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.today-tab--active,
+.today-tab--active:hover {
+  background: var(--accent);
+  color: var(--accent-on);
+  border-color: var(--accent);
+}
+
+.today-panel {
+  margin: 0;
+}

@@ -2,18 +2,31 @@ import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Redis } from '@upstash/redis'
 import songIds from '../src/data/song-ids.json' with { type: 'json' }
 import { validateTodayPayload, type TodaySet } from '../src/lib/todaySchema.js'
+import { CHURCHES, type Church } from '../src/lib/churches.js'
 
 const redis = Redis.fromEnv()
 const KEY = 'today'
 const VALID_IDS = new Set<string>(songIds as string[])
-const EMPTY: TodaySet = { updatedAt: '', slots: [] }
+
+function emptyChurches(): Record<Church, []> {
+  return Object.fromEntries(CHURCHES.map((c) => [c, []])) as Record<Church, []>
+}
+
+const EMPTY: TodaySet = { updatedAt: '', churches: emptyChurches() }
+
+function isValidStoredShape(value: unknown): value is TodaySet {
+  if (typeof value !== 'object' || value === null) return false
+  const churches = (value as { churches?: unknown }).churches
+  return typeof churches === 'object' && churches !== null && !Array.isArray(churches)
+}
 
 export default async function handler(
   req: VercelRequest,
   res: VercelResponse,
 ) {
   if (req.method === 'GET') {
-    const data = (await redis.get<TodaySet>(KEY)) ?? EMPTY
+    const raw = await redis.get<unknown>(KEY)
+    const data: TodaySet = isValidStoredShape(raw) ? (raw as TodaySet) : EMPTY
     res.setHeader('Cache-Control', 'no-store')
     return res.status(200).json(data)
   }
@@ -26,7 +39,7 @@ export default async function handler(
     if (result.ok) {
       const value: TodaySet = {
         updatedAt: new Date().toISOString(),
-        slots: result.value.slots,
+        churches: result.value.churches,
       }
       await redis.set(KEY, value)
       return res.status(200).json(value)

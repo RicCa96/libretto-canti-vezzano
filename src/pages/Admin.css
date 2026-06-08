@@ -185,3 +185,36 @@
 .admin .status--error {
   color: var(--accent);
 }
+
+.admin .church-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--s-2);
+  margin: var(--s-4) 0 0;
+}
+
+.admin .church-tab {
+  height: 36px;
+  padding: 0 var(--s-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-small);
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-md);
+  cursor: pointer;
+  transition: border-color 120ms, color 120ms, background-color 120ms;
+}
+
+.admin .church-tab:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.admin .church-tab--active,
+.admin .church-tab--active:hover {
+  background: var(--accent);
+  color: var(--accent-on);
+  border-color: var(--accent);
+}
