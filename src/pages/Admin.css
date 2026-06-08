@@ -52,7 +52,7 @@
   background: var(--surface);
   border: 1px solid var(--rule);
   border-radius: var(--r-md);
-  transition: border-color 120ms, opacity 120ms, transform 120ms;
+  transition: border-color var(--t-fast), opacity var(--t-fast), transform var(--t-fast);
 }
 
 .admin .slot-row.is-dragging {
@@ -116,12 +116,12 @@
   border: 1px solid var(--rule);
   border-radius: var(--r-md);
   cursor: pointer;
-  transition: border-color 120ms, color 120ms, background-color 120ms;
+  transition: border-color var(--t-fast), color var(--t-fast), background-color var(--t-fast);
 }
 
 .admin button:hover:not(:disabled) {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--hover-border);
+  color: var(--hover-fg);
 }
 
 .admin button:disabled {
@@ -144,8 +144,8 @@
 }
 
 .admin .save:hover {
-  background: var(--accent-2);
-  border-color: var(--accent-2);
+  background: var(--press-bg);
+  border-color: var(--press-border);
   color: var(--accent-on);
 }
 
@@ -204,12 +204,12 @@
   border: 1px solid var(--rule);
   border-radius: var(--r-md);
   cursor: pointer;
-  transition: border-color 120ms, color 120ms, background-color 120ms;
+  transition: border-color var(--t-fast), color var(--t-fast), background-color var(--t-fast);
 }
 
 .admin .church-tab:hover {
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--hover-border);
+  color: var(--hover-fg);
 }
 
 .admin .church-tab--active,
