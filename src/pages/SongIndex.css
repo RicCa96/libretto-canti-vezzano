@@ -61,10 +61,8 @@
     padding: 0 0 var(--s-1);
 }
 
-.index-group-letter:hover,
-.index-group-letter:focus-visible {
+.index-group-letter:hover {
     color: var(--accent-2);
-    outline: none;
 }
 
 .index-list {
