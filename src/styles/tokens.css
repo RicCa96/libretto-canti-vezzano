@@ -35,6 +35,16 @@
   /* Shadow */
   --shadow: 0 1px 2px rgba(31, 20, 16, 0.06);
 
+  /* Motion */
+  --t-fast: 120ms;
+  --ease:   ease;
+
+  /* Interactive state */
+  --hover-border: var(--accent);
+  --hover-fg:     var(--accent);
+  --press-bg:     var(--accent-2);
+  --press-border: var(--accent-2);
+
   /* Type */
   --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
   --font-sans:    'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
