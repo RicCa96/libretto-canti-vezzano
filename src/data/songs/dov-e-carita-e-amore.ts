@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "dov-e-carita-e-amore",
   title: "DOV’È CARITÀ E AMORE",
+  songNumber: 138,
   body: `RIT.
 Dov’è carità e amore: qui c’è Dio!
 

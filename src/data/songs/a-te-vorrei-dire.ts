@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "a-te-vorrei-dire",
   title: "A TE VORREI DIRE",
+  songNumber: 191,
   body: `Se il sole non illuminasse più
 questo pallido pianeta
 se il silenzio della morte

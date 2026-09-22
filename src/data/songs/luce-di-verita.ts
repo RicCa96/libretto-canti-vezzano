@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "luce-di-verita",
   title: "LUCE DI VERITÀ",
+  songNumber: 256,
   body: `RIT.
 [Do]Luce di veri[Fa]tà, [Do]fiamma di cari[Mim]tà,
 [Fa]vincolo di uni[Do]tà, [Lam]Spirito [Re7]Santo A[Fa]mo[Sol]re.

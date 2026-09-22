@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "la-nostra-messa",
   title: "LA NOSTRA MESSA",
+  songNumber: 51,
   body: `Guarda questa offerta, guarda a noi Signor
 Tutto noi ti offriamo per unirci a te.
 

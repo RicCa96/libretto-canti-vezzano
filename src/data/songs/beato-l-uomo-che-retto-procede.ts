@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "beato-l-uomo-che-retto-procede",
   title: "BEATO L’UOMO CHE RETTO PROCEDE",
+  songNumber: 43,
   body: `RIT.
 Beato l'uomo che retto procede
 e non entra a consiglio con gli empi,

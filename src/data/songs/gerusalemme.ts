@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "gerusalemme",
   title: "GERUSALEMME",
+  songNumber: 259,
   body: `[Solm]( . stru[Fa]men[Solm]tale . [Fa])
 
 Gerusa[Fa]lemme, città del Si[Sib]gnore, verso di [Solm7]te torneranno i tuoi [Do]figli,

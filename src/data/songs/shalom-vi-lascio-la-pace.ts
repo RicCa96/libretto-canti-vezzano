@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "shalom-vi-lascio-la-pace",
   title: "SHALOM (VI LASCIO LA PACE)",
+  songNumber: 225,
   body: `RIT.
 Vi lascio la pace, vi do la mia pace, shalom, shalom, shalom.
 Rimanete in me e porterete frutto, shalom, shalom, shalom.

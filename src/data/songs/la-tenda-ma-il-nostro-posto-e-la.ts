@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "la-tenda-ma-il-nostro-posto-e-la",
   title: "LA TENDA (MA IL NOSTRO POSTO È LA)",
+  songNumber: 136,
   body: `[Mim]Signore, come è [Re]bello, [Si7]non andiamo [Mim]via:
 faremo delle [Re]tende e [Si7]dormiremo [Mim]qua.
 Non scendiamo a [Re]valle [Si7]dove l'altra [Mim]gente

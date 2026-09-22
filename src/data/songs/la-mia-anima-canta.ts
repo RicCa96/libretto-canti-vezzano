@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "la-mia-anima-canta",
   title: "LA MIA ANIMA CANTA",
+  songNumber: 273,
   body: `RIT.
 [Do]La mia [Re]anima [Sol]canta
 la [Mim]grandezza del Si[Lam7]gnore,

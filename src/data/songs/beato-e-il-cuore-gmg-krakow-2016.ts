@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "beato-e-il-cuore-gmg-krakow-2016",
   title: "BEATO È IL CUORE (GMG KRAKOW 2016)",
+  songNumber: 283,
   body: `[Do#m]Sei sceso [La]dalla tua immensi[Mi]tà [Re]in nostro [La]aiu[Mi]to.
 Miseri[Si]cordia scorre da [Fa#]te [La]sopra [Si]tutti [Do#4]noi[Do#].
 

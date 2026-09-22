@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "te-al-centro-del-mio-cuore",
   title: "TE AL CENTRO DEL MIO CUORE",
+  songNumber: 243,
   body: `[Rem]Ho bisogno di incontrarti nel mio [Fa]cuore,
 di trovare [Lam]Te, di stare insieme a [Sib]Te.
 Unico [Solm]riferimento del mio an[Rem]dare,

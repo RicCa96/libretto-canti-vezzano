@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "frutto-della-nostra-terra",
   title: "FRUTTO DELLA NOSTRA TERRA",
+  songNumber: 305,
   body: `[Sol]Frutto della nostra [Do]terra, del [Sol]lavoro di ogni [Re]uomo
 [Mim]Pane della nostra [Sim]vita, [Do]cibo della quotidiani[Re]tà
 [Sol]Tu che lo prendevi un [Do]giorno, lo [Sol]spezzavi per i [Re]tuoi

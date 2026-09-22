@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "manda-il-tuo-spirito",
   title: "MANDA IL TUO SPIRITO",
+  songNumber: 253,
   body: `RIT.
 [Sol]Manda il tuo Spirito, Si[Re]gnore, [Mim]a rinnovare la [Do]ter[Re]ra.
 [Do]Manda il tuo Spirito, Si[Lam]gnore, [Re]su di [Sol]noi.

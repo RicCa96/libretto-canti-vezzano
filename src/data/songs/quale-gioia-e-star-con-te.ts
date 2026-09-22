@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "quale-gioia-e-star-con-te",
   title: "QUALE GIOIA È STAR CON TE",
+  songNumber: 326,
   body: `[INTRO: Prime due righe RIT. strumentali]
 [Re]Ogni volta che ti cerco, [Mim]ogni volta che t’invoco,
 [Re]sempre mi ac[Sim]cogli Si[La4]gnor[La].

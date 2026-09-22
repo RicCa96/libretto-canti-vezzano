@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "adoriamo-il-sacramento",
   title: "ADORIAMO IL SACRAMENTO",
+  songNumber: 112,
   body: `Adoriamo il Sacramento
 che Dio Padre ci donò.
 Nuovo patto, nuovo rito

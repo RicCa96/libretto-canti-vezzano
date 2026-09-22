@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-risorto",
   title: "IL RISORTO",
+  songNumber: 41,
   body: `La grande mente umana il Signore ha rifiutato.
 L’hanno ucciso per provare che la vita non è lui;
 Volevano riuscire a fare con le proprie mani

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "consolate-isaia-40",
   title: "CONSOLATE (ISAIA 40)",
+  songNumber: 248,
   body: `Consolate, consolate il popolo mio
 e parlate al cuore della mia città
 e gridate, gridate che la sua schiavitù

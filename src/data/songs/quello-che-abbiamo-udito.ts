@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "quello-che-abbiamo-udito",
   title: "QUELLO CHE ABBIAMO UDITO",
+  songNumber: 258,
   body: `RIT.
 Quello che abbiamo udito,
 quello che abbiamo veduto,

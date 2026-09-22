@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-signore-ha-messo-un-seme",
   title: "IL SIGNORE HA MESSO UN SEME",
+  songNumber: 32,
   body: `RIT.
 Il Signore ha messo un seme
 nella terra del mio giardino.

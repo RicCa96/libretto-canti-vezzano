@@ -3,6 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "pane-del-cielo",
     title: "PANE DEL CIELO",
+    songNumber: 186,
     body: `RIT.
 [Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
 [Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.

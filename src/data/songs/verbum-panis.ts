@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "verbum-panis",
   title: "VERBUM PANIS",
+  songNumber: 306,
   body: `[Mim]Prima del [Re]tempo,
 prima an[Mi]cora che la [Re]terra comin[Mim]ciasse a vive[Re]re
 [Mim]il Verbo [Re]era presso [Mim]Dio.

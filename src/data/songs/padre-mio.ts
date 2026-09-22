@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "padre-mio",
   title: "PADRE MIO",
+  songNumber: 207,
   body: `Padre mio, mi abbandono a Te,
 di me fai quello che ti piace.
 Grazie di ciò che fai per me,

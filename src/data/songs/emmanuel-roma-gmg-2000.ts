@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "emmanuel-roma-gmg-2000",
   title: "EMMANUEL (ROMA GMG 2000)",
+  songNumber: 262,
   body: `Dall'[Mi]orizzonte una grande luce
 [Si]viaggia nella storia
 e [La]lungo gli anni ha vinto il buio

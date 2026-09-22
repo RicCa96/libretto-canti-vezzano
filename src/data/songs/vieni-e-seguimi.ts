@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "vieni-e-seguimi",
   title: "VIENI E SEGUIMI",
+  songNumber: 300,
   body: `Lascia [La]che il mondo [Sim7]vada per la sua [La]strada.
 Lascia [Do#m]che l'uomo ri[Fa#m]torni alla sua [Mi]casa.
 Lascia [Re]che la gente accumuli la sua [La]fortuna.

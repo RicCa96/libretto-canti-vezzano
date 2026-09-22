@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "tu-sei-la-mia-vita-symbolum-77",
   title: "TU SEI LA MIA VITA (SYMBOLUM 77)",
+  songNumber: 27,
   body: `[Mim]Tu sei la mia [Do]vita, [Re]altro io non [Sol]ho.
 [Mim]Tu sei la mia [Do]strada, [Re]la mia veri[Si]tà.
 [Lam]Nella tua pa[Re]rola [Sol]io cammine[Mim]rò

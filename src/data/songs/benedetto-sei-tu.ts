@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "benedetto-sei-tu",
   title: "BENEDETTO SEI TU",
+  songNumber: 7,
   body: `Benedetto sei Tu, Dio dell’universo!
 Dalla tua bontà abbiamo ricevuto questo pane,
 frutto della terra e del nostro lavoro:

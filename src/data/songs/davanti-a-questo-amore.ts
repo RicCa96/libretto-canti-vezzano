@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "davanti-a-questo-amore",
   title: "DAVANTI A QUESTO AMORE",
+  songNumber: 303,
   body: `Hai di[Lam]steso le tue [Fa]braccia anche per [Lam]me Ge[Sol]sù
 dal [Fa]tuo cuore come [Sol]fonte hai ver[Do]sato [Sol]pace in [Lam]me [Sol].
 [Rem]Cerco an[Rem]cora il mio pec[Mi]cato ma non [Fa]c’è,

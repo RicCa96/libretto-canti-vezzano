@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "segni-del-tuo-amore",
   title: "SEGNI DEL TUO AMORE",
+  songNumber: 250,
   body: `Mille e mille grani nelle spighe d'oro
 mandano fragranza e danno gioia al cuore,
 quando, macinati, fanno un pane solo:

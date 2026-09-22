@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "purificami-o-signore",
   title: "PURIFICAMI, O SIGNORE",
+  songNumber: 116,
   body: `RIT.
 Purificami, o Signore: sarò più bianco della neve!
 

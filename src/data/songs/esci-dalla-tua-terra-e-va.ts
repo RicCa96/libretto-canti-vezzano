@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "esci-dalla-tua-terra-e-va",
   title: "ESCI DALLA TUA TERRA E VA",
+  songNumber: 35,
   body: `RIT.
 Esci dalla tua terra e va' dove ti mostrerò.
 Esci dalla tua terra e va' dove ti mostrerò.

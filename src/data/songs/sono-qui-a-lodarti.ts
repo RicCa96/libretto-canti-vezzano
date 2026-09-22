@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "sono-qui-a-lodarti",
   title: "SONO QUI A LODARTI",
+  songNumber: 301,
   body: `[Mi]Luce del [Si]mondo nel [Fa#m]buio del [La]cuore
 [Mi]Vieni ed il[Si]lumina[La]mi 
 [Mi]Tu mia [Si]sola spe[Fa#m]ranza di [La]vita

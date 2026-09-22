@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "chi-ci-separera",
   title: "CHI CI SEPARERÀ?",
+  songNumber: 278,
   body: `[Do]Chi ci se[Sol]pare[Lam]rà [Fa]dal suo a[Mim]more,
 [Rem]la tribola[Lam]zione, [Fa]forse la [Sol]spada?
 [Lam]Né morte o [Mim]vita [Fa]ci separe[Do]rà

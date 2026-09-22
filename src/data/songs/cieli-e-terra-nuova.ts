@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "cieli-e-terra-nuova",
   title: "CIELI E TERRA NUOVA",
+  songNumber: 106,
   body: `RIT.
 Cieli e terra nuova il Signor darà,
 in cui la giustizia sempre abiterà.

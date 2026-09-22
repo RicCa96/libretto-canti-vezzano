@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "i-cieli-narrano",
   title: "I CIELI NARRANO",
+  songNumber: 247,
   body: `RIT.
 I [Do]cieli [Fa]narrano la [Do]gloria di [Sol]Dio
 e il [Lam]firma[Fa]mento annunzia l'[Do]opera [Sol]sua.

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "beatitudine-dove-due-o-tre",
   title: "BEATITUDINE (DOVE DUE O TRE)",
+  songNumber: 21,
   body: `[Do]Dove due o [Sol]tre sono ri[Lam]uniti nel mio [Fa]nome
 [Sol]io sarò con [Do]loro, [Fa]pregherò con [Sol]loro [Mi]
 amerò con [Lam]loro perché il [Do]mondo

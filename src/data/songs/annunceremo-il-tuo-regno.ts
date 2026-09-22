@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "annunceremo-il-tuo-regno",
   title: "ANNUNCEREMO IL TUO REGNO",
+  songNumber: 75,
   body: `RIT.
 Annunceremo il tuo regno, Signor:
 il tuo regno, Signor, il tuo regno.

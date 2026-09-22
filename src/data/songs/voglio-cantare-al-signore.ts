@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "voglio-cantare-al-signore",
   title: "VOGLIO CANTARE AL SIGNORE",
+  songNumber: 235,
   body: `RIT.
 [Do7]Voglio can[Fa]tare al Si[Do]gnor e [Sib]dare gloria a [Do]Lui
 vo[Sib/Do]glio can[Fa]tare per [Do]sempre al Si[Sib]gnor

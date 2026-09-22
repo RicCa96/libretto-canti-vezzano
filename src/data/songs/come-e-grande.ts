@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "come-e-grande",
   title: "COME É GRANDE",
+  songNumber: 140,
   body: `Come è grande la tua bontà
 che conservi per chi ti teme!
 E fai grandi cose per chi ha rifugio in te,

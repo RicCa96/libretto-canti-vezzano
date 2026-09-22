@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-germoglio-della-stirpe-di-david-dall-albero-di-iesse",
   title: "IL GERMOGLIO DELLA STIRPE DI DAVID (DALL’ALBERO DI IESSE)",
+  songNumber: 47,
   body: `Dall’albero di Iesse un virgulto spunterà
 e si poserà su lui lo Spirito del Signore.
 Spirito di sapienza, di consiglio, di fortezza,

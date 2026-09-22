@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "ave-maria-verbum-panis",
   title: "AVE MARIA (VERBUM PANIS)",
+  songNumber: 281,
   body: `RIT.
 [Re]A - [La]ve Ma[Sim]ria, [Sol]A [Re]- [La]a - [Mim]ve[Sol].
 [Re]A - [La]ve Ma[Sim]ria, [Sol]A [Re]- [La]a - [Re4]ve[Re].

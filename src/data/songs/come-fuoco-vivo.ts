@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "come-fuoco-vivo",
   title: "COME FUOCO VIVO",
+  songNumber: 239,
   body: `RIT.
 Come [La]fuoco [Mi]vivo si [Fa#m]accende in noi
 un'[Sim7]immensa [Mi]feli[La]cità

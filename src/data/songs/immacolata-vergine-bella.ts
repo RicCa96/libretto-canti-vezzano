@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "immacolata-vergine-bella",
   title: "IMMACOLATA VERGINE BELLA",
+  songNumber: 60,
   body: `Immacolata Vergine bella,
 di nostra vita Tu sei la stella.
 Tra le tempeste deh! guida il cuore

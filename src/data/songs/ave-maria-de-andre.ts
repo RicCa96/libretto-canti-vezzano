@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "ave-maria-de-andre",
   title: "AVE MARIA (DE ANDRÉ)",
+  songNumber: 184,
   body: `E te ne [La]vai, Ma[Re]ria, fra l'altra [Fa#m]gente
 che si rac[Do#m]coglie in[Re]torno al tuo pas[Mi]sare,
 siepe di [Re]sguardi che non fanno [La]male

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "ecco-quel-che-abbiamo",
   title: "ECCO QUEL CHE ABBIAMO",
+  songNumber: 244,
   body: `RIT.
 [La]Ecco quel che ab[Do#m]biamo, nulla [Re]ci appartiene [La]ormai.
 Ecco i [Fa#m]frutti della [Do#m]terra, che [Re]Tu moltipliche[Mi]rai.

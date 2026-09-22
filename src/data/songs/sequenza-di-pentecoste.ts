@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "sequenza-di-pentecoste",
   title: "SEQUENZA DI PENTECOSTE",
+  songNumber: 50,
   body: `Vieni, Spirito Santo,
 manda a noi dal cielo
 un raggio della tua luce.

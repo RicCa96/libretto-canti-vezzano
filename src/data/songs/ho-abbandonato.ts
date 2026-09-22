@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "ho-abbandonato",
   title: "HO ABBANDONATO",
+  songNumber: 49,
   body: `RIT.
 Ho abbandonato dietro di me,
 ogni paura, ogni dubbio perchè

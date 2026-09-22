@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "liberami",
   title: "LIBERAMI",
+  songNumber: 312,
   body: `[La]Liberami, [Re]liberami, [La]liberami Spirito di [Re]Dio
 [Mi]Dalle catene che [Fa#]porto nel [Mi]cuore [Fa#],
 [Mi]Dalle chimere che [Fa#]anneb[Re]biano

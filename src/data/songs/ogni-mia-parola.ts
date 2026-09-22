@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "ogni-mia-parola",
   title: "OGNI MIA PAROLA",
+  songNumber: 232,
   body: `[Do]Come la [Sol]pioggia e la [Do]ne[Sol]ve [Do]scendono [Fa]giù dal [Sol]cielo
 e [Lam]non vi ri[Sol]tornano [Fa]senza irri[Sol]gare e [Fa]far germo[Sol]gliare la [Fa]ter[Sol]ra,
 

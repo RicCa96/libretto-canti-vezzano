@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "se-m-accogli",
   title: "SE M'ACCOGLI",
+  songNumber: 169,
   body: `Tra le [Do]mani non ho [Fa]niente, spero [Mim]che mi accoglie[Lam]rai:
 chiedo [Do]solo di re[Fa]stare accanto a [Sol4]Te[Sol].
 Sono [Do]ricco sola[Fa]mente dell'[Mim]Amore che mi [Lam]dai:

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "spirito-di-dio",
   title: "SPIRITO DI DIO",
+  songNumber: 254,
   body: `
 [Re]Spirito di [Sol]Dio riempi[Re]mi[Sol],
 [Re]Spirito di [Sol]Dio battezza[La]mi[La7],

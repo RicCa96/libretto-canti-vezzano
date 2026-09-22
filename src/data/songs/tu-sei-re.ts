@@ -3,6 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "tu-sei-re",
     title: "TU SEI RE",
+    songNumber: 315,
     body: `RIT.
 [Re]Tu sei Re, [La]Tu sei Re - [Sim]e
 Sei Re Ge[Sol]sù!

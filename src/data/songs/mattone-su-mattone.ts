@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "mattone-su-mattone",
   title: "MATTONE SU MATTONE",
+  songNumber: 177,
   body: `RIT.
 Mattone su mattone viene su la grande casa,
 che fatica, che fatica che si fa! Perché?

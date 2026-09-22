@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "eccomi-signore",
   title: "ECCOMI SIGNORE",
+  songNumber: 242,
   body: `RIT.
 Eccomi, Signore, mi hai chiamato, da prima che io fossi
 hai pronunciato il nome mio con amore.

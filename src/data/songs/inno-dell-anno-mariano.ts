@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "inno-dell-anno-mariano",
   title: "INNO DELL’ANNO MARIANO",
+  songNumber: 86,
   body: `Piena di grazia sei, Maria, eletta dall’eternità
 Ad esser madre del Signore e madre dell’umanità
 

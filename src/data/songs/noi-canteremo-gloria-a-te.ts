@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "noi-canteremo-gloria-a-te",
   title: "NOI CANTEREMO GLORIA A TE",
+  songNumber: 87,
   body: `Noi canteremo gloria a Te, Padre che dai la vita,
 Dio d'immensa carità: Trinità infinita.
 

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "cristo-e-risorto",
   title: "CRISTO È RISORTO",
+  songNumber: 274,
   body: `[Do]Era quasi l’alba, quando
 le d[Mim]ue donne giunsero al sepolcro,
 e app[Fa]arve un ange[Sol7]lo. [Do]

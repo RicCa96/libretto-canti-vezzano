@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "fratello-sole-sorella-luna-dolce-e-sentire",
   title: "FRATELLO SOLE, SORELLA LUNA (DOLCE È SENTIRE)",
+  songNumber: 36,
   body: `[Do]Dolce è sen[Mim]tire [Fa]come [Sol]nel mio [Mim]cuore
 [Lam]o[Sol]ra [Fa]umil[Mim]men[Lam]te [Rem]sta nasc[Re7]endo [Sol4]amo[Sol]re.
 [Do]Dolce è ca[Mim]pire [Fa]che non [Sol]son più [Mim]solo,

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "e-sono-solo-un-uomo-symbolum-78",
   title: "E SONO SOLO UN UOMO (SYMBOLUM 78)",
+  songNumber: 174,
   body: `[Re]Io lo so Si[Fa#m]gnore che [Sol]vengo da [Re]lontano
 prima nel pen[Fa#m]siero e [Sol]poi nella tua [La7]mano.
 [Re]Io mi rendo [La]conto che [Sol]Tu sei la mia [Re]vita

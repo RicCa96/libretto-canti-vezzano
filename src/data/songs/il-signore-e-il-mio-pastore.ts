@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-signore-e-il-mio-pastore",
   title: "IL SIGNORE È IL MIO PASTORE",
+  songNumber: 54,
   body: `RIT.
 Il Signore è il mio pastore, non manco di nulla (x2)
 

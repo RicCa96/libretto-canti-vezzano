@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "servo-per-amore",
   title: "SERVO PER AMORE",
+  songNumber: 162,
   body: `Una [Sim]notte di sudore sulla barca in mezzo al [Re]mare…
 e mentre il [La]cielo s'imbianca [Fa#m]già tu [Sol]guardi le tue reti [Sim]vuote.
 Ma la [Re]voce che ti chiama un altro [La]mare ti mostre[Re]rà

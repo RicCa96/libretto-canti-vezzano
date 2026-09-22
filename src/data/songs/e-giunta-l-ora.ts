@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "e-giunta-l-ora",
   title: "È GIUNTA L’ORA",
+  songNumber: 130,
   body: `È giunta l’ora, Padre, per me:
 ai miei amici ho detto che
 questa è la vita: conoscere Te

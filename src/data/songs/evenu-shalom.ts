@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "evenu-shalom",
   title: "EVENU SHALOM",
+  songNumber: 172,
   body: `Evenu shalom alejem! Evenu shalom alejem!
 Evenu shalom alejem! Evenu shalom, shalom, shalom alejem!
 

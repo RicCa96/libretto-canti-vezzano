@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "l-amore-chiama-l-amore",
   title: "L’AMORE CHIAMA L’AMORE",
+  songNumber: 317,
   body: `[Sim]Senza di Te, La mia [Sol]vita sarà come [Re]notte che l'alba [La]non ve[Sol]drà.
 Sulla [Re]riva Tu sei, ad at[La]tendere noi, sei tor[Mim]nato dal legno della [Sol4]cro[Sol]ce.
 E ti [Re]siedi quaggiù: mio Si[La]gnore sei Tu! Uno [Mim]sguardo [Mim7]che mi cerca an[Fa#7]cora

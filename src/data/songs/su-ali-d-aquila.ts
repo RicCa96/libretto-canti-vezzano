@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "su-ali-d-aquila",
   title: "SU ALI D'AQUILA",
+  songNumber: 157,
   body: `[Sol6]Tu, che abiti al ri[Re6]paro del Signore [Sol6]e che dimori alla sua [Re6]ombra,
 [Famaj7]di’ al Signore: "Mio ri[Sib]fugio, mia [Solm7]roccia in cui con[La7]fido."
 

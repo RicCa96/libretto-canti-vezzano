@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "pace-sia-pace-a-voi",
   title: "PACE SIA, PACE A VOI",
+  songNumber: 251,
   body: `RIT.
 “Pace [Re]sia, pace a voi”: la tua [Sol]pace sarà sulla [Sim]terra com'è nei [La4]cieli[La].
 “Pace [Re]sia, pace a voi”: la tua [Sol]pace sarà gioia [Fa]nei nostri [Do]occhi, nei [Sol]cuo[La]ri.

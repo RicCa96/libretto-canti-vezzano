@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-signore-e-la-mia-salvezza-il-canto-dei-redenti",
   title: "IL SIGNORE È LA MIA SALVEZZA (IL CANTO DEI REDENTI)",
+  songNumber: 38,
   body: `RIT.
 Il Signore è la mia salvezza e con Lui non temo più,
 perché ho nel cuore la certezza: la salvezza è qui con me.

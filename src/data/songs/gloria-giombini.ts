@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "gloria-giombini",
   title: "GLORIA (GIOMBINI)",
+  songNumber: 2,
   body: `[Do]Glo[Sol]o[Do]ria! [Do]Glo[Sol]o[Do]ria! [Do]A [Mim]Dio nell'[Lam]alto dei [Fa]cieli: [Do]glo[Sol]o[Do]ria!
 [Do]E pa[Sol]a[Do]ce! (E pace in terra!)
 [Do]E pa[Sol]a[Do]ce! (In terra agli [Mim]uomini di [Lam]buona volon[Fa]tà)

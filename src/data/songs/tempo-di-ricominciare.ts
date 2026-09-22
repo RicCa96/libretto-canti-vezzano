@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "tempo-di-ricominciare",
   title: "TEMPO DI RICOMINCIARE",
+  songNumber: 328,
   body: `[Do#m]Padre nostro siamo qui, nella nostra povertà. [La]Davanti a te.
 [Do#m]Tu che di ogni cuore sai storie, luci, lacrime [La]e verità.
 [Fa#m]Dacci il tuo perdono che [La]ci risana l’anima [Do#m]con la tua pace.

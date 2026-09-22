@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "tota-pulchra",
   title: "TOTA PULCHRA",
+  songNumber: 89,
   body: `Tota pulchra es, Maria
 tota pulchra es, Maria
 

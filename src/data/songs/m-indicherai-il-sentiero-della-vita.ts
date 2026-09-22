@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "m-indicherai-il-sentiero-della-vita",
   title: "M’INDICHERAI IL SENTIERO DELLA VITA",
+  songNumber: 234,
   body: `RIT.
 M’indicherai il sentiero della vita e sarà gioia piena
 E sarà dolcezza senza fine alla tua destra.

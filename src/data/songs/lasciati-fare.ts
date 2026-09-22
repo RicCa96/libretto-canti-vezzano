@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "lasciati-fare",
   title: "LASCIATI FARE",
+  songNumber: 20,
   body: `RIT.
 Lasciati fare da Chi ti conosce,
 Lasciati fare da Chi ama te.

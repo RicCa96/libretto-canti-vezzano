@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-signore-e-la-luce",
   title: "IL SIGNORE È LA LUCE",
+  songNumber: 125,
   body: `Il Signore è la luce che vince la notte.
 
 RIT.

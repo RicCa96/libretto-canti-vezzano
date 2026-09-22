@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "alleluia-dio-ha-visitato-il-suo-popolo",
   title: "ALLELUIA (DIO HA VISITATO IL SUO POPOLO)",
+  songNumber: 263,
   body: `RIT.
 [Do]Alleluia, [Sol]alleluia, [Fa]alleluia, alle[Lam]luia!
 [Fa]Dio ha visitato il suo [Rem]popo[Do]lo, ha [Fa]fatto mera[Sol]viglie per [Lam]noi, [Fa]alle[Sol]luia[Do]!

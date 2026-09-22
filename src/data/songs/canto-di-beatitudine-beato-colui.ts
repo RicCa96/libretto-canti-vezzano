@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "canto-di-beatitudine-beato-colui",
   title: "CANTO DI BEATITUDINE (BEATO COLUI)",
+  songNumber: 257,
   body: `Be[Re]ato co[La]lui che [Sol]vince se [Re]stesso
 fa[Fa#m]cendosi [Sim]servo del [Sol]Cristo che [Re]viene,
 Chi [Sim]è nel Si[Fa#m]gnore, cam[Sol]mini con [Re]Lui,

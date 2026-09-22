@@ -3,6 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "popoli-tutti",
     title: "POPOLI TUTTI",
+    songNumber: 236,
     body: `
 [La]Mio Dio, [Mi]Signore, [Fa#m]nulla è [Mi]pari a [Re]Te.
 Ora e per [La]sempre, [Re]voglio lo[La]dare

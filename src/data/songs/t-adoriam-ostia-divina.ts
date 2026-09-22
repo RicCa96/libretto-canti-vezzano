@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "t-adoriam-ostia-divina",
   title: "T'ADORIAM OSTIA DIVINA",
+  songNumber: 124,
   body: `RIT.
 T’adoriam Ostia divina, t’adoriam Ostia d’amor.
 

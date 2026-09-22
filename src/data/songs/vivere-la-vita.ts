@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "vivere-la-vita",
   title: "VIVERE LA VITA",
+  songNumber: 227,
   body: `V[Do]ivere la v[Sol]ita con le gi[Rem]oie e coi do[Fa]lori di ogni gi[Lam]orno:
 [Sol]è quello che Dio v[Do]uole da te.[Sol]
 [Do]Vivere la v[Sol]ita e inabiss[Rem]arti nell'am[Fa]ore, è il tuo des[Lam]tino:

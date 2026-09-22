@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "amatevi-fratelli",
   title: "AMATEVI FRATELLI",
+  songNumber: 127,
   body: `[Re]Amate[La]vi [Sol]fratelli, [Re]come [Sim]io ho [Mi7]amato [La]voi!
 A[Fa#m]vrete [Re]la mia gi[Sim]oia, che nes[Sol]suno [Sim/La]vi toglierà[Re]!
 A[Fa#m]VREMO [Re]LA SUA GI[Sim]OIA, CHE NES[Sol]SUNO [Sim]CI TOGLIERÀ[La]![Re]

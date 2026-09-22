@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "in-notte-placida",
   title: "IN NOTTE PLACIDA",
+  songNumber: 81,
   body: `[Do]In [Sol]notte [Do]placida, per mu[Sol7]to sen[Do]tier,
 dai campi del [Fa]Ciel è [Sol7]sceso l'a[Mim]mor,
 all'[Lam]alme fe[Rem]del, il [Re]Reden[Sol]tor!

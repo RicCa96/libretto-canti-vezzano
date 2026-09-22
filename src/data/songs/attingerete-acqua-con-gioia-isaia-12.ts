@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "attingerete-acqua-con-gioia-isaia-12",
   title: "ATTINGERETE ACQUA CON GIOIA (ISAIA 12)",
+  songNumber: 238,
   body: `Io ti ringrazio, Signore: eri adirato con me,
 ma la tua ira si è calmata e Tu mi hai consolato.
 

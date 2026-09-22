@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "la-vera-gioia",
   title: "LA VERA GIOIA",
+  songNumber: 265,
   body: `[Do]La vera gioia [Re]nasce nella [Sol]pace, [Sol7]
 la vera [Do]gioia [Rem]non consuma il [Sol]cuore, [Sol7]
 è come [Do]fuoco [Sol]con il suo ca[Lam]lore [Rem]

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "amatevi-ti-ringrazio-mio-signore",
   title: "AMATEVI (TI RINGRAZIO, MIO SIGNORE)",
+  songNumber: 39,
   body: `Am[Re]atevi l’un l’a[Sim]ltro come [Sol]Lui ha amato [La]noi: e [Re]siate per [Sim]sempre suoi [Sol]amic[Re]i;
 e q[Sol]uello che fa[La]rete al più [Re]picco[Fa#7]lo tra v[Sim]oi, [Mim7]credete, l’[La7]avete fatto a [Re]Lui.
 

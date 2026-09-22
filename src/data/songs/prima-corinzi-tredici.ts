@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "prima-corinzi-tredici",
   title: "PRIMA CORINZI TREDICI",
+  songNumber: 224,
   body: `
 [Re]Anche se io cono[La]scessi e parlassi
 la [Sim]lingua di ogni crea[Sol]tura di [La4]Di[La7]o,

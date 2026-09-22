@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "come-tu-mi-vuoi",
   title: "COME TU MI VUOI",
+  songNumber: 245,
   body: `[Sol]Eccomi Signor, [Lam7]vengo a te mio Re,
 [Mim]che si compia in me la tua [Sol]volontà.[Re]
 [Sol]Eccomi Signor, [Lam7]vengo a te mio Dio,

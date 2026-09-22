@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "madre-della-speranza",
   title: "MADRE DELLA SPERANZA",
+  songNumber: 270,
   body: `RIT.
 Madre della speranza veglia sul nostro cammino:
 guida i nostri passi verso il Figlio tuo, Maria!

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "io-ti-amo-signore-mia-forza-tu-sei",
   title: "IO TI AMO SIGNORE, MIA FORZA TU SEI",
+  songNumber: 311,
   body: `D:  Io ti [Do]amo Signore, mia [Fa7+]forza Tu sei
 Mia [Lam]rupe in cui mi ri[Fa7+]fugio
 U:  Mia po[Do]tente salvezza, mio [Fa7+]scudo Tu sei

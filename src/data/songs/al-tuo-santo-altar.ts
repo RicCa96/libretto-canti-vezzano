@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "al-tuo-santo-altar",
   title: "AL TUO SANTO ALTAR",
+  songNumber: 211,
   body: `RIT.
 Al tuo santo altar mi appresso, o Signor
 mia gioia e mio amor

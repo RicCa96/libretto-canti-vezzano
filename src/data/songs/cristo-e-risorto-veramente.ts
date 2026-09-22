@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "cristo-e-risorto-veramente",
   title: "CRISTO È RISORTO VERAMENTE",
+  songNumber: 261,
   body: `RIT.
 [Fa]Cristo è ris[Do]orto vera[Fa]mente, allelu[Do]ia!
 [Fa]Gesù, il vive[Do]nte, qui con [Rem]noi reste[Do4]rà. [Do]

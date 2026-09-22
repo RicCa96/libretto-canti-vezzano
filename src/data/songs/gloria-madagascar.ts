@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "gloria-madagascar",
   title: "GLORIA (MADAGASCAR)",
+  songNumber: 229,
   body: `RIT.
 Gloria a Dio, a Dio nell’alto dei cieli,
 gloria a Dio nell’alto dei cieli.

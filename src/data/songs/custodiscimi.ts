@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "custodiscimi",
   title: "CUSTODISCIMI",
+  songNumber: 220,
   body: `Ho detto a Dio ‘Senza di Te
 alcun bene non ho, custodiscimi;
 magnifica è la mia eredità

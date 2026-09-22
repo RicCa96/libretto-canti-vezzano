@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "magnificat-gregoriano",
   title: "MAGNIFICAT (GREGORIANO)",
+  songNumber: 131,
   body: `L'anima mia magnifica il Signore
 ed il mio spirito esulta in Dio mio Salvatore.
 

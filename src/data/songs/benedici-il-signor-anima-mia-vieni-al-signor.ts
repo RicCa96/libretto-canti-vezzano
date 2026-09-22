@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "benedici-il-signor-anima-mia-vieni-al-signor",
   title: "BENEDICI IL SIGNOR, ANIMA MIA (VIENI AL SIGNOR)",
+  songNumber: 233,
   body: `[Rem]Benedici [Do]il Signor, [Rem]anima [Do]mia,
 [Sib]quanto è in [Do]me lo bene[Rem]dica.
 [Rem]Non dimenti[Do]care [Rem]i suoi bene[Do]fici,

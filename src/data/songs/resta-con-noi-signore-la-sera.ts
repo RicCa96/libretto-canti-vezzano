@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "resta-con-noi-signore-la-sera",
   title: "RESTA CON NOI, SIGNORE, LA SERA",
+  songNumber: 108,
   body: `Resta con noi, Signore, la sera, resta con noi, e avremo la pace.
 
 RIT.

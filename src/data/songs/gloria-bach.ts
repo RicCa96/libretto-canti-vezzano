@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "gloria-bach",
   title: "GLORIA (BACH)",
+  songNumber: 228,
   body: `RIT.
 Gloria a Dio nell’alto dei cieli e pace in terra
 agli uomini del suo amor, del suo amor.

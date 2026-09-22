@@ -3,6 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "gloria",
     title: "GLORIA (MARIANO)",
+    songNumber: 230,
     body: `RIT.
 [Re]Gloria a [La]Dio nell'[Sol]alto dei [Re]cieli
 e [Sim]pace in terra agli [Do]uomini che [Sol]egli [La4]ama[La].

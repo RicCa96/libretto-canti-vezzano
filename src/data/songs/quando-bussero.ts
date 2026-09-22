@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "quando-bussero",
   title: "QUANDO BUSSERÒ",
+  songNumber: 31,
   body: `Quando [Re]busserò [Sol] alla tua [Re]porta avrò [Sol]fatto [Mi]tanta st[La]rada,
 avrò [Sim]piedi [Fa#m]stanchi e [Sol]nud[Re]i, [Sol]avrò [Re]mani [La7]bianche e [Re]pure.
 Avrò [Sol]fatto [La]tanta st[Re]rada, avrò [Sol]piedi s[La]tanchi e [Re]nudi,

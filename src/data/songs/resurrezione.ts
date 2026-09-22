@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "resurrezione",
   title: "RESURREZIONE",
+  songNumber: 156,
   body: `
 Che [Sol]gioia ci hai [Do]dato, Si[Sol]gnore del [Do]cielo,
 Si[Sol]gnore del [Do]grande uni[Re4]ver[Re]so!

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "disse-un-giorno-il-padre",
   title: "DISSE UN GIORNO IL PADRE",
+  songNumber: 241,
   body: `Disse un giorno il Padre ai miei fratelli:
 “Ecco vi darò una verità:
 Io sarò con voi per tutto il tempo,

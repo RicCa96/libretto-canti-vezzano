@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "provvidenza-di-dio",
   title: "PROVVIDENZA DI DIO",
+  songNumber: 171,
   body: `Non siate per la vostra vita in pena e per il cibo non siate preoccupati
 per il vostro corpo e le vesti che dovrete indossare.
 

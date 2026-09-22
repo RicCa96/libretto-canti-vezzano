@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "le-tue-mani",
   title: "LE TUE MANI",
+  songNumber: 122,
   body: `Le tue mani son piene di fiori: dove li portavi sorella mia?
 Li portavo alla tomba di Cristo, ma l'ho trovata vuota, fratello mio.
 

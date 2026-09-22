@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "dell-aurora-tu-sorgi-piu-bella",
   title: "DELL’AURORA TU SORGI PIÙ BELLA",
+  songNumber: 63,
   body: `Dell'aurora tu sorgi piu' bella,
 coi tuoi raggi fai lieta la terra,
 e fra gli astri che il cielo rinserra

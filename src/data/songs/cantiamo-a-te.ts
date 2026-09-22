@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "cantiamo-a-te",
   title: "CANTIAMO A TE",
+  songNumber: 231,
   body: `[Re]Cantia[Mim]mo a [Re]Te Si[Mim]gnore della [La4]vit[La]a
 [Re]il no[Mim]me [Re]Tuo è [Mim]grande sulla [La7]terra
 tutto [Re]parla di [Fa#m]Te e [Mim]canta la [La]Tua gloria,

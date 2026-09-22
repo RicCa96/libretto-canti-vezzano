@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "kaire-maria",
   title: "KAIRE MARIA",
+  songNumber: 269,
   body: `[Mim]O Madre [Lam]nostra, [Si7]Madre del Verbo e[Mim]terno,
 [Do]Madre di [Re]pace ed [Sol]aiuto dei cri[Mi4]stia[Mi]ni,
 [Lam]Nel tuo “si” [Re]dolce, ris[Sol]posta al “si” di [Mi]Dio,

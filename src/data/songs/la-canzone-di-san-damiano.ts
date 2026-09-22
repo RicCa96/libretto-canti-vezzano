@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "la-canzone-di-san-damiano",
   title: "LA CANZONE DI SAN DAMIANO",
+  songNumber: 65,
   body: `Ogni uomo semplice porta in cuore un sogno,
 con amore ed umiltà potrà costruirlo.
 Se con fede tu saprai vivere umilmente,

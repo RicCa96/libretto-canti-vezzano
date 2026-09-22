@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "sei-tu-signore-il-pane",
   title: "SEI TU SIGNORE IL PANE",
+  songNumber: 58,
   body: `Sei tu Signore li pane, tu cibo sei per noi.
 Risorto a vita nuova, sei vivo In mezzo a noi.
 

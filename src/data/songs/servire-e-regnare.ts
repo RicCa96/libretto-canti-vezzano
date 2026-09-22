@@ -2,7 +2,8 @@ import type { Song } from '../types.ts'
 
 const song: Song = {
   id: "servire-e-regnare",
-  title: "SERVIRE E’ REGNARE",
+  title: "SERVIRE È REGNARE",
+  songNumber: 316,
   body: `[Rem]Guardiamo a Te che [Sib]sei Ma[Fa]estro e Si[Do]gnore:
 chi[Rem]nato a terra [Sib]stai, ci [Fa]mostri che l’a[Do]more
 è [Rem]cingersi il grem[Sib]biule, sa[Fa]persi inginocchi[Do]are,

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "re-dei-re",
   title: "RE DEI RE",
+  songNumber: 307,
   body: `[Mim]Hai solle[Do]vato il nostri [Sol]volti dalla [Re]polvere
 [Mim]Le nostre [Do]colpe hai por[Sol]tato su di [Re]te
 [Mim]Signore [Do]ti sei fatto [Sol]uomo in tutto [Re]come noi [Mim]per [Do]a - [Sol]mo - [Re]re

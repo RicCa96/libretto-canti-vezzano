@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "dio-si-e-fatto-come-noi",
   title: "DIO SI È FATTO COME NOI",
+  songNumber: 73,
   body: `Dio si è fatto come noi, per farci come Lui.
 
 RIT.

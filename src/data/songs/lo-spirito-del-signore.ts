@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "lo-spirito-del-signore",
   title: "LO SPIRITO DEL SIGNORE",
+  songNumber: 255,
   body: `RIT.
 Lo [Mi]Spirito del [Fa#m]Signore [Si]è su di [Mi]me, lo [Mi]Spirito del Si[La]gnore [Fa#m]mi ha consa[Si4]cra[Si]to,
 lo [La]Spirito del Si[Mi]gnore [Fa#m]mi ha inviato a portare il [Si]lieto annuncio, [Do#m]ai [La]pove[Mi]ri. [Do#m] [Fa#m] [Si] [Mi]

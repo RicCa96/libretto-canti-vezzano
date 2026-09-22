@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "a-te-signor-leviamo-i-cuori",
   title: "A TE, SIGNOR, LEVIAMO I CUORI",
+  songNumber: 204,
   body: `RIT.
 A te, Signor, leviamo i cuori,
 a te, Signor, noi li doniam.

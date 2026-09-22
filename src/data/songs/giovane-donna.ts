@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "giovane-donna",
   title: "GIOVANE DONNA",
+  songNumber: 77,
   body: `[Re]Giovane [Mim]donna, a[Sol]ttesa dall'um[Re]anità,
 un desi[Mim]derio d'[Sol]amore e pura liber[Re]tà.
 Il Dio lon[Fa#m]tano è [Sol]qui, vicino a [La]te;

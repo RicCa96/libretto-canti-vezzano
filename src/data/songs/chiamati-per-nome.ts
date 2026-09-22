@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "chiamati-per-nome",
   title: "CHIAMATI PER NOME",
+  songNumber: 314,
   body: `RIT.
 Veniamo da [Mi]Te chiamati per [Si]nome (siamo qui)
 che festa Si[Do#m]gnore Tu cammini con [La]noi. (siamo qui con Te!)

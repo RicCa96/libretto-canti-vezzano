@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "padre-nostro",
   title: "PADRE NOSTRO",
+  songNumber: 15,
   body: `Padre [Sol]nostro che [La]sei nei [Sol]cieli,
 [Do]sia santifi[La]cato il nome [Do]Tuo,
 venga il Tuo [Sol]regno. sia fatta [Re]la Tua [Re7]volon[Sol]tà[Sol7],

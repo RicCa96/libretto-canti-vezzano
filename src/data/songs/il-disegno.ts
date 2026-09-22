@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-disegno",
   title: "IL DISEGNO",
+  songNumber: 180,
   body: `Nel [Lam]mare del si[Fa]lenzio una [Sol]voce s'al[Do]zò. [Mi7]
 Da una [Lam]notte senza con[Fa]fini una [Sol]luce bril[Do]lò [Mi7]
 dove non c'[Lam]era niente quel [Mi7]giorno.

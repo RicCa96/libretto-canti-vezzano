@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "vieni-o-spirito",
   title: "VIENI, O SPIRITO",
+  songNumber: 252,
   body: `RIT.
 Vieni, o spirito, Spirito di Dio, vieni, o Spirito Santo!
 Vieni, o Spirito e soffia su di noi, dona ai tuoi figli la vita!

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "innalzate-nei-cieli",
   title: "INNALZATE NEI CIELI",
+  songNumber: 95,
   body: `Innalzate nei cieli lo sguardo: la salvezza di Dio è vicina.
 Risvegliate nel cuore l'attesa, per accogliere il re della gloria.
 

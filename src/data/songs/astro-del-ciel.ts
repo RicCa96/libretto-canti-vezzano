@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "astro-del-ciel",
   title: "ASTRO DEL CIEL",
+  songNumber: 96,
   body: `[Sol]Astro del ciel, Pargol divin,
 [Re]mite a[Re7]gnello [Sol]Redentor!
 [Do]Tu che i vati da [Sol]lungi sognar,

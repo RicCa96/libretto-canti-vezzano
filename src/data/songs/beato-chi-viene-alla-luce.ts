@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "beato-chi-viene-alla-luce",
   title: "BEATO CHI VIENE ALLA LUCE",
+  songNumber: 260,
   body: `Beato chi viene alla luce nella notte di Gesù,
 beato chi accoglie se stesso dalle mani del suo Dio
 beato chi trova la vita nella morte di Gesù:

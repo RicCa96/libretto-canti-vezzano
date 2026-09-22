@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "vi-daro-un-cuore-nuovo",
   title: "VI DARÒ UN CUORE NUOVO",
+  songNumber: 24,
   body: `Renderò santo il mio nome, disonorato tra le genti
 e profanato da voi in mezzo a loro per vostra, iniquità
 e allora le genti sapranno che sono il Signore.

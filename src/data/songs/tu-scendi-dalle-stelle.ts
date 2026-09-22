@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "tu-scendi-dalle-stelle",
   title: "TU SCENDI DALLE STELLE",
+  songNumber: 83,
   body: `RIT.
 Tu [Do]scendi [Sol]dalle [Do]stelle, o Re del cie[Sol]lo
 e vieni in una grot[Fa]ta al [Do]freddo e al [Sol]ge[Do]lo

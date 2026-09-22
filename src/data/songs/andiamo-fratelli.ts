@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "andiamo-fratelli",
   title: "ANDIAMO FRATELLI",
+  songNumber: 159,
   body: `RIT.
 Vieni, fratello, il Padre ti chiama,
 vieni alla cena, c'è un posto anche per te.

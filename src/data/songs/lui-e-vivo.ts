@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "lui-e-vivo",
   title: "LUI E’ VIVO",
+  songNumber: 329,
   body: `[Sol]Lui è vivo, lui è [Sol4]vivo, [Sol]lui è vivo, [Sol4]Lui par[Do]lava con [Sol]me.
 Corri Maddalena a gridarlo agli amici suoi.
 [Sol]Il suo volto sor[Sol4]rideva, [Sol]Lui parlava, [Sol4]Lui par[Do]lava con [Sol]me.

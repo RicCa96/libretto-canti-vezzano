@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "fammi-conoscere",
   title: "FAMMI CONOSCERE",
+  songNumber: 240,
   body: `RIT.
 [Re]Fammi co[Mim]noscere la [Mi]tua volontà[Re].
 [Sol]Parla ti a[Re]scolto Si[Mi]gno[La]re!

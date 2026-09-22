@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "mani",
   title: "MANI",
+  songNumber: 237,
   body: `Vor[Sol]rei che le pa[Do]role mu[Re]tassero in pre[Sol]ghiera
 e [Do]rivederti, o [Mim]Padre, che [Lam]dipingevi il [Re7]cielo.
 Sa[Sol]pessi quante [Do]volte, guar[Re]dando questo [Sol]mondo

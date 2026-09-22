@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "eucaristia",
   title: "EUCARISTIA",
+  songNumber: 264,
   body: `Prendete questo è il mio corpo che è dato per voi,
 questo è il mio calice dato per tutti voi.
 

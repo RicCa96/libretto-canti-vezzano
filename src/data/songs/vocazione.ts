@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "vocazione",
   title: "VOCAZIONE",
+  songNumber: 66,
   body: `[Do]Era un giorno [Sol]come tanti [Fa]altri e quel [Sol]giorno Lui pa[Do]ssò.[Fa] [Do] [Sol]
 [Do]Era un uomo [Sol]come tutti gli [Fa]altri e pa[Sol]ssando mi chi[Do]amò.[Fa] [Do] [Mi]
 [Lam]Come lo sa[Mim]pesse che il mio [Fa]nome era [Sol]proprio quello,

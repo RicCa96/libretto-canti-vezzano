@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "i-miei-discepoli",
   title: "I MIEI DISCEPOLI",
+  songNumber: 279,
   body: `In Cristo nato povero per noi l’abisso della mia nullità
 incontra il cielo della Tua grandezza. In Lui, o Padre,
 manifesti la Tua tenerezza infinita per l’umanità.

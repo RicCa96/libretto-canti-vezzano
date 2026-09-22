@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "il-nostro-cuore",
   title: "IL NOSTRO CUORE",
+  songNumber: 29,
   body: `Il nostro cuore non si è perduto,
 i nostri passi non hanno smarrito
 la tua strada.

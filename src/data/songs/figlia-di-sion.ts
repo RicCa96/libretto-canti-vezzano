@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "figlia-di-sion",
   title: "FIGLIA DI SION",
+  songNumber: 249,
   body: `[La]D’improvviso mi [La7+]son svegliata: [La7]il mio cuore è un [Re]battito d’ali [Rem]
 fra i colori del [La]nuovo giorno, da lon[Mi]tano l’ho visto arri[La]vare.
 [La]È vestito di [La7+]rosso il mio re, [La7]una fiamma sull’[Re]orizzonte [Rem]

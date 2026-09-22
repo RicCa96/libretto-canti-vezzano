@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "andro-a-vederla-un-di",
   title: "ANDRÒ A VEDERLA UN DÌ",
+  songNumber: 164,
   body: `Andrò a vederla un dì
 in Cielo, patria mia,
 andrò a veder Maria

@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "con-te-camminero",
   title: "CON TE CAMMINERÒ",
+  songNumber: 327,
   body: `[Lam]Mi hai chiamato ed ora [Sol]sono [Do]qui. La mia [Lam]vita ormai Si[Famaj7]gnore, trova [Do]senso solo in [Sol]te
 [Lam]Cerco nel profondo e [Sol]tu ci [Do]sei. Guardo in[Lam]torno e poi ti [Famaj7]trovo accanto a [Sol]me
 
