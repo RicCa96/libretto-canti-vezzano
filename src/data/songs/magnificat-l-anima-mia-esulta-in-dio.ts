@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "magnificat-l-anima-mia-esulta-in-dio",
   title: "MAGNIFICAT (L'ANIMA MIA ESULTA IN DIO)",
+  songNumber: 272,
   body: `[Sol]Dio [Do]ha fatto in [Sim]me cose [Mim]grandi,
 [Do7+]Lui [Lam7]che guarda [Re]l'umile [Sol7+]servo
 e di[Do]sperde i su[Lam]perbi nell'or[Si]goglio del [Mim]cuore. [Mi]
