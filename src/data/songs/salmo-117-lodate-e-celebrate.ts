@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "salmo-117-lodate-e-celebrate",
   title: "SALMO 117 (LODATE E CELEBRATE)",
+  songNumber: 22,
   body: `Lodate e celebrate il Signor perché è buono perché eterno è il suo amore,
 lo dica Israele che il Signore è buono.
 La casa di Aronne proclami che eterna è la sua misericordia,
