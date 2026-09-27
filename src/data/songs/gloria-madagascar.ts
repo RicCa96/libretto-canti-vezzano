@@ -4,40 +4,42 @@ const song: Song = {
   id: "gloria-madagascar",
   title: "GLORIA (MADAGASCAR)",
   songNumber: 229,
-  body: `RIT.
-Gloria a Dio, a Dio nell’alto dei cieli,
-gloria a Dio nell’alto dei cieli.
-Pace in terra, in terra agli uomini di buona volontà.
+  body: `
+RIT.
+[Sol]Gloria a [Re]Dio, a [Mim]Dio nell’alto [Sim]dei cieli,
+[Do]gloria a Dio nell’[Sol]alto dei [La]cie[Re4]li[Re].
+P[Sol]ace in [Re]terra, in [Mim]terra agli [Sim]uomini [Do]di buona [Sol]vo[Re]lo[Sol]ntà   [Re].
 
-Ti benediciamo e lodiamo Dio,
-Noi ti adoriamo, glorifichiamo Te
-e grazie rendiamo con gioia a Te,
-La tua gloria immensa risplenda qui tra noi.
+Ti [Sol]benedi[Re]ciamo e lo[Mim]diamo [Do]Dio,
+Noi [Sol]ti ado[Do]riamo, glo[La]rifichiamo [Re]Te
+e [Sol]grazie ren[Re]diamo con [Mim]gioia a [Do]Te,
+La [Sol]tua gloria im[Mim]mensa ris[Do]plenda [Re]qui tra [Sol]noi.
 
 RIT.
-Gloria a Dio, a Dio nell’alto dei cieli,
-gloria a Dio nell’alto dei cieli.
-Pace in terra, in terra agli uomini di buona volontà.
+[Sol]Gloria a [Re]Dio, a [Mim]Dio nell’alto [Sim]dei cieli,
+[Do]gloria a Dio nell’[Sol]alto dei [La]cie[Re4]li[Re].
+P[Sol]ace in [Re]terra, in [Mim]terra agli [Sim]uomini [Do]di buona [Sol]vo[Re]lo[Sol]ntà   [Re].
 
-Signore Figlio unigenito,
-Agnello di Dio, Signore Gesù
-che siedi alla destra del Padre Dio
-Tu togli i peccati: di noi abbi pietà.
-
-RIT.
-Gloria a Dio, a Dio nell’alto dei cieli,
-gloria a Dio nell’alto dei cieli.
-Pace in terra, in terra agli uomini di buona volontà.
-
-Tu solo il Santo, l’Altissimo
-Tu solo il signore, Cristo Gesù
-Insieme allo Spirito Santo Dio,
-uniti nel Padre nella gloria.
+[Sol]Signore [Re]Figlio uni[Mim]geni[Do]to,
+A[Sol]gnello di [Do]Dio, Si[La]gnore Ge[Re]sù
+che [Sol]siedi alla [Re]destra del [Mim]Padre [Do]Dio
+Tu [Sol]togli i pec[Mim]cati: di [Do]noi ab[Re]bi pie[Sol]tà.
 
 RIT.
-Gloria a Dio, a Dio nell’alto dei cieli,
-gloria a Dio nell’alto dei cieli.
-Pace in terra, in terra agli uomini di buona volontà.`,
+[Sol]Gloria a [Re]Dio, a [Mim]Dio nell’alto [Sim]dei cieli,
+[Do]gloria a Dio nell’[Sol]alto dei [La]cie[Re4]li[Re].
+P[Sol]ace in [Re]terra, in [Mim]terra agli [Sim]uomini [Do]di buona [Sol]vo[Re]lo[Sol]ntà   [Re].
+
+Tu [Sol]solo il [Re]Santo, l’Al[Mim]tissi[Do]mo
+Tu [Sol]solo il si[Do]gnore, [La]Cristo Ge[Re]sù
+In[Sol]sieme allo [Re]Spirito [Mim]Santo [Do]Dio,
+u[Sol]niti nel [Mim]Padre [Do]nella [Re]glori[Sol]a.
+
+RIT.
+[Sol]Gloria a [Re]Dio, a [Mim]Dio nell’alto [Sim]dei cieli,
+[Do]gloria a Dio nell’[Sol]alto dei [La]cie[Re4]li[Re].
+P[Sol]ace in [Re]terra, in [Mim]terra agli [Sim]uomini [Do]di buona [Sol]vo[Re]lo[Sol]ntà   [Re].
+`,
 }
 
 export default song
