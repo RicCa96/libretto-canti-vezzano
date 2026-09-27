@@ -1,10 +1,10 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "te-al-centro-del-mio-cuore",
-  title: "TE AL CENTRO DEL MIO CUORE",
-  songNumber: 243,
-  body: `[Rem]Ho bisogno di incontrarti nel mio [Fa]cuore,
+    id: "te-al-centro-del-mio-cuore",
+    title: "TE AL CENTRO DEL MIO CUORE",
+    songNumber: 243,
+    body: `[Rem]Ho bisogno di incontrarti nel mio [Fa]cuore,
 di trovare [Lam]Te, di stare insieme a [Sib]Te.
 Unico [Solm]riferimento del mio an[Rem]dare,
 [Sib]unica ragione [Do]Tu, u[Lam]nico sostegno [Rem]Tu,
@@ -17,7 +17,7 @@ La stella [Solm]polare è fissa ed è la [Rem]sola,
 al cen[Sib]tro del mio cu[Do]ore ci sei solo [Fa]Tu.
 
 RIT.
-[Fa]Tutto [Lam]ruota intorno a [Sib]Te, in funzione di [Lam]Te [Rem]
+Tutto [Lam]ruota intorno a [Sib]Te, in funzione di [Lam]Te - [Rem]e
 e poi [Lam]non importa il [Sib]come, il dove, il [Do]se.
 
 [Rem]Che Tu splenda sempre al centro del mio [Fa]cuore,
@@ -27,7 +27,7 @@ Quello [Solm]che farò sarà soltanto [Rem]Amore.
 al [Sib]centro del mio cu[Do]ore ci sei solo [Fa]Tu.
 
 RIT.
-[Fa]Tutto [Lam]ruota intorno a [Sib]Te, in funzione di [Lam]Te [Rem]
+Tutto [Lam]ruota intorno a [Sib]Te, in funzione di [Lam]Te - [Rem]e
 e poi [Lam]non importa il [Sib]come, il dove, il [Do]se.`,
 }
 
