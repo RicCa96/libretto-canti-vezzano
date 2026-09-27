@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "alleluia-passeranno-i-cieli",
   title: "ALLELUIA (PASSERANNO I CIELI)",
+  songNumber: 123,
   body: `RIT.
 [Re]Alle - alle[La]luia, a-[Sim]alleluia [Fa#m]alleluia
 [Sol]alleluia [Re]allelu[Mim]ia, [La]a-[Re]alle[Sol]luia, al[La]lelu[Re]ia!

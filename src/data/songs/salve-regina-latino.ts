@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "salve-regina-latino",
   title: "SALVE REGINA (LATINO)",
+  songNumber: 141,
   body: `Salve regina, mater misericordiae,
 vita dulcedo et spes nostra, salve!
 

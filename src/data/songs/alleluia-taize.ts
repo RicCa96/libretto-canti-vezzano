@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "alleluia-taize",
   title: "ALLELUIA (TAIZÉ)",
+  songNumber: 4,
   body: `RIT.
 [Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]alle[Do]luia, [Sol]allelu[Sol7]ia!
 [Do]Alle[Sol]luia, alle[Lam]luia, alle[Mim]luia, [Fa]allelu[Do]ia, [Sol]allelu[Do]ia![Sol]

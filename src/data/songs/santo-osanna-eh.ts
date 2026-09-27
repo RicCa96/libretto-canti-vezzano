@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "santo-osanna-eh",
   title: "SANTO (OSANNA EH)",
+  songNumber: 12,
   body: `RIT.
 [Sol]Osanna eh, [Do]osanna [Sol]eh
 [Do]osanna a [Re]Cristo Si[Sol]gnor. (2v)

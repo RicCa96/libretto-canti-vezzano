@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "laudato-sii-signore-mio-cantico-della-creazione",
   title: "LAUDATO SII, SIGNORE MIO (CANTICO DELLA CREAZIONE)",
+  songNumber: 192,
   body: `RIT.
 Laudato sii, Signore mio. Laudato sii, Signore mio.
 Laudato sii, Signore mio. Laudato sii, Signore mio.

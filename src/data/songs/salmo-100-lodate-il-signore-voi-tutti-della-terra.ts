@@ -3,6 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "salmo-100-lodate-il-signore-voi-tutti-della-terra",
   title: "SALMO 100 (LODATE IL SIGNORE VOI TUTTI DELLA TERRA)",
+  songNumber: 23,
   body: `RIT.
 Lodate il Signore voi tutti della terra
 servite il Signore nella gioia
