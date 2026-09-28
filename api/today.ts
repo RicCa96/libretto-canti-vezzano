@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import { Redis } from '@upstash/redis'
 import songIds from '../src/data/song-ids.json' with { type: 'json' }
-import { validateTodayPayload, type TodaySet } from '../src/lib/todaySchema.js'
+import { validateTodayPatch, type Slot, type TodaySet } from '../src/lib/todaySchema.js'
 import { CHURCHES, type Church } from '../src/lib/churches.js'
 
 const redis = Redis.fromEnv()
@@ -35,16 +35,22 @@ export default async function handler(
     if (req.headers['x-admin-password'] !== process.env.ADMIN_PASSWORD) {
       return res.status(401).json({ error: 'unauthorized' })
     }
-    const result = validateTodayPayload(req.body, VALID_IDS)
-    if (result.ok) {
-      const value: TodaySet = {
-        updatedAt: new Date().toISOString(),
-        churches: result.value.churches,
-      }
-      await redis.set(KEY, value)
-      return res.status(200).json(value)
+    const result = validateTodayPatch(req.body, VALID_IDS)
+    if (!result.ok) {
+      return res.status(400).json({ error: result.error })
     }
-    return res.status(400).json({ error: result.error })
+    const raw = await redis.get<unknown>(KEY)
+    const stored: Partial<Record<Church, Slot[]>> = isValidStoredShape(raw) ? raw.churches : {}
+    const churches = Object.fromEntries(
+      CHURCHES.map((c) => {
+        const incoming = result.value.churches[c]
+        const previous = stored[c]
+        return [c, incoming ?? (Array.isArray(previous) ? previous : [])]
+      }),
+    ) as Record<Church, Slot[]>
+    const value: TodaySet = { updatedAt: new Date().toISOString(), churches }
+    await redis.set(KEY, value)
+    return res.status(200).json(value)
   }
 
   res.setHeader('Allow', 'GET, POST')

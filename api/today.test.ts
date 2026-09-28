@@ -110,21 +110,6 @@ describe('api/today', () => {
     expect(res.statusCode).toBe(400)
   })
 
-  it('POST rejects a payload missing a church with 400', async () => {
-    const incomplete = { ...EMPTY_MAP } as Record<string, unknown>
-    delete incomplete.Montalto
-    const res = makeRes()
-    await handler(
-      {
-        method: 'POST',
-        headers: { 'x-admin-password': 'secret' },
-        body: { churches: incomplete },
-      } as never,
-      res as never,
-    )
-    expect(res.statusCode).toBe(400)
-  })
-
   it('POST writes the full churches map and returns it', async () => {
     const res = makeRes()
     await handler(
@@ -140,5 +125,66 @@ describe('api/today', () => {
     expect(body.updatedAt).not.toBe('')
     expect(body.churches).toEqual(EMPTY_MAP)
     expect(store.get('today')).toEqual(body)
+  })
+
+  it('POST with one church merges it into the stored map', async () => {
+    store.set('today', {
+      updatedAt: '2026-09-01T10:00:00.000Z',
+      churches: {
+        ...EMPTY_MAP,
+        Vezzano: [{ label: 'Inizio', songId: 'kept-as-is' }],
+        Montalto: [{ label: 'Fine', songId: 'to-be-replaced' }],
+      },
+    })
+    const res = makeRes()
+    await handler(
+      {
+        method: 'POST',
+        headers: { 'x-admin-password': 'secret' },
+        body: { churches: { Montalto: [{ label: 'Inizio', songId: 'adeste-fideles' }] } },
+      } as never,
+      res as never,
+    )
+    expect(res.statusCode).toBe(200)
+    const body = res.body as { updatedAt: string; churches: Record<string, unknown[]> }
+    expect(body.churches).toEqual({
+      ...EMPTY_MAP,
+      Vezzano: [{ label: 'Inizio', songId: 'kept-as-is' }],
+      Montalto: [{ label: 'Inizio', songId: 'adeste-fideles' }],
+    })
+    expect(body.updatedAt).not.toBe('2026-09-01T10:00:00.000Z')
+    expect(store.get('today')).toEqual(body)
+  })
+
+  it('POST onto legacy stored data fills the other churches with empty lists', async () => {
+    store.set('today', { updatedAt: 'old', slots: [{ label: 'Inizio', songId: 'x' }] })
+    const res = makeRes()
+    await handler(
+      {
+        method: 'POST',
+        headers: { 'x-admin-password': 'secret' },
+        body: { churches: { Vezzano: [{ label: 'Inizio', songId: 'adeste-fideles' }] } },
+      } as never,
+      res as never,
+    )
+    expect(res.statusCode).toBe(200)
+    const body = res.body as { churches: Record<string, unknown[]> }
+    expect(body.churches).toEqual({
+      ...EMPTY_MAP,
+      Vezzano: [{ label: 'Inizio', songId: 'adeste-fideles' }],
+    })
+  })
+
+  it('POST rejects an empty churches object with 400', async () => {
+    const res = makeRes()
+    await handler(
+      {
+        method: 'POST',
+        headers: { 'x-admin-password': 'secret' },
+        body: { churches: {} },
+      } as never,
+      res as never,
+    )
+    expect(res.statusCode).toBe(400)
   })
 })

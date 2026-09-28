@@ -223,3 +223,36 @@
   color: var(--accent-on);
   border-color: var(--accent);
 }
+
+.admin button.retry {
+  margin-top: var(--s-2);
+}
+
+.admin .church-tab__dirty {
+  margin-left: var(--s-1);
+  font-size: 0.7em;
+  color: var(--accent);
+}
+
+.admin button.church-tab--active .church-tab__dirty {
+  color: var(--accent-on);
+}
+
+.admin .slot-field.is-invalid input {
+  border-color: var(--accent);
+}
+
+.admin .slot-field.is-invalid label {
+  color: var(--accent);
+}
+
+.admin .problem-list {
+  margin: var(--s-3) 0 0;
+  padding-left: var(--s-4);
+}
+
+.admin button.slot-move {
+  width: 44px;
+  padding: 0;
+  font-size: var(--fs-body);
+}

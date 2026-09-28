@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Layout } from './components/Layout.tsx'
 import { Landing } from './pages/Landing.tsx'
 import { SongIndex } from './pages/SongIndex.tsx'
@@ -10,26 +10,27 @@ const Admin = lazy(() =>
   import('./pages/Admin.tsx').then((m) => ({ default: m.Admin })),
 )
 
+const router = createBrowserRouter([
+  {
+    element: <Layout />,
+    children: [
+      { index: true, element: <Landing /> },
+      { path: 'canti', element: <SongIndex /> },
+      { path: 'canti/:id', element: <SongPage /> },
+      {
+        path: 'admin',
+        element: (
+          <Suspense fallback={<p>Caricamento…</p>}>
+            <Admin />
+          </Suspense>
+        ),
+      },
+    ],
+  },
+])
+
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route element={<Layout />}>
-          <Route index element={<Landing />} />
-          <Route path="canti" element={<SongIndex />} />
-          <Route path="canti/:id" element={<SongPage />} />
-          <Route
-            path="admin"
-            element={
-              <Suspense fallback={<p>Caricamento…</p>}>
-                <Admin />
-              </Suspense>
-            }
-          />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App

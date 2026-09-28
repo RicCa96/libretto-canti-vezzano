@@ -15,6 +15,7 @@ type Props = {
   value: string
   onChange: (id: string) => void
   placeholder?: string
+  invalid?: boolean
 }
 
 function normalize(s: string): string {
@@ -30,6 +31,7 @@ export function SongCombobox({
   value,
   onChange,
   placeholder = 'Cerca un canto…',
+  invalid = false,
 }: Props) {
   const reactId = useId()
   const inputId = id ?? `song-cb-${reactId}`
@@ -119,6 +121,7 @@ export function SongCombobox({
         aria-expanded={open}
         aria-controls={listboxId}
         aria-autocomplete="list"
+        aria-invalid={invalid || undefined}
         aria-activedescendant={
           open && filtered[highlight]
             ? `${inputId}-opt-${highlight}`
