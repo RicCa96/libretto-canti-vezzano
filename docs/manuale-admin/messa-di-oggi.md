@@ -57,7 +57,7 @@ La pagina di amministrazione **non è collegata dai menu** del sito: va aperta s
 2. Nella barra degli indirizzi scrivi:
 
    ```
-   https://<INDIRIZZO-DEL-SITO>/admin
+   https://up-donenniomelioli.vercel.app/admin
    ```
 
 3. Premi Invio.
@@ -245,6 +245,7 @@ Quando hai finito con **tutte** le chiese che dovevi modificare:
    - **"Puianello, riga 1: il momento è vuoto"**
 
    I campi da correggere sono evidenziati in rosso e viene aperta la scheda della prima chiesa con un problema. Correggi e premi di nuovo **Salva**.
+
 4. Se tutto è in ordine compare **"Salvataggio…"**. Durante il salvataggio il pulsante **Salva** resta temporaneamente disattivato; se nel frattempo modifichi qualcosa, la modifica viene mantenuta e la chiesa continua a mostrare il pallino ●, quindi ricordati di premere di nuovo **Salva** al termine. Poi compare **"Salvato alle 28/9/2026, 18:30:00."** *(con la data e l'ora del momento)* e i pallini ● delle chiese salvate spariscono.
 
 ![Controlli prima del salvataggio](img/16-controlli.png)
@@ -269,7 +270,7 @@ Se premi **Salva** senza aver cambiato nulla compare **"Nessuna modifica da salv
 
 Dopo il salvataggio è buona abitudine controllare cosa vedono i fedeli:
 
-1. Apri la pagina principale del libretto: `https://<INDIRIZZO-DEL-SITO>` (oppure tocca **Messa di oggi** nel menu in alto).
+1. Apri la pagina principale del libretto: `https://up-donenniomelioli.vercel.app` (oppure tocca **Messa di oggi** nel menu in alto).
 2. Nella sezione **"La Messa di oggi"** tocca la scheda della chiesa che hai modificato.
 3. Controlla titoli, ordine e momenti.
 4. In fondo, la scritta **"Aggiornato: …"** deve riportare l'ora del tuo salvataggio.
