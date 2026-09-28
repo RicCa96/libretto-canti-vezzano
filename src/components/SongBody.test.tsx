@@ -27,4 +27,23 @@ describe('SongBody', () => {
     render(<SongBody body={body} chordsOn={false} transpose={0} />)
     expect(screen.getByText('RIT.')).toBeInTheDocument()
   })
+
+  it('marks chord-only segments so they get spacing', () => {
+    const { container } = render(
+      <SongBody body={'[Re] [La]\nabbi pie[Re]tà. [Do] [La]'} chordsOn={true} transpose={0} />,
+    )
+    const lines = container.querySelectorAll('.song-line')
+    expect(lines[0].querySelectorAll('.seg--chord-only')).toHaveLength(2)
+    expect(lines[1].querySelectorAll('.seg--chord-only')).toHaveLength(2)
+    expect(lines[1].querySelectorAll('.seg:not(.seg--chord-only)')).toHaveLength(2)
+  })
+
+  it('hides chord-only lines when chords are off', () => {
+    const { container } = render(
+      <SongBody body={'[Re] [La]\nabbi pie[Re]tà. [Do] [La]'} chordsOn={false} transpose={0} />,
+    )
+    const lines = container.querySelectorAll('.song-line')
+    expect(lines).toHaveLength(1)
+    expect(lines[0]).toHaveTextContent('abbi pietà.')
+  })
 })

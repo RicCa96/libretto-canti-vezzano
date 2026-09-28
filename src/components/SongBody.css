@@ -48,4 +48,13 @@
 
 .seg__text {
   white-space: pre;
+  /* Keep a full line box even when empty (e.g. a trailing chord with no
+     lyrics), so the chord stays aligned with the rest of the chord row. */
+  min-height: 1lh;
+}
+
+/* Chords with no lyrics under them (intro lines, connecting chords at the end
+   of a verse) would otherwise sit flush against the next chord. */
+.seg--chord-only .seg__chord {
+  padding-right: 0.6em;
 }

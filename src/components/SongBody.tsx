@@ -39,13 +39,28 @@ export function SongBody({ body, chordsOn, transpose }: Props) {
             </div>
           )
         }
+        // Lines made only of chords (e.g. an intro) carry nothing to read
+        // when chords are hidden.
+        if (
+          !chordsOn &&
+          line.segments.every((seg) => seg.chord && seg.text.trim() === '')
+        ) {
+          return null
+        }
         const lineClass = isRefrainBody
           ? 'song-line song-line--refrain-body'
           : 'song-line'
         return (
           <div key={i} className={lineClass}>
             {line.segments.map((seg, j) => (
-              <span key={j} className="seg">
+              <span
+                key={j}
+                className={
+                  seg.chord && seg.text.trim() === ''
+                    ? 'seg seg--chord-only'
+                    : 'seg'
+                }
+              >
                 {chordsOn && (
                   <span className="seg__chord">
                     {seg.chord ? transposeChord(seg.chord, transpose) : ''}
