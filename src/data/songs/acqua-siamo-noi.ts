@@ -4,7 +4,8 @@ const song: Song = {
   id: "acqua-siamo-noi",
   title: "ACQUA SIAMO NOI",
   songNumber: 277,
-  body: `[Re]Acqua [La]siamo [Re]noi, dall’an[Sol]tica sor[La]gente ve[Re]niamo
+  body: `[Re] [La] [Re] [Sol] [La] [Re]
+[Re]Acqua [La]siamo [Re]noi, dall’an[Sol]tica sor[La]gente ve[Re]niamo
 [Re]fiumi [La]siamo [Re]noi se i rus[Sol]celli si [La]mettono in[Re]sieme
 [Re]mari [Sol]siamo [Re]noi se i tor[Sol]renti si [La]danno la [Re]mano
 [Re]vita [Fa#m]nuova [Sim]c’è se Ge[Sol]sù è in [La]mezzo a [Re]noi.

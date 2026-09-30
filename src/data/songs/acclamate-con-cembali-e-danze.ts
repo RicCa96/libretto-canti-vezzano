@@ -4,7 +4,7 @@ const song: Song = {
   id: "acclamate-con-cembali-e-danze",
   title: "ACCLAMATE CON CEMBALI E DANZE",
   songNumber: 266,
-  body: `
+  body: `[Re] [Sol] [Mim] [La] [Re]
 RIT.
 Accla[Re]mate con cembali e [Sol]danze
 al Si[Mim]gnore di [Sol]tutto il cre[La]ato.
