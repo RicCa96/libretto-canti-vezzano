@@ -376,4 +376,4 @@ Set today's songs at `/admin` (enter the admin password).
 - [Manuale admin — "Messa di oggi"](docs/manuale-admin/manuale-libretto-canti-digitale.md)
   (Italian, for parish admins) — also as [PDF](docs/manuale-admin/manuale-libretto-canti-digitale.pdf).
 - [Manuale per proporre canti](docs/manuale-canti/manuale-invio-canti.md)
-  (Italian, for anyone sending songs without opening a PR).
+  (Italian, for anyone sending songs without opening a PR) — also as [PDF](docs/manuale-canti/manuale-invio-canti.pdf).
