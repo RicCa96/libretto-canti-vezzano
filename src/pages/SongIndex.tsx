@@ -110,9 +110,9 @@ export function SongIndex() {
 
   const letters = useMemo(() => groups.map(([letter]) => letter), [groups])
 
-  const handleHeaderClick = useCallback((e: React.MouseEvent<HTMLButtonElement>, letter: string) => {
+  const handleHeaderClick = useCallback((e: React.MouseEvent<HTMLButtonElement>) => {
     lastTriggerRef.current = e.currentTarget
-    setTriggerLetter(letter)
+    setTriggerLetter(e.currentTarget.dataset.letter ?? null)
     setSheetOpen(true)
   }, [])
 
@@ -155,7 +155,8 @@ export function SongIndex() {
               aria-expanded={triggerLetter === letter ? true : undefined}
               aria-controls="letter-jump-sheet"
               aria-label={`${letter} — apri menu lettere`}
-              onClick={(e) => handleHeaderClick(e, letter)}
+              data-letter={letter}
+              onClick={handleHeaderClick}
             >
               {letter}
             </button>

@@ -1,4 +1,4 @@
-import { parseChordPro } from '../lib/chordpro.ts'
+import { parseChordPro, type ParsedLine } from '../lib/chordpro.ts'
 import { transposeChord } from '../lib/transpose.ts'
 import './SongBody.css'
 
@@ -8,23 +8,25 @@ type Props = {
   transpose: number
 }
 
-export function SongBody({ body, chordsOn, transpose }: Props) {
-  const lines = parseChordPro(body)
-
-  // Annotate lyric lines that fall inside a refrain block (from a refrain-label
-  // line up to the next blank line). Purely presentational; the parser is unchanged.
+// Annotate lyric lines that fall inside a refrain block (from a refrain-label
+// line up to the next blank line). Purely presentational; the parser is unchanged.
+function markRefrains(lines: ParsedLine[]) {
   let inRefrain = false
-  const decorated = lines.map((line) => {
+  return lines.map((line) => {
     if (line.type === 'blank') {
       inRefrain = false
-      return { line, inRefrain: false as const }
+      return { line, inRefrain: false }
     }
     if (line.type === 'refrain-label') {
       inRefrain = true
-      return { line, inRefrain: false as const }
+      return { line, inRefrain: false }
     }
     return { line, inRefrain }
   })
+}
+
+export function SongBody({ body, chordsOn, transpose }: Props) {
+  const decorated = markRefrains(parseChordPro(body))
 
   return (
     <div className="song-body">

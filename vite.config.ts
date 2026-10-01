@@ -128,7 +128,7 @@ function patchResponse(res: ServerResponse) {
 
 // https://vite.dev/config/
 export default defineConfig(({ mode }) => {
-  // Surface non-VITE_ env vars (e.g. KV_REST_API_URL, ADMIN_PASSWORD) on
+  // Surface non-VITE_ env vars (e.g. UPSTASH_REDIS_REST_URL, ADMIN_PASSWORD) on
   // process.env so dev-mode `api/*.ts` handlers behave like on Vercel.
   const env = loadEnv(mode, process.cwd(), '')
   for (const [k, v] of Object.entries(env)) {

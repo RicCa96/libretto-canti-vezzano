@@ -3,7 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "alleluia-jesus-christ-you-are-my-life",
     title: "ALLELUIA (JESUS CHRIST YOU ARE MY LIFE)",
-    body: `[Rem] [Lam] [Sol] [Dol]
+    body: `[Rem] [Lam] [Sol] [Do]
 RIT.
 [Do]Jesus [Sol]Christ [Fa]you are my [Do]life, [Rem]allelu[Lam]ia, allelu[Sol]ia!
 [Do]Jesus [Sol]Christ [Fa]you are my [Do]life, [Rem]You are [Lam]my life, [Sol]allelu[Do]ia!

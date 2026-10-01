@@ -4,7 +4,7 @@ const song: Song = {
   id: "agnello-di-dio",
   title: "AGNELLO DI DIO",
   body: `
-[Re] [La] [Sim] [Re] [Sol] [Mim] [La] [la7]
+[Re] [La] [Sim] [Re] [Sol] [Mim] [La] [La7]
 
 [Re]Agnello di [La]Dio, che [Sim]togli i pec[Re]cati del [Sol]mondo,
 abbi pie[Re]tà, [La]pietà di [Re]noi. [Do] [La]
