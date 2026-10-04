@@ -1,35 +1,39 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "mani",
-  title: "MANI",
-  songNumber: 237,
-  body: `Vor[Sol]rei che le pa[Do]role mu[Re]tassero in pre[Sol]ghiera
-e [Do]rivederti, o [Mim]Padre, che [Lam]dipingevi il [Re7]cielo.
-Sa[Sol]pessi quante [Do]volte, guar[Re]dando questo [Sol]mondo
-vor[Do]rei che Tu tor[Sol]nassi a [Lam]ritoc[Re]carne il [Sol]cuore.
-Vor[Mim]rei che le mie [Re]mani ave[Do]ssero la [Sol]forza per [Lam]sostenere [Sol]chi non può cammi[Re]nare.
-Vor[Mim]rei che questo [Re]cuore, che [Do]esplode in senti[Sol]menti,
-[Lam7]diventasse [Sol]culla per [Do]chi non ha più [Re4]mad[Re7]re
+    id: "mani",
+    title: "MANI",
+    songNumber: 237,
+    body: `[Re] [Sol] [La]
+Vor[Re]rei che le pa[Sol]role mu[La]tassero in pre[Re]ghiera
+e [Sol]rivederti, o [Re]Padre, che [Mim]dipingevi il [La7]cielo.
+Sa[Re]pessi quante [Sol]volte, guar[La]dando questo [Re]mondo
+vor[Sol]rei che Tu tor[Re]nassi a [Mim]ritoc[La]carne il [Re]cuore.
+Vor[Sim]rei che le mie [La]mani ave[Sol]ssero la [Re]forza
+per [Sol]sostenere [Re]chi non può cammi[Mim]nare. [La]
+Vor[Sim]rei che questo [La]cuore, che [Sol]esplode in senti[Re]mento,
+[Sol]diventasse [Re]culla per [Sol]chi non ha più [La4]mad[La7]re
 
 RIT.
-[Sol]Mani, prendi queste mie [Re]mani, fanne vita, fanne [Do]Amore,
-braccia aperte per ri[Mim]ceve[Re]re chi è solo.
-[Sol]Cuore, prendi questo mio [Re]cuore, fa' che si spalanchi al [Do]mondo,
-germogliando per quegli [Mim]occhi che non [Re]sanno pianger [Do9]più.
+[Re]Mani, prendi queste mie [La]mani, fanne vita, fanne [Sol]amore,
+braccia aperte per ri[Sim]ceve[La]re chi è solo.
+[Re]Cuore, prendi questo mio [La]cuore, fa' che si spalanchi al [Sol]mondo,
+germogliando per quegli [Sim]occhi che non [La]sanno pianger [Sol]più. [La]
 
-Sei [Sol]Tu lo spazio [Do]che desi[Re]dero da [Sol]sempre,
-so [Do]che strin[Mim]gerai e [Lam]mi terrai la [Re7]mano. [Sol]Fa' che le mie [Do]strade si [Re]perdano nel [Sol]buio
-e[Do]d io cammini [Sol]dove cam[Lam]mine[Re]resti [Sol]Tu.
-Tu, [Mim]soffio della vi[Re]ta, pren[Do]di la mia [Sol]giovinezza con [Lam]le contraddi[Sol]zioni e le falsi[Re]tà,
-stru[Mim]mento fa' che [Re]sia per [Do]annunciare il [Sol]Regno
-a [Lam7]chi per queste [Sol]vie Tu [Do]chiami [Re4]bea[Re7]ti[Mi].
+Sei [Re]Tu lo spazio [Sol]che desi[La]dero da [Re]sempre,
+so [Sol]che strin[Re]gerai e [Mim]mi terrai la [La7]mano.
+[Re]Fa' che le mie [Sol]strade si [La]perdano nel [Re]buio
+ed [Sol]io cammini [Re]dove cam[Mim]mine[La]resti [Re]Tu.
+Tu, [Sim]soffio della vi[La]ta, pren[Sol]di la mia [Re]giovinezza
+con [Sol]le contraddi[Re]zioni e le falsi[Mim]tà, [La]
+stru[Sim]mento fa' che [La]sia per [Sol]annunciare il [Re]Regno
+a [Sol]chi per questa [Re]via [Sol]Tu chiami bea[La]ti[Si].
 
 RIT.
-[La]Mani, prendi queste nostre [Mi]mani, fanne vita, fanne [Re]Amore,
-braccia aperte per ri[Fa#m]ceve[Mi]re chi è solo.
-[La]Cuori, prendi questi nostri [Mi]cuori, fa' che siano testi[Re]moni
-che Tu chiami ogni [Fa#m]uomo a far [Mi]festa con [Re9]Dio`,
+[Mi]Mani, prendi queste nostre [Si]mani, fanne vita, fanne [La]Amore,
+braccia aperte per ri[Do#m]ceve[Si]re chi è solo.
+[Mi]Cuori, prendi questi nostri [Si]cuori, fa' che siano testi[La]moni
+che Tu chiami ogni [Do#m]uomo a far [Si]festa con [La]Dio. [Si]    [Mi]`,
 }
 
 export default song

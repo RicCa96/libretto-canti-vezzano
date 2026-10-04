@@ -4,21 +4,23 @@ const song: Song = {
   id: "gerusalemme",
   title: "GERUSALEMME",
   songNumber: 259,
-  body: `[Solm]( . stru[Fa]men[Solm]tale . [Fa])
+  body: `[Solm] [Fa] [Solm] [Fa]
 
 Gerusa[Fa]lemme, città del Si[Sib]gnore, verso di [Solm7]te torneranno i tuoi [Do]figli,
 per abi[Fa]tar nella casa del [Sib]Padre, palpite[Rem]rà di gioia il tuo [Do]cuore.
 Potrai rial[Rem]zarti e vestirti di [Fa]luce, poiché la [Sib]luce viene a [Do]te.
 Ti chiame[Solm7]ranno città del Si[Fa4]gno[Fa]re, perché la [Sib]gloria di [Do7]Dio è [Do4]su di [Fa]te.
 
-[Solm]( . st[Fa]rum[Solm]enta[Do7]le . [Fa])
+
+[Solm] [Fa] [Solm] [Do7] [Fa]
 
 Gerusa[Fa]lemme che scendi dal [Sib]cielo, il tuo splen[Solm7]dore è gemma pre[Do]ziosa.
 Non hai bi[Fa]sogno di luce del [Sib]sole, poiché tua [Rem]lampada è il Si[Do]gnore.
 Non hai bi[Solm7]sogno nemmeno di un [Fa4]tem[Fa]pio, poiché il Si[Sib]gnore è tempio per [Do]te.
 Cammine[Solm7]ranno alla tua [Fa]luce, ogni na[Sib]zione [Do]ed ogni [Fa]re.
 
-[Lam7]( [Re7]. [Sim7]. [Mim7]. strumentale [Lam7]. [Sim7]. [Do7]. [Re])
+
+[Lam7] [Re7] [Sim7] [Mim7] [Lam7] [Sim7] [Do7] [Re]
 
 Così la [Sol]pace sarà tuo so[Do]vrano, governa[Mim]tore sarà la giu[Re]stizia.
 Tu chiame[Sol]rai le tue mura "sal[Do]vezza" e le tue [Lam7]porte saranno "[Re]gloria".

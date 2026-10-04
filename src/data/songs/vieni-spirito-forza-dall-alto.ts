@@ -1,10 +1,11 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "vieni-spirito-forza-dall-alto",
-  title: "VIENI SPIRITO, FORZA DALL’ALTO",
-  songNumber: 324,
-  body: `RIT.
+    id: "vieni-spirito-forza-dall-alto",
+    title: "VIENI SPIRITO, FORZA DALL’ALTO",
+    songNumber: 324,
+    body: `[Mim] [Do] [Re] [Mim]
+RIT.
 [Mim]Vieni Spirito, forza dall’[Do]alto nel mio cuore,
 fammi ri[Re]nascere Signore, Spiri[Mim]to.
 [Mim]Vieni Spirito, forza dall’[Do]alto nel mio cuore,

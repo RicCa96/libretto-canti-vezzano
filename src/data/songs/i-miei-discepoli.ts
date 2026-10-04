@@ -1,35 +1,41 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "i-miei-discepoli",
-  title: "I MIEI DISCEPOLI",
-  songNumber: 279,
-  body: `In Cristo nato povero per noi l’abisso della mia nullità
-incontra il cielo della Tua grandezza. In Lui, o Padre,
-manifesti la Tua tenerezza infinita per l’umanità.
+    id: "i-miei-discepoli",
+    title: "I MIEI DISCEPOLI",
+    songNumber: 279,
+    body: `[Rem]In Cristo [Solm]nato [Lam]povero per [Fa]noi
+[Rem]l’abisso [Sib]della mia nulli[Do]tà
+in[Fa]contra il cielo [Solm]della Tua gran[Fa]dez[Do]za. [Sib] [Do]
+[Mi]In Lui, o Padre, mani[Rem]festi la Tua tenerezza infi[Sol]nita
+[Sol7]per l’umani[Do]tà. [Sib] [Do]
 
 RIT.
-Da questo sapranno che siete miei discepoli,
-Se avrete amore gli uni per gli altri,
-Se avrete amore gli uni per gli altri.
+Da [Fa]questo sap[Dom]ranno che [Sib]siete miei di[Sibm]scepoli,
+Se [Fa]avrete amore gli [Rem]uni per gli alt[Do]ri,
+Se [Rem]avrete amore gli [Do7]uni per gli alt[Fa]ri.
 
-Gesù è pane donato a tutti noi, fonte di gioia e di perdono.
-In Lui, o Padre, chiami tutti i popoli; li nutri ancora
-della Tua tenerezza infinita per l’umanità.
-
-RIT.
-Da questo sapranno che siete miei discepoli,
-Se avrete amore gli uni per gli altri,
-Se avrete amore gli uni per gli altri.
-
-Venuta l’ora della Sua passione, fino alla fine Cristo ci ama.
-Da lui ogni dolore è condiviso. Noi ci inchiniamo
-Alla Croce, tenerezza infinita per l’umanità.
+[Rem]Gesù è [Solm]pane do[Lam]nato a tutti [Fa]noi,
+[Rem]fonte di [Sib]gioia e di per[Do]dono.
+In [Fa]Lui, o Padre, [Solm]chiami tutti i [Fa]popo[Do]li; [Sib] [Do]
+[Mi]li nutri ancora della [Rem]Tua tenerezza infi[Sol]nita
+[Sol7]per l’umani[Do]tà. [Sib] [Do]
 
 RIT.
-Da questo sapranno che siete miei discepoli,
-Se avrete amore gli uni per gli altri,
-Se avrete amore gli uni per gli altri.`,
+Da [Fa]questo sap[Dom]ranno che [Sib]siete miei di[Sibm]scepoli,
+Se [Fa]avrete amore gli [Rem]uni per gli alt[Do]ri,
+Se [Rem]avrete amore gli [Do7]uni per gli alt[Fa]ri.
+
+[Rem]Venuta [Solm]l’ora [Lam]della Sua pas[Fa]sione,
+[Rem]fino alla [Sib]fine Cristo ci [Do]ama.
+Da [Fa]lui ogni do[Solm]lore è condi[Fa]vi[Do]so. [Sib] [Do]
+[Mi]Noi ci inchiniamo alla [Rem]Croce, tenerezza infi[Sol]nita
+[Sol7]per l’umani[Do]tà. [Sib] [Do]
+
+RIT.
+Da [Fa]questo sap[Dom]ranno che [Sib]siete miei di[Sibm]scepoli,
+Se [Fa]avrete amore gli [Rem]uni per gli alt[Do]ri,
+Se [Rem]avrete amore gli [Do7]uni per gli alt[Fa]ri.`,
 }
 
 export default song

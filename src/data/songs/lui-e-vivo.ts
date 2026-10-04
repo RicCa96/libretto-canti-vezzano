@@ -4,72 +4,72 @@ const song: Song = {
   id: "lui-e-vivo",
   title: "LUI E’ VIVO",
   songNumber: 329,
-  body: `[Sol]Lui è vivo, lui è [Sol4]vivo, [Sol]lui è vivo, [Sol4]Lui par[Do]lava con [Sol]me.
-Corri Maddalena a gridarlo agli amici suoi.
-[Sol]Il suo volto sor[Sol4]rideva, [Sol]Lui parlava, [Sol4]Lui par[Do]lava con [Sol]me.
-Corri Maddalena e le lacrime scendono di più.
-[Sol]Era bello, bello, [Do]bello, non era [Sol]quello che moriva da [Do]solo.
-Era bello, bello, bello, non era quello che moriva da solo.
-[Sol]Era bello, bello [Do]bello, al primo [Sol]raggio del sole del [Do]mat[Fa]tino.
-Era bello, bello bello, al primo raggio del mattino.
+  body: `[Sol]Lui è vivo, lui è [Sol4]vivo, lui è [Sol]vivo, Lui par[Sol4]lava con [Do]me. [Sol]
+(Corri Maddalena a gridarlo agli amici suoi.)
+[Sol]Il suo volto sorri[Sol4]deva, Lui par[Sol]lava, Lui par[Sol4]lava con [Do]me. [Sol]
+(Corri Maddalena e le lacrime scendono di più.)
+Era [Sol]bello, bello, bello, non era [Do]quello che moriva da [Sol]solo. [Do]
+(Era bello, bello, bello, non era quello che moriva da solo.)
+Era [Sol]bello, bello bello, al primo [Do]raggio del sole del mat[Sol]tino. [Do] [Fa]
+(Era bello, bello bello, al primo raggio del mattino.)
 
-[Sol]Io vedevo [Do]Lui Era at[Sol]traverso le mie [Do]lacrime, [Re]Io ve[Sol]devo [Do]Lui Ma con[Sol]tinuavo a [Do]pian[Re]gere
-Io vedevo Lui Era attraverso le mie lacrime, Io vedevo Lui Ma continuavo a piangere
-[Mi]Il cuore mio non [La]regge la gioia è troppa per [Si]me.
-Il mio cuore
-[Mi]Io l’ho visto la che sor[La]rideva E quel sorriso, e [Si]quel sorriso mi di[Do#m]ceva: [Si]
-Io l’ho visto la che sorrideva, sorrideva, mi diceva:
-[Mi]va’ tu e [Mi4]dillo a [Mi]tutto il mondo: Io [Do#m]sono ritor[Si]nato.
-dillo a tutto il mondo: Io qui sono tornato.
-[Mi]Tu dillo a [Mi4]tutto il [Mi]mondo: Io sono ritor[Do#m]nato. [Si]
-dillo a tutto il mondo: Io qui sono tornato.
-[Mi]Tu dillo a [Mi4]tutto il [Mi]mondo: Io [La]resto insieme con [Si4]voi. [Si]
-dillo a tutto il mondo.
+[Sol]Io ve[Do]devo [Sol]Lui Era at[Do]traverso le mie [Re]lacrime, [Sol]Io ve[Do]devo [Sol]Lui Ma con[Do]tinuavo a [Re]piangere
+(Io vedevo Lui Era attraverso le mie lacrime, Io vedevo Lui Ma continuavo a piangere)
+Il [Mi]cuore mio non regge la [La]gioia è troppa per [Si]me.
+(Il mio cuore)
+Io l’ho visto [Mi]la che sorrideva E [La]quel sorriso, e [Si]quel sorriso [Do#m]mi dice[Si]va: 
+(Io l’ho visto la che sorrideva, sorrideva, mi diceva:)
+va’ tu e [Mi]dillo a [Mi4]tutto il [Mi]mondo: Io [Do#m]sono ritor[Si]nato.
+(dillo a tutto il mondo: Io qui sono tornato.)
+Tu [Mi]dillo a [Mi4]tutto il [Mi]mondo: Io [Do#m]sono ritor[Si]nato.
+(dillo a tutto il mondo: Io qui sono tornato.)
+Tu [Mi]dillo a [Mi4]tutto il [Mi]mondo: Io [La]resto insieme con [Si4]voi. [Si]
+(dillo a tutto il mondo.)
 
-[Sol]Lo sapevo che l’A[Sol4]more non mo[Sol]riva, non poteva mo[Sol4]rire [Do] [Sol]
-Corri Maddalena a gridarlo agli amici suoi.
-[Sol]Lo volevano schiac[Sol4]ciare, ma [Sol]l’Amore, ma l’A[Sol4]more non mu[Do]o[Sol]re
-Corri Maddalena e le lacrime scendono di più.
-[Sol]Era bello, bello, [Do]bello, non era [Sol]quello che moriva da [Do]solo.
-Era bello, bello, bello, non era quello che moriva da solo.
-[Sol]Era bello, bello [Do]bello, al primo [Sol]raggio del sole del [Do]mat[Fa]tino.
-Era bello, bello bello, al primo raggio del mattino.
+[Sol]Lo sapevo che l’A[Sol4]more non mo[Sol]riva, non po[Sol4]teva mo[Do]ri[Sol]re
+(Corri Maddalena a gridarlo agli amici suoi.)
+[Sol]Lo volevano schiac[Sol4]ciare, ma l’A[Sol]more, ma l’A[Sol4]more non mu[Do]o[Sol]re
+(Corri Maddalena e le lacrime scendono di più.)
+Era [Sol]bello, bello, bello, non era [Do]quello che moriva da [Sol]so[Do]lo.
+(Era bello, bello, bello, non era quello che moriva da solo.)
+Era [Sol]bello, bello bello, al primo [Do]raggio del sole del mat[Sol]tino. [Do] [Fa]
+(Era bello, bello bello, al primo raggio del mattino.)
 
-[Sol]Si spalanca il [Do]cielo e [Sol]vedo il sole che ri[Do]sorge, [Re]si spa[Sol]lanca il [Do]cielo è [Sol]questa terra che ri[Do]nas[Re]ce
-Si spalanca il cielo e vedo il sole che risorge, si spalanca il cielo è questa terra che rinasce
-[Mi]Il cuore mio non [La]regge la gioia è troppa per [Si]me.
-Il mio cuore
-[Mi]Io l’ho visto la che sor[La]rideva E mi parlava, [Si]mi parlava e mi di[Do#m]ceva: [Si]
-Io l’ho visto la che sorrideva, sorrideva, mi diceva:
-[Mi]va’ tu e [Mi4]dillo a [Mi]tutto il mondo: Io [Do#m]sono ritor[Si]nato.
-dillo a tutto il mondo: Io qui sono tornato.
-[Mi]Tu dillo a [Mi4]tutto il [Mi]mondo: Io sono ritor[Do#m]nato. [Si]
-dillo a tutto il mondo: Io qui, tu corri e
-[Mi]Corri e [Mi4]dillo a [Mi]tutto il mondo: io [Do#m]sono ritor[Si]nato
-dillo a tutto il mondo che sono qui, sono accanto
-[Mi]Corri e [Mi4]dillo a [Mi]tutto il mondo: io [Do#m]sono ritor[Si]nato,
-dillo a tutto il mondo che sono qui
-[Mi]tu dillo a [La]tutto il mondo io [Si]resto insieme con voi, [Mi]tu dillo a [La]tutto il mondo io [Si]resto insieme con voi
-sono accanto a voi, accanto a voi, insieme a voi
+[Sol]Si spa[Do]lanca il [Sol]cielo e [Do]vedo il sole [Re]che risorge, [Sol]si spa[Do]lanca il [Sol]cielo è [Do]questa terra [Re]che rinasce
+(Si spalanca il cielo e vedo il sole che risorge, si spalanca il cielo è questa terra che rinasce)
+Il [Mi]cuore mio non regge la [La]gioia è troppa per [Si]me.
+(Il mio cuore)
+Io l’ho visto [Mi]la che sorrideva E [La]mi parlava, [Si]mi parlava e [Do#m]mi dice[Si]va:
+(Io l’ho visto la che sorrideva, sorrideva, mi diceva:)
+va’ tu e [Mi]dillo a [Mi4]tutto il [Mi]mondo: Io [Do#m]sono ritor[Si]nato.
+(dillo a tutto il mondo: Io qui sono tornato.)
+Tu [Mi]dillo a [Mi4]tutto il [Mi]mondo: Io [Do#m]sono ritor[Si]nato.
+(dillo a tutto il mondo: Io qui, tu corri e)
+Corri e [Mi]dillo a [Mi4]tutto il [Mi]mondo: io [Do#m]sono ritor[Si]nato
+(dillo a tutto il mondo che sono qui, sono accanto)
+Corri e [Mi]dillo a [Mi4]tutto il [Mi]mondo: io [Do#m]sono ritor[Si]nato,
+(dillo a tutto il mondo che sono qui)
+tu [Mi]dillo a tutto il mondo io [La]resto insieme con [Si]voi, tu [Mi]dillo a tutto il mondo io [La]resto insieme con [Si4]voi [Si]
+(sono accanto a voi, accanto a voi, insieme a voi)
 
 [Sol]E sto correndo oppure sto vo[Do]lando, io non [Sol]so.
-E Maddalena, tu adesso corri e dillo, è ritornato con noi
+(E Maddalena, tu adesso corri e dillo, è ritornato con noi)
 [Sol]E sto correndo oppure sto vo[Do]lando, io non [Sol]so.
-E Maddalena, tu adesso corri e dillo, è ritornato con noi
+(E Maddalena, tu adesso corri e dillo, è ritornato con noi)
 
-[Sol]Era bello, [Do]bello, [Sol]bello, non era [Do]quello che gri[Sol]dava da [Do]so[Sol]lo. [Fa]
-Era bello, bello, bello, non era quello che gridava da solo.
+[Sol]Era bello, bello, [Do]bello, non era [Sol]quello che gri[Do]dava da [Sol]so - [Do]o - [Sol]lo. [Fa]
+(Era bello, bello, bello, non era quello che gridava da solo.)
 
-[Sol]Sul suo [Do]viso più [Sol]non c’era quel [Do]dolore [Sol]senza li[Do]miti, [Sol]senza li[Fa]miti
-Sul suo viso quel dolore senza limiti
+Sul suo [Sol]viso più [Do]non c’era quel [Sol]dolore [Do]senza limiti, [Sol]senza li[Do]miti [Sol] [Fa]
+(Sul suo viso quel dolore senza limiti)
 
 [Sol]E l’A[Do]more Lui [Sol]non muore, [Do]l’Amore [Sol]Lui non [Do]muore, [Sol]l’Amore [Fa]sempre vincerà
-E l’Amore Lui non muore, l’Amore Lui non muore, l’Amore sempre vincerà
+(E l’Amore Lui non muore, l’Amore Lui non muore, l’Amore sempre vincerà)
 
 [Sol]E risorgono [Do]piante e [Sol]fiori, nuovi giorni, nuove sta[Do]gioni
-E risorgono piante e fiori, nuovi giorno, nuove stagioni
+(E risorgono piante e fiori, nuovi giorno, nuove stagioni)
 [Sol]e ri[Do]nasce [Sol]ancora la [Do]speran[Sol]za, [Do]vive [Sol]ancora la [Do]speran[Sol]za, la speranza
-e rinasce ancora la speranza, vive ancora la speranza, la speranza`,
+(e rinasce ancora la speranza, vive ancora la speranza, la speranza)`,
 }
 
 export default song

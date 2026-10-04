@@ -1,33 +1,34 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "vieni-o-spirito",
-  title: "VIENI, O SPIRITO",
-  songNumber: 252,
-  body: `RIT.
-Vieni, o spirito, Spirito di Dio, vieni, o Spirito Santo!
-Vieni, o Spirito e soffia su di noi, dona ai tuoi figli la vita!
+    id: "vieni-o-spirito",
+    title: "VIENI, O SPIRITO",
+    songNumber: 252,
+    body: `[Rem] [Fa] [Do] [Lam] [Rem]
+RIT.
+[Rem]Vieni, o spirito, [Fa]Spirito di Dio, [Do]vieni, o [Lam]Spirito [Rem]Santo!
+[Rem]Vieni, o Spirito e [Fa]soffia su di noi, [Do]dona ai tuoi [Lam]figli la [Rem]vita!
 
-Dona la luce ai nostri occhi, dona la forza ai nostri cuori,
-dona alle menti la sapienza, dona il tuo fuoco d'amore.
+[Sib]Dona la [Do]luce ai nostri [Rem]occhi, [Fa]dona la forza ai nostri [La]cuori,
+dona alle menti la [Sib]sapienza, dona il tuo [Do]fuoco d'a[Re]more.
 
 RIT.
-Vieni, o spirito, Spirito di Dio, vieni, o Spirito Santo!
-Vieni, o Spirito e soffia su di noi, dona ai tuoi figli la vita!
+[Rem]Vieni, o spirito, [Fa]Spirito di Dio, [Do]vieni, o [Lam]Spirito [Rem]Santo!
+[Rem]Vieni, o Spirito e [Fa]soffia su di noi, [Do]dona ai tuoi [Lam]figli la [Rem]vita!
 
-Tu sei per noi Consolatore, nella calura sei riparo,
-nella fatica sei riposo, nel pianto sei conforto.
-
-RIT.
-Vieni, o spirito, Spirito di Dio, vieni, o Spirito Santo!
-Vieni, o Spirito e soffia su di noi, dona ai tuoi figli la vita!
-
-Dona ai tuoi fedeli che confidano in Te
-i tuoi sette santi doni, dona la gioia eterna.
+[Sib]Tu sei per [Fa]noi Consola[Do]tore, [Fa]nella calura sei ri[La]paro,
+nella fatica sei ri[Sib]poso, nel [Do]pianto con[Re]forto.
 
 RIT.
-Vieni, o spirito, Spirito di Dio, vieni, o Spirito Santo!
-Vieni, o Spirito e soffia su di noi, dona ai tuoi figli la vita!`,
+[Rem]Vieni, o spirito, [Fa]Spirito di Dio, [Do]vieni, o [Lam]Spirito [Rem]Santo!
+[Rem]Vieni, o Spirito e [Fa]soffia su di noi, [Do]dona ai tuoi [Lam]figli la [Rem]vita!
+
+[Sib]Dona a [Fa]tutti i tuoi fe[Do]deli [Fa]che confidano in [La]Te
+i tuoi sette santi [Sib]doni, dona la [Do]gioia e[Re]terna.
+
+RIT.
+[Rem]Vieni, o spirito, [Fa]Spirito di Dio, [Do]vieni, o [Lam]Spirito [Rem]Santo!
+[Rem]Vieni, o Spirito e [Fa]soffia su di noi, [Do]dona ai tuoi [Lam]figli la [Rem]vita!`,
 }
 
 export default song

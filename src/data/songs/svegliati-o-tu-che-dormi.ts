@@ -6,7 +6,7 @@ const song: Song = {
   songNumber: 275,
   body: `RIT.
 [Re]Svegliati o tu che [Fa#m]dormi, [Sol]destati dai [Re]mor[La]ti
-e [Sim]Cri[Fa#m]sto Si[Sol]gno[La]re risplende[Re]rà [La]su di [Re]te[La7].
+e [Sim]Cri[Fa#]sto Si[Sol]gno[La]re risplende[Re]rà [La]su di [Re]te[La7].
 
 [Re]Se un [La]tempo [Sim]eravate [Fa#m]tenebra,
 [Sol]Ora [Re]siete [Sol]luce nel Si[Re]gno[La]re

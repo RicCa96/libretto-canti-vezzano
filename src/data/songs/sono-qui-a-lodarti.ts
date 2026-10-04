@@ -1,44 +1,44 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "sono-qui-a-lodarti",
-  title: "SONO QUI A LODARTI",
-  songNumber: 301,
-  body: `[Mi]Luce del [Si]mondo nel [Fa#m]buio del [La]cuore
-[Mi]Vieni ed il[Si]lumina[La]mi 
-[Mi]Tu mia [Si]sola spe[Fa#m]ranza di [La]vita
-[Mi]Resta per [Si]sempre con [La]me
+    id: "sono-qui-a-lodarti",
+    title: "SONO QUI A LODARTI",
+    songNumber: 301,
+    body: `[Re]Luce del [La]mondo nel [Mim]buio del [Sol]cuore
+[Re]Vieni ed il[La]lumina[Sol]mi 
+[Re]Tu mia [La]sola spe[Mim]ranza di [Sol]vita
+[Re]Resta per [La]sempre con [Sol]me
 
 RIT.
-Sono qui a lo[Mi]darti, qui per ado[Si]rarti
-Qui per dirti [Do#m]che Tu sei il mio [La]Dio
-E solo Tu sei [Mi]Santo, sei meravi[Si]glioso
-Degno e glo[Do#m]rioso sei per [La]me
+Sono qui a lo[Re]darti, qui per ado[La]rarti
+Qui per dirti [Sim]che Tu sei il mio [Sol]Dio
+E solo Tu sei [Re]Santo, sei meravi[La]glioso
+Degno e glo[Sim]rioso sei per [Sol]me
 
-[Mi]Re della [Si]storia e [Fa#m]Re della [La]gloria
-[Mi]Sei sceso in [Si]terra fra [La]noi
-[Mi]Con umil[Si]tà il Tuo [Fa#m]trono hai la[La]sciato
-[Mi]Per dimost[Si]rarci il Tuo a[La]mor
-
-RIT.
-Sono qui a lo[Mi]darti, qui per ado[Si]rarti
-Qui per dirti [Do#m]che Tu sei il mio [La]Dio
-E solo Tu sei [Mi]Santo, sei meravi[Si]glioso
-Degno e glo[Do#m]rioso sei per [La]me
-
-Io [Si]mai sapr[Mi]ò quanto [La]Ti costò, lì [Si]sulla [Mi]croce mo[La]rir per me
-Io [Si]mai sapr[Mi]ò quanto [La]Ti costò, lì [Si]sulla [Mi]croce mo[La]rir per me
-Io [Si]mai sapr[Mi]ò quanto [La]Ti costò, lì [Si]sulla [Mi]croce mo[La]rir per me
+[Re]Re della [La]storia e [Mim]Re della [Sol]gloria
+[Re]Sei sceso in [La]terra fra [Sol]noi
+[Re]Con umil[La]tà il Tuo [Mim]trono hai la[Sol]sciato
+[Re]Per dimost[La]rarci il Tuo a[Sol]mor
 
 RIT.
-Sono qui a lo[Mi]darti, qui per ado[Si]rarti
-Qui per dirti [Do#m]che Tu sei il mio [La]Dio
-E solo Tu sei [Mi]Santo, sei meravi[Si]glioso
-Degno e glo[Do#m]rioso sei per [La]me
-Sono qui a lo[Mi]darti, qui per ado[Si]rarti
-Qui per dirti [Do#m]che Tu sei il mio [La]Dio
-E solo Tu sei [Mi]Santo, sei meravi[Si]glioso
-Degno e glo[Do#m]rioso sei per [La]me`,
+Sono qui a lo[Re]darti, qui per ado[La]rarti
+Qui per dirti [Sim]che Tu sei il mio [Sol]Dio
+E solo Tu sei [Re]Santo, sei meravi[La]glioso
+Degno e glo[Sim]rioso sei per [Sol]me
+
+Io [La]mai sapr[Re]ò quanto [Sol]Ti costò, lì [La]sulla [Re]croce mo[Sol]rir per me
+Io [La]mai sapr[Re]ò quanto [Sol]Ti costò, lì [La]sulla [Re]croce mo[Sol]rir per me
+Io [La]mai sapr[Re]ò quanto [Sol]Ti costò, lì [La]sulla [Re]croce mo[Sol]rir per me
+
+RIT.
+Sono qui a lo[Re]darti, qui per ado[La]rarti
+Qui per dirti [Sim]che Tu sei il mio [Sol]Dio
+E solo Tu sei [Re]Santo, sei meravi[La]glioso
+Degno e glo[Sim]rioso sei per [Sol]me
+Sono qui a lo[Re]darti, qui per ado[La]rarti
+Qui per dirti [Sim]che Tu sei il mio [Sol]Dio
+E solo Tu sei [Re]Santo, sei meravi[La]glioso
+Degno e glo[Sim]rioso sei per [Sol]me`,
 }
 
 export default song

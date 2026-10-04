@@ -6,9 +6,9 @@ vi.mock('../data/songs/index.ts', async (importOriginal) => {
   const actual =
     await importOriginal<typeof import('../data/songs/index.ts')>()
   const overridden = new Map(actual.songById)
-  const original = actual.songById.get('madre-della-speranza')
+  const original = actual.songById.get('re-dei-re')
   if (original) {
-    overridden.set('madre-della-speranza', {
+    overridden.set('re-dei-re', {
       ...original,
       body: '[C]Madre della [G]speranza\n[Am]veglia sul [F]cammino',
     })
@@ -52,7 +52,7 @@ describe('SongPage', () => {
   })
 
   it('renders 3-way view toggle and defaults to Testo when both inline and pdf exist', () => {
-    renderSong('madre-della-speranza')
+    renderSong('re-dei-re')
 
     expect(screen.getByRole('button', { name: 'Testo' })).toHaveAttribute(
       'aria-pressed',
@@ -74,7 +74,7 @@ describe('SongPage', () => {
   it('switches body between text, chords, and pdf via segmented control', async () => {
     const { default: userEvent } = await import('@testing-library/user-event')
     const user = userEvent.setup()
-    renderSong('madre-della-speranza')
+    renderSong('re-dei-re')
 
     expect(document.querySelector('.seg__chord')).toBeNull()
     expect(document.querySelector('object[type="application/pdf"]')).toBeNull()
@@ -86,7 +86,7 @@ describe('SongPage', () => {
     await user.click(screen.getByRole('button', { name: 'Spartito' }))
     const pdf = document.querySelector('object[type="application/pdf"]')
     expect(pdf).not.toBeNull()
-    expect(pdf?.getAttribute('data')).toBe('/chords/madre-della-speranza.pdf')
+    expect(pdf?.getAttribute('data')).toBe('/chords/re-dei-re.pdf')
     expect(
       screen.queryByRole('button', { name: 'Abbassa tono' }),
     ).not.toBeInTheDocument()
@@ -99,7 +99,7 @@ describe('SongPage', () => {
   it('shows transpose buttons only in Accordi view', async () => {
     const { default: userEvent } = await import('@testing-library/user-event')
     const user = userEvent.setup()
-    renderSong('madre-della-speranza')
+    renderSong('re-dei-re')
 
     expect(
       screen.queryByRole('button', { name: 'Abbassa tono' }),

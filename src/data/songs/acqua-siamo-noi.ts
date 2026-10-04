@@ -14,7 +14,7 @@ RIT.
 E allora [Fa#m]diamoci la [Sim]mano e tutti [Fa#m]insieme cammi[Sim]niamo
 ed un [Fa#m]oceano di [Sim]pace nasce[La]rà[La4]
 e l’eg[Mim]oismo cancel[La]liamo, un cuore [Mim]limpido sen[La]tiamo
-e Dio che [Mim]bagna del Suo a[La7]mor l’uman[Re]ità[Sol/La].
+e Dio che [Mim]bagna del Suo a[La7]mor l’uman[Re]ità. [Sol] [La]
 
 [Re]Su nel [La]cielo [Re]c’è Dio [Sol]Padre che [La]vive per l’[Re]uomo
 [Re]crea [La]tutti [Re]noi e ci [Sol]ama di a[La]more infi[Re]nito
@@ -25,7 +25,7 @@ RIT.
 E allora [Fa#m]diamoci la [Sim]mano e tutti [Fa#m]insieme cammi[Sim]niamo
 ed un [Fa#m]oceano di [Sim]pace nasce[La]rà[La4]
 e l’eg[Mim]oismo cancel[La]liamo, un cuore [Mim]limpido sen[La]tiamo
-e Dio che [Mim]bagna del Suo a[La7]mor l’uman[Re]ità[Sol/La].
+e Dio che [Mim]bagna del Suo a[La7]mor l’uman[Re]ità. [Sol] [La]
 
 [Re]Nuova u[La]mani[Re]tà oggi [Sol]nasce da [La]chi crede in [Re]lui
 [Re]nuovi [La]siamo [Re]noi se l’a[Sol]more è la [La]legge di [Re]vita
@@ -36,7 +36,7 @@ RIT.
 E allora [Fa#m]diamoci la [Sim]mano e tutti [Fa#m]insieme cammi[Sim]niamo
 ed un [Fa#m]oceano di [Sim]pace nasce[La]rà[La4]
 e l’eg[Mim]oismo cancel[La]liamo, un cuore [Mim]limpido sen[La]tiamo
-e Dio che [Mim]bagna del Suo a[La7]mor l’uman[Re]ità[Sol/La].`,
+e Dio che [Mim]bagna del Suo a[La7]mor l’uman[Re]ità. [Sol] [La]`,
 }
 
 export default song

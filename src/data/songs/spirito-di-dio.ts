@@ -12,7 +12,7 @@ const song: Song = {
 
 [Re]Spirito di [Sol]Dio guarisci[Re]mi, (Spirito di [Sol]Dio guariscimi)
 [Re]Spirito di [Sol]Dio rinnova[La]mi, (Rinnova[La7]mi)
-[Re]Spirito di [Sol]Dio con[Re]sa[Fa#m]cra[Sim]mi,
+[Re]Spirito di [Sol]Dio con[Re]sa[Fa#]cra[Sim]mi,
 [Re]vieni ad abi[Sol]tare dentro [Re]me[Sol].
 
 [Re]Spirito di [Sol]Dio riempi[Re]ci, (Spirito di Dio riempi[Sol]ci)

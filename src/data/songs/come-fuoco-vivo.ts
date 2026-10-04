@@ -4,7 +4,8 @@ const song: Song = {
   id: "come-fuoco-vivo",
   title: "COME FUOCO VIVO",
   songNumber: 239,
-  body: `RIT.
+  body: `[La] [Mi] [Fa#m7] [Re] [La] [Mi]
+RIT.
 Come [La]fuoco [Mi]vivo si [Fa#m]accende in noi
 un'[Sim7]immensa [Mi]feli[La]cità
 che mai [Re]più nes[Mi]suno ci [La]toglierà [Re]

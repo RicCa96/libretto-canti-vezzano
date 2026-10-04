@@ -4,39 +4,38 @@ const song: Song = {
   id: "ecco-quel-che-abbiamo",
   title: "ECCO QUEL CHE ABBIAMO",
   songNumber: 244,
-  body: `RIT.
-[La]Ecco quel che ab[Do#m]biamo, nulla [Re]ci appartiene [La]ormai.
-Ecco i [Fa#m]frutti della [Do#m]terra, che [Re]Tu moltipliche[Mi]rai.
-[La]Ecco queste [Do#m]mani: puoi [Re]usarle, se lo [La]vuoi,
-per [Fa#m]dividere nel [Do#m]mondo il pane [Re]che Tu hai [Mi7]dato a [La]noi.
+  body: `[Sol] [Sim] [Do] [Sol]
+RIT.
+[Sol]Ecco quel che ab[Sim]biamo, nulla [Do]ci appartiene [Sol]ormai.
+Ecco i [Mim]frutti della [Sim]terra, che [Do]Tu moltipliche[Re]rai. [Re7]
+[Sol]Ecco queste [Sim]mani: puoi [Do]usarle, se lo [Sol]vuoi,
+per [Mim]dividere nel [Sim]mondo il pane [Do]che Tu hai [Re7]dato a [Sol]noi.
 
-[Fa#m]Solo una goccia hai messo [Do#m]fra le mani mie,
-solo una goccia che Tu [Fa#m]ora chiedi a me,
-una [Sim7]goccia che in mano a [Re]Te una pio[Sim]ggia divente[Do#m]rà
-e la [Re7]terra feconde[La]rà.
+[Mim]Solo una goccia hai messo [Sim]fra le mani mie,
+solo una goccia che Tu [Mim]ora chiedi a me,
+una [Lam]goccia che in [Sim]mano a [Do]Te una pio[Mim]ggia di[Lam]vente[Sim]rà
+e la [Do]terra feconde[Re4]rà. [Re7]
 
 RIT.
-[La]Ecco quel che ab[Do#m]biamo, nulla [Re]ci appartiene [La]ormai.
-Ecco i [Fa#m]frutti della [Do#m]terra, che [Re]Tu moltipliche[Mi]rai.
-[La]Ecco queste [Do#m]mani: puoi [Re]usarle, se lo [La]vuoi,
-per [Fa#m]dividere nel [Do#m]mondo il pane [Re]che Tu hai [Mi7]dato a [La]noi.
+[Sol]Ecco quel che ab[Sim]biamo, nulla [Do]ci appartiene [Sol]ormai.
+Ecco i [Mim]frutti della [Sim]terra, che [Do]Tu moltipliche[Re]rai. [Re7]
+[Sol]Ecco queste [Sim]mani: puoi [Do]usarle, se lo [Sol]vuoi,
+per [Mim]dividere nel [Sim]mondo il pane [Do]che Tu hai [Re7]dato a [Sol]noi.
 
-[Fa#m]Le nostre gocce, pioggia [Do#m]fra le mani tue,
-saranno linfa di una [Fa#m]nuova civiltà.
-E la [Sim7]terra prepare[Re]rà la festa del [Sim]pane [Do#m]che
-ogni [Re7]uomo condivide[La]rà.
-
-RIT.
-[La]Ecco quel che ab[Do#m]biamo, nulla [Re]ci appartiene [La]ormai.
-Ecco i [Fa#m]frutti della [Do#m]terra, che [Re]Tu moltipliche[Mi]rai.
-[La]Ecco queste [Do#m]mani: puoi [Re]usarle, se lo [La]vuoi,
-per [Fa#m]dividere nel [Do#m]mondo il pane [Re]che Tu hai [Mi7]dato a [La]noi.
+[Mim]Le nostre gocce, pioggia [Sim]fra le mani tue,
+saranno linfa di una [Mim]nuova civiltà.
+E la [Lam]terra pre[Sim]pare[Do]rà la [Mim]festa del [Lam]pane [Sim]che
+ogni [Do]uomo condivide[re4]rà. [Re7]
 
 RIT.
-[Fa#m]Sulle strade il vento da [Do#m]lontano porterà
-(2)il profumo del frumento che [Fa#m]tutti avvolgerà.
-E sarà l’[Sim7]Amore che il raccolto [Re]spartirà[Sim], [Do#m]
-e il [Re7]miracolo del pane in terra si ripete[La]rà.`,
+[Sol]Ecco quel che ab[Sim]biamo, nulla [Do]ci appartiene [Sol]ormai.
+Ecco i [Mim]frutti della [Sim]terra, che [Do]Tu moltipliche[Re]rai. [Re7]
+[Sol]Ecco queste [Sim]mani: puoi [Do]usarle, se lo [Sol]vuoi,
+per [Mim]dividere nel [Sim]mondo il pane [Do]che Tu hai [Re7]dato a [Sol]noi. [Mi]
+[La]Sulle strade il [Do#m]vento da lon[Re]tano porte[La]rà
+il pro[Fa#m]fumo del fru[Do#m]mento che [Re]tutti avvolge[Mi4]rà. [Mi7]
+[La]E sarà l’A[Do#m]more che il rac[Re]colto sparti[La]rà,
+e il mi[Fa#m]racolo del [Do#m]pane in terra [Re]si ri[Mi7]pete[La]rà.`,
 }
 
 export default song

@@ -9,8 +9,8 @@ const song: Song = {
 [Mi]Dalle chimere che [Fa#]anneb[Re]biano
 
 [La]Liberami, [Re]liberami, [La]liberami Spirito di [Re]Dio
-[Mi]Dalle chimere che [Fa#]annebbiano il [Mi]cuore [Fa#],
-[Mi]Dalle chimere che [Fa#]mi ingan[Re]nano
+[Mi]Dalle chimere che [Fa#m]annebbiano il [Mi]cuore [Fa#m],
+[Mi]Dalle chimere che [Fa#m]mi ingan[Re]nano
 
 RIT.
 [La]Rendimi vivo [Re]come non sono stato mai
@@ -19,8 +19,8 @@ RIT.
 [Sim]Rendimi [Re]degno di Te
 
 [La]Liberami, [Re]liberami, [La]liberami Spirito di [Re]Dio
-[Mi]Dalle paure di [Fa#]amare la [Mi]croce [Fa#],
-[Mi]Dalle paure di [Fa#]sorreg[Re]gerla
+[Mi]Dalle paure di [Fa#m]amare la [Mi]croce [Fa#m],
+[Mi]Dalle paure di [Fa#m]sorreg[Re]gerla
 
 RIT.
 [La]Rendimi vivo [Re]come non sono stato mai

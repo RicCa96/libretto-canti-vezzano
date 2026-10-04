@@ -5,39 +5,39 @@ const song: Song = {
   title: "MADRE DELLA SPERANZA",
   songNumber: 270,
   body: `RIT.
-Madre della speranza veglia sul nostro cammino:
-guida i nostri passi verso il Figlio tuo, Maria!
-Regina della pace, proteggi il nostro mondo:
-prega per questa umanità, Maria,
-Madre della speranza, Madre della speranza!
+[Re]Madre [Sol]della spe[Re7]ranza [Sol]veglia sul [La]nostro cam[Re7]mino:
+[Sol]guida i nostri [La]passi [Fa#m]verso il Figlio [Sim]tuo, Ma[Sol]ri[La]a!
+[Re]Regina [Sol]della [Re7]pace, [Sol]proteggi il [La]nostro [Re7]mondo:
+[Sol]prega per [La]questa umani[Fa#m]tà, Ma[Sim]ria,
+[Sol]Madre del[La]la spe[Sim]ranza, [Sol]Madre del[La]la spe[Re]ranza!
 
-Docile serva del Padre,
-piena di Spirito Santo,
-umile Vergine, Madre del Figlio di Dio!
-Tu sei la Piena di Grazia
-scelta fra tutte le donne,
-Madre di Misericordia, Porta del Cielo!
-
-RIT.
-Madre della speranza veglia sul nostro cammino:
-guida i nostri passi verso il Figlio tuo, Maria!
-Regina della pace, proteggi il nostro mondo:
-prega per questa umanità, Maria,
-Madre della speranza, Madre della speranza!
-
-Noi che crediamo alla vita,
-noi che crediamo all'amore,
-sotto il tuo sguardo mettiamo il nostro domani.
-Quando la strada è più dura,
-quando più buia la notte,
-Stella del giorno, risplendi sul nostro sentiero!
+[Sim]Docile [La]serva del [Sim]Padre,
+[La]piena di Spirito [Sim]Santo,
+[Sol]umile [La]Vergine, [Re]Madre del [Mim]Figlio di [Sol]Di - i - [Fa#]o!
+[Sim]Tu sei la [La]Piena di [Sim]Grazia
+[La]scelta fra tutte le [Sim]donne,
+[Sol]Madre di [La]Miseri[Re]cordia, [Mim]Porta del [Sol]Cie - e - [Fa#]lo!
 
 RIT.
-Madre della speranza veglia sul nostro cammino:
-guida i nostri passi verso il Figlio tuo, Maria!
-Regina della pace, proteggi il nostro mondo:
-prega per questa umanità, Maria,
-Madre della speranza, Madre della speranza!`,
+[Re]Madre [Sol]della spe[Re7]ranza [Sol]veglia sul [La]nostro cam[Re7]mino:
+[Sol]guida i nostri [La]passi [Fa#m]verso il Figlio [Sim]tuo, Ma[Sol]ri[La]a!
+[Re]Regina [Sol]della [Re7]pace, [Sol]proteggi il [La]nostro [Re7]mondo:
+[Sol]prega per [La]questa umani[Fa#m]tà, Ma[Sim]ria,
+[Sol]Madre del[La]la spe[Sim]ranza, [Sol]Madre del[La]la spe[Re]ranza!
+
+[Sim]Noi che cre[La]diamo alla [Sim]vita,
+[La]noi che crediamo all'a[Sim]more,
+[Sol]sotto il tuo [La]sguardo met[Re]tiamo il [Sim]nostro do[Sol]ma - a - [Fa#]ni.
+[Sim]Quando la [La]strada è più [Sim]dura,
+[La]quando più buia è la [Sim]notte,
+[Sol]Stella del [La]giorno, ri[Re]splendi sul [Mim]nostro sen[Sol]tie - e - [Fa#]ro!
+
+RIT.
+[Re]Madre [Sol]della spe[Re7]ranza [Sol]veglia sul [La]nostro cam[Re7]mino:
+[Sol]guida i nostri [La]passi [Fa#m]verso il Figlio [Sim]tuo, Ma[Sol]ri[La]a!
+[Re]Regina [Sol]della [Re7]pace, [Sol]proteggi il [La]nostro [Re7]mondo:
+[Sol]prega per [La]questa umani[Fa#m]tà, Ma[Sim]ria,
+[Sol]Madre del[La]la spe[Sim]ranza, [Sol]Madre del[La]la spe[Re]ranza!`,
 }
 
 export default song
