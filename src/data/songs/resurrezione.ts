@@ -5,35 +5,35 @@ const song: Song = {
   title: "RESURREZIONE",
   songNumber: 156,
   body: `
-Che [Sol]gioia ci hai [Do]dato, Si[Sol]gnore del [Do]cielo,
-Si[Sol]gnore del [Do]grande uni[Re4]ver[Re]so!
-Che [Sol]gioia ci hai [Do]dato, ves[Sol]tito di [Do]luce,
-ves[Sol]tito di [Re]gloria infi[Mim]ni[Do]ta,
-ves[Sol]tito di [Re]gloria infi[Do]ni[Sol]ta!
+Che [Re]gioia ci hai [Sol]dato, Si[Re]gnore del [Sol]cielo,
+Si[Re]gnore del [Sol]grande uni[La4]ver[La]so!
+Che [Re]gioia ci hai [Sol]dato, ves[Re]tito di [Sol]luce,
+ves[Re]tito di [La]gloria infi[Sim]ni[Sol]ta,
+ves[Re]tito di [La]gloria infi[Sol]ni[Re]ta!
 
-Ve[Sol]derti ri[Do]sorto, ve[Sol]derti, Si[Do]gnore,
-il [Sol]cuore sta [Do]per impaz[Re4]zi[Re]re!
-Tu [Sol]sei ritor[Do]nato, Tu [Sol]sei qui tra [Do]noi
-e a[Sol]desso Ti a[Re]vremo per [Mim]semp[Re]re
-e a[Sol]desso Ti a[Re]vremo per [Do]semp[Sol]re!
+Ve[Re]derti ri[Sol]sorto, ve[Re]derti, Si[Sol]gnore,
+il [Re]cuore sta [Sol]per impaz[La4]zi[La]re!
+Tu [Re]sei ritor[Sol]nato, Tu [Re]sei qui tra [Sol]noi
+e a[Re]desso Ti a[La]vremo per [Sim]semp[La]re
+e a[Re]desso Ti a[La]vremo per [Sol]semp[Re]re!
 
-[Sol]Chi cercate, [Do]donne, quaggiù?
-[Sol]Chi cercate, [Do]donne, quaggiù?
-[Sol]Quello che era [Do]morto non è [Re4]qui[Re]:
-è ri[Sol]sorto, sì, come a[Do]veva detto [Sol]anche a voi.
-[Do]Voi gridate a [Sol]tutti [Re]che [Mim]è risorto [Do]Lui,
-A [Sol]tutti [Re]che [Do]è risorto [Sol]Lui!
+[Re]Chi cercate, [Sol]donne, quaggiù?
+[Re]Chi cercate, [Sol]donne, quaggiù?
+[Re]Quello che era [Sol]morto non è [La4]qui[La]:
+è ri[Re]sorto, sì, come a[Sol]veva detto [Re]anche a voi.
+[Sol]Voi gridate a [Re]tutti [La]che [Sim]è risorto [Sol]Lui,
+A [Re]tutti [La]che [Sol]è risorto [Re]Lui!
 
-[Sol]Tu hai vinto il [Do]mondo, Gesù,
-[Sol]Tu hai vinto il [Do]mondo, Gesù,
-[Sol]liberiamo [Do]la felici[Re4]tà[Re]!
-E la [Sol]morte, no, non e[Do]siste più:
-l'hai [Sol]vinta Tu.
-[Do]Hai salvato [Sol]tutti noi[Re], [Mim]uomini con [Do]Te,
-[Sol]tutti noi[Re], [Do]uomini con [Sol]Te!
+[Re]Tu hai vinto il [Sol]mondo, Gesù,
+[Re]Tu hai vinto il [Sol]mondo, Gesù,
+[Re]liberiamo [Sol]la felici[La4]tà[La]!
+E la [Re]morte, no, non e[Sol]siste più:
+l'hai [Re]vinta Tu.
+[Sol]Hai salvato [Re]tutti noi[La], [Sim]uomini con [Sol]Te,
+[Re]tutti noi[La], [Sol]uomini con [Re]Te!
 
-[Do]Uomini con Te, uomini con Te!
-Che [Sol]gioia ci hai [Do]dato: Ti a[Sol]vremo per [Do]semp[Sol]re!`,
+[Sol]Uomini con Te, uomini con Te!
+Che [Re]gioia ci hai [Sol]dato: Ti a[Re]vremo per [Sol]semp[Re]re!`,
 }
 
 export default song

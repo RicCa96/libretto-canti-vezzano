@@ -4,7 +4,7 @@ const song: Song = {
   id: "servo-per-amore",
   title: "SERVO PER AMORE",
   songNumber: 162,
-  body: `Una [Sim]notte di sudore sulla barca in mezzo al [Re]mare…
+  body: `Una [Sim]notte di sudore sulla barca in mezzo al [Re]mare
 e mentre il [La]cielo s'imbianca [Fa#m]già tu [Sol]guardi le tue reti [Sim]vuote.
 Ma la [Re]voce che ti chiama un altro [La]mare ti mostre[Re]rà
 e sulle [Sol]rive di ogni [Re]cuore le tue [Mim]reti [Sol]gette[Re]rai.

@@ -1,16 +1,20 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "cristo-e-risorto",
-  title: "CRISTO È RISORTO",
-  songNumber: 274,
-  body: `[Do]Era quasi l’alba, quando
+    id: "cristo-e-risorto",
+    title: "CRISTO È RISORTO",
+    songNumber: 274,
+    body: `[Do]Era quasi l’alba, quando
 le d[Mim]ue donne giunsero al sepolcro,
 e app[Fa]arve un ange[Sol7]lo. [Do]
 [Do]“Perché mai cercate il Nazareno [Mim]qui tra i morti:
-non sapete che è [Fa]risor[Sol7]to?” [Do]
+non sapete che è [Fa]risor[Sol7]to?” [Do] [Mi7]
 
 RIT.
+[Lam]Cristo è ri[Mim]sorto,
+è v[Fa]ivo, è con noi: [Do]
+[Fa]non ha pote[Do]re ormai
+la mo[Rem]rte su di [Sol7]Lui! [Do] [Mi7]
 [Lam]Cristo è ri[Mim]sorto,
 è v[Fa]ivo, è con noi: [Do]
 [Fa]non ha pote[Do]re ormai
@@ -21,7 +25,7 @@ sulla s[Mim]oglia del sepolcro.
 “[Fa]Donna, perché piang[Sol7]i?” [Do]
 [Do]È il Signore che le parla
 e [Mim]Maria lo riconosce,
-e corre a [Fa]dirlo a [Sol7]tutti. [Do]
+e corre a [Fa]dirlo a [Sol7]tutti. [Do] [Mi7]
 
 RIT.
 
@@ -30,7 +34,7 @@ a[Mim]gli amici scoraggiati,
 ma non lo [Fa]conobbe[Sol7]ro. [Do]
 [Do]Quando poi lo videro
 nell’atto [Mim]di spezzare il pane,
-allora in lu[Fa]i crede[Sol7]ttero. [Do]
+allora in lu[Fa]i crede[Sol7]ttero. [Do] [Mi7]
 
 RIT.
 
@@ -39,7 +43,7 @@ riuni[Mim]ti nel cenacolo
 e Gesù fu i[Fa]n mezzo a [Sol7]loro. [Do]
 [Do]“Pace a voi! Guardate:
 sono propri[Mim]o io: credete!
-Resterò con voi [Fa]per sem[Sol7]pre”. [Do]
+Resterò con voi [Fa]per sem[Sol7]pre”. [Do] [Mi7]
 
 RIT.`,
 }
