@@ -1,14 +1,14 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "alleluia-celtico",
-  title: "ALLELUIA (CELTICO)",
-  body: `[Do] [Re][Sol] [Lam] [Re] [Sol]
+    id: "alleluia-celtico",
+    title: "ALLELUIA (CELTICO)",
+    body: `[Do] [Re][Sol] [Lam] [Re] [Sol]
 RIT.
-[Sol]A -  [Mim]lle -  [Re]e [Sol]lu    [Re]ia,
-[Do]A    [Re]-[Sol]lle    [Lam]lu    [Re]ia,
-[Sol]A -  [Mim]lle -  [Re]e [Sol]lu    [Re]ia,
- [Do]A    [Re]-[Sol]lle    [Lam]lu  - [Re]u [Sol]ia.`,
+[Sol]A - [Mim]lle - [Re]e - [Sol]lu - [Re]ia,
+[Do]A - [Re]a - [Sol]lle - [Lam]lu - [Re]ia,
+[Sol]A - [Mim]lle - [Re]e - [Sol]lu - [Re]ia,
+[Do]A - [Re]a - [Sol]lle - [Lam]lu - [Re]u - [Sol]ia.`,
 }
 
 export default song

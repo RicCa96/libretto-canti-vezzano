@@ -4,15 +4,15 @@ const song: Song = {
   id: "alleluia-ed-oggi-ancora",
   title: "ALLELUIA (ED OGGI ANCORA)",
   body: `RIT.
-[Rem]Allelu[Solm7]ia, a[Do7]llelu[Fa]ia, [Sib]Alle[Solm]luia, [La7]all[Rem]eluia!
-[Rem]Allelu[Solm7]ia, [Do7]alle[Fa7+]luia, [Sib]Alle[Solm]luia, [La7]all[Rem]eluia!
+[Sim]Allelu[Mim7]ia, a[La7]llelu[Re]ia, [Sol]Alle[Mim]luia, [Fa#7]all[Sim]eluia!
+[Sim]Allelu[Mim7]ia, [La7]alle[Re7+]luia, [Sol]Alle[Mim]luia, [Fa#7]all[Sim]eluia!
 
-Ed oggi an[Rem]cora, o mio Si[Solm]gnore, ascol[Do]terò la tua Pa[Fa]rola
-che mi [Sib]guida nel ca[Solm]mmino della [La4]vita.[La]
+Ed oggi an[Sim]cora, o mio Si[Mim]gnore, ascol[La]terò la tua Pa[Re]rola
+che mi [Sol]guida nel ca[Mim]mmino della [Fa#4]vita.[Fa#]
 
 RIT.
-[Rem]Allelu[Solm7]ia, a[Do7]llelu[Fa]ia, [Sib]Alle[Solm]luia, [La7]all[Rem]eluia!
-[Rem]Allelu[Solm7]ia, [Do7]alle[Fa7+]luia, [Sib]Alle[Solm]luia, [La7]all[Rem]eluia!`,
+[Sim]Allelu[Mim7]ia, a[La7]llelu[Re]ia, [Sol]Alle[Mim]luia, [Fa#7]all[Sim]eluia!
+[Sim]Allelu[Mim7]ia, [La7]alle[Re]luia, [Sol]Alle[Mim]luia, [Fa#7]all[Sim]eluia!`,
 }
 
 export default song

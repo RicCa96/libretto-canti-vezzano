@@ -4,12 +4,13 @@ const song: Song = {
   id: "grandi-cose",
   title: "GRANDI COSE",
   songNumber: 163,
-  body: `RIT.
+  body: `[Do] [Fa] [Do] [Sol4] [Sol]
+RIT.
 [Do]Grandi [Sol]cose ha fatto [Rem]il Si[Lam]gnore per noi:
 [Do]ha fatto [Fa]germogliare [Do]fiori fra le [Sol4]roc[Sol]ce.
 [Do]Grandi [Sol]cose ha fatto [Rem]il Si[Lam]gnore per noi:
 [Do]ci ha ripor[Fa]tati liberi [Do]alla nostra [Sol4]ter[Sol]ra!
-Ed [Lam]ora possiamo can[Rem]tare, possiamo gri[Mim]dare
+Ed [Lam]ora possiamo can[Rem7]tare, possiamo gri[Mim7]dare
 l'amore che [Fa]Dio ha versato su [Sol4]noi[Sol]!
 
 [Do]Tu, che [Sol]sai strap[Rem]pare dalla [Lam]morte,
@@ -22,7 +23,7 @@ RIT.
 [Do]ha fatto [Fa]germogliare [Do]fiori fra le [Sol4]roc[Sol]ce.
 [Do]Grandi [Sol]cose ha fatto [Rem]il Si[Lam]gnore per noi:
 [Do]ci ha ripor[Fa]tati liberi [Do]alla nostra [Sol4]ter[Sol]ra!
-Ed [Lam]ora possiamo can[Rem]tare, possiamo gri[Mim]dare
+Ed [Lam]ora possiamo can[Rem7]tare, possiamo gri[Mim7]dare
 l'amore che [Fa]Dio ha versato su [Sol4]noi[Sol]!`,
 }
 

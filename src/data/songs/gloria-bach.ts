@@ -4,36 +4,40 @@ const song: Song = {
   id: "gloria-bach",
   title: "GLORIA (BACH)",
   songNumber: 228,
-  body: `RIT.
-Gloria a Dio nell’alto dei cieli e pace in terra
-agli uomini del suo amor, del suo amor.
+  body: `[Re]
+RIT.
+Gloria a [Re]Dio nell’[Sol]alto dei [Re]cieli e pace in [Sim]terra
+agli [Mim]uomini [La]del suo a[La7]mor, del suo a[Re]mor.
 
-Ti lodiamo, ti benediciamo, ti glorifichiamo, noi ti adoriamo
-per la tua gloria immensa grazie ti rendiam.
+Ti lodiamo, ti [Sol]benedi[Re]ciamo, ti glorifi[Sim]chiamo, noi ti ado[Mim]riamo
+per la tua [La]gloria immensa gra[La7]zie ti ren[Re]diam.
 
-O Signore Dio Re del cielo, Dio Padre onnipotente,
-Signore Dio Cristo Gesù.
+O Signore Dio [Sol]Re del [Re]cielo, Dio Padre on[Sim]nipo[Mim]tente,
+Si[La]gnore Dio [La7]Cristo Ge[Re]sù.
 
-Signore Dio, Agnello di Dio, che togli i peccati e le colpe del mondo,
-di noi pietà Signore del cielo.
+Signore Dio, A[Re7]gnello di Dio, che [Sol]togli i peccati e le colpe del [Mim]mondo,
+di [La]noi pietà Si[La7]gnore del [Re]cielo.
 
 RIT.
-Gloria a Dio nell’alto dei cieli e pace in terra
-agli uomini del suo amor, del suo amor.
+Gloria a [Re]Dio nell’[Sol]alto dei [Re]cieli e pace in [Sim]terra
+agli [Mim]uomini [La]del suo a[La7]mor, del suo a[Re]mor.
 
-Tu che togli i peccati del mondo accogli la nostra supplice preghiera
-Unigenito figlio del Padre di noi pietà.
+Tu che togli i pec[Sol]cati del [Re]mondo accogli la [Sim]nostra supplice pre[Mim]ghiera
+Unigenito [La]figlio del Padre di [La7]noi pie[Re]tà.
 
-Tu che siedi alla destra del padre misericordioso
-Dei poveri figli tuoi abbi pietà.
+Tu che siedi alla [Sol]destra del [Re]padre misericor[Sim]dioso
+Dei [Mim]poveri [La]figli tuoi [La7]abbi pie[re]tà.
 
-Perché Tu solo il Santo, Tu solo il signore, Tu solo l’altissimo Cristo Gesù,
-Con lo Spirito Santo in gloria del Padre.
+Perché Tu solo il Santo, Tu [Re7]solo il signore, Tu [Sim]solo l’altissimo Cristo Ge[Mim]sù,
+Con lo [La]Spirito Santo in [La7]gloria del [Re]Padre.
 
 RIT.
-Gloria a Dio nell’alto dei cieli e pace in terra
-agli uomini del suo amor, del suo amor.
-Amen`,
+Gloria a [Re]Dio nell’[Sol]alto dei [Re]cieli e pace in [Sim]terra
+agli [Mim]uomini [La]del suo a[La7]mor, del suo a[Re]mor.
+
+RIT.
+Gloria a [Re]Dio nell’[Sol]alto dei [Re]cieli e pace in [Sim]terra
+agli [Mim]uomini [La]del suo a[La7]mor, a[Re]men.`,
 }
 
 export default song

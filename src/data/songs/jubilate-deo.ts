@@ -4,7 +4,8 @@ const song: Song = {
   id: "jubilate-deo",
   title: "JUBILATE DEO",
   songNumber: 3,
-  body: `Jubilate Deo omnis terra.
+  body: ` [Re] [Sol] [La]
+Jubilate Deo omnis terra.
 Servite Domino in laetitia.
 Alleluia, alleluia, in laetitia.
 Alleluia, alleluia, in laetitia.`,

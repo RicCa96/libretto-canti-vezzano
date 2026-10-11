@@ -1,20 +1,21 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "santo-gen",
-  title: "SANTO (GEN)",
-  body: `Santo, santo, santo! Il Signore Dio dell’universo!
-I cieli e la terra sono pieni della tua gloria.
+    id: "santo-gen",
+    title: "SANTO (GEN)",
+    body: `[Sol] [Mim] [Sim]
+[Sol]Santo, [Mim]santo, [Sim]santo! Il Si[Do]gnore Dio dell’univ[Re]erso!
+I [Do]cie[Sim]li e la [Do]ter[Mim]ra sono [Do]pieni [La7]della tua [Re]gloria.
 
 RIT.
-Osanna, osanna, osanna nell’alto dei cieli!
-Osanna, osanna, osanna nell’alto dei cieli!
+O[Sol]san[Re]na, o[Sol]san[Re]na, o[Do]sanna nell’[Re]alto dei [Sol]cieli!
+O[Sol]san[Re]na, o[Sol]san[Re]na, o[Do]sanna nell’[Re]alto dei [Sol]cieli!
 
-Benedetto colui che viene nel nome del Signore!
+Bene[Sol]detto co[Mim]lui che [Do]viene nel [Re]nome del Si[Sol]gnore!
 
 RIT.
-Osanna, osanna, osanna nell’alto dei cieli!
-Osanna, osanna, osanna nell’alto dei cieli!`,
+O[Sol]san[Re]na, o[Sol]san[Re]na, o[Do]sanna nell’[Re]alto dei [Sol]cieli!
+O[Sol]san[Re]na, o[Sol]san[Re]na, o[Do]sanna nell’[Re]alto dei [Sol]cieli!`,
 }
 
 export default song

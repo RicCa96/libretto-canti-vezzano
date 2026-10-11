@@ -4,8 +4,9 @@ const song: Song = {
   id: "alleluia-dio-ha-visitato-il-suo-popolo",
   title: "ALLELUIA (DIO HA VISITATO IL SUO POPOLO)",
   songNumber: 263,
-  body: `RIT.
-[Do]Alleluia, [Sol]alleluia, [Fa]alleluia, alle[Lam]luia!
+  body: `[Do] [Sol] [Lam] [Fa] [Rem] [Sol4] [Sol7]
+RIT.
+[Do]Alleluia, allelu[Sol]ia, [Fa]alleluia, allelu[Lam]ia!
 [Fa]Dio ha visitato il suo [Rem]popo[Do]lo, ha [Fa]fatto mera[Sol]viglie per [Lam]noi, [Fa]alle[Sol]luia[Do]!
 
 [Lam]Gli occhi dei ciechi vedono la luce,

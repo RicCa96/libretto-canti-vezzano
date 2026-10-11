@@ -4,7 +4,8 @@ const song: Song = {
   id: "gloria-buttazzo",
   title: "GLORIA (BUTTAZZO)",
   songNumber: 302,
-  body: `RIT.
+  body: `[Sol] [Re] [Do] [Sol] [Mim] [Do] [Re4] [Re][Sol] [Re] [Do] [Sol] [Mim] [Do] [Re]
+RIT.
 [Sol]Gloria a [Re]Dio nell'[Do]alto dei [Sol]cieli,
 [Mim]pace in [Do]terra agli [Re4]uomi[Re]ni.
 [Sol]Gloria a [Fa]Dio nell'[Do]alto dei [Sol]cieli,

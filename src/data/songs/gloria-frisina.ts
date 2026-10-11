@@ -6,7 +6,7 @@ const song: Song = {
   body: `RIT.
 [Re]Gloria [La]in [Sol]excelsis [La]Deo
 [Sim]et in [Fa#m]terra [Sol]pax ho[La]minibus
-[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sol]volun[La]ta[Re]tis
+[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sim]volun[Sol]ta - [La]a - [Re]tis
 
 [Re]Noi ti lodiamo, ti benedici[La]amo, [Sim]ti adoriamo,
 ti glorifichia[Sol]mo, [La]ti rendiamo [Fa#m]gra[Sim]zie [Do]per la tua gloria im[Sib4]mens[Sib]a
@@ -16,7 +16,7 @@ ti glorifichia[Sol]mo, [La]ti rendiamo [Fa#m]gra[Sim]zie [Do]per la tua gloria i
 RIT.
 [Re]Gloria [La]in [Sol]excelsis [La]Deo
 [Sim]et in [Fa#m]terra [Sol]pax ho[La]minibus
-[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sol]volun[La]ta[Re]tis
+[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sim]volun[Sol]ta - [La]a - [Re]tis
 
 [Re]Signore Dio, agnello di [La]Dio, [Sim]figlio del [Sol]padre
 [Re]Tu che togli i pecc[La]ati del [Fa#m]mon[Sim]do, [Mim]abbi pie[La]tà di n[Sib4]o[Sib]i
@@ -26,7 +26,7 @@ RIT.
 RIT.
 [Re]Gloria [La]in [Sol]excelsis [La]Deo
 [Sim]et in [Fa#m]terra [Sol]pax ho[La]minibus
-[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sol]volun[La]ta[Re]tis
+[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sim]volun[Sol]ta - [La]a - [Re]tis
 
 [Re]Perché tu solo il [La]Santo,
 [Sim]tu solo il Sign[Sol]ore
@@ -36,7 +36,7 @@ RIT.
 RIT.
 [Re]Gloria [La]in [Sol]excelsis [La]Deo
 [Sim]et in [Fa#m]terra [Sol]pax ho[La]minibus
-[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sol]volun[La]ta[Re]tis`,
+[Re]Bonae [Sim]volun[Sol]ta[Re]tis, [Mim]bonae [Sim]volun[Sol]ta - [La]a - [Re]tis`,
 }
 
 export default song

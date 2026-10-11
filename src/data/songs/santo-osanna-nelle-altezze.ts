@@ -1,24 +1,25 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "santo-osanna-nelle-altezze",
-  title: "SANTO (OSANNA NELLE ALTEZZE)",
-  songNumber: 10,
-  body: `Sa ………………… anto!
-Sa ………………… anto!
+    id: "santo-osanna-nelle-altezze",
+    title: "SANTO (OSANNA NELLE ALTEZZE)",
+    songNumber: 10,
+    body: `[Mim]Sa - [Re]a - [Do]a - [Si7]a - [Mim]Santo! [Re] [Do] [Si7]
+[Mim]Sa - [Re]a - [Do]a - [Si7]a - [Mim]Santo! [Re] [Do] [Si7]
 
-I cieli e la terra sono pieni della Tua glo …… oria.
+D: [Mim]I cieli e la [Re]terra sono [Do]pieni della Tua [Si7]glo - oria.
 
-Osanna, osanna, osanna, osanna nelle altezze!
-Osanna, osanna, osanna, osanna nelle altezze!
+U: [Mim]Osanna, [Re]osanna, [Do]osanna, [Si7]osanna nelle al[Mim]tezze! [Re] [Do] [Si7]
+[Mim]Osanna, [Re]osanna, [Do]osanna, o[Si7]sanna nelle al[Mim]tezze! [Re] [Do] [Si7]
 
-Benedetto colui che viene nel nome del Signo …… ore.
+U:[Mim]Benedetto co[Re]lui che viene [Do]nel nome del Si[Si7]gno - ore.
 
-Osanna, osanna, osanna, osanna nelle altezze!
-Osanna, osanna, osanna, osanna nelle altezze!
+D: [Mim]Osanna, [Re]osanna, [Do]osanna, [Si7]osanna nelle al[Mim]tezze! [Re] [Do] [Si7]
+[Mim]Osanna, [Re]osanna, [Do]osanna, [Si7]osanna nelle al[Mim]tezze! [Re] [Do] [Si7]
 
-Osanna, osanna, osanna!
-Osanna, osanna, osanna!`,
+[Mim]Osanna, [Re]osanna, [Do]osanna!
+[Mim]Osanna, [Re]osanna, [Do]osanna!
+[Mim]`,
 }
 
 export default song
