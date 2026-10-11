@@ -1,10 +1,11 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "canzone-della-speranza",
-  title: "CANZONE DELLA SPERANZA",
-  songNumber: 197,
-  body: `[La]Canto di [Mi]pace [Fa#m]di sereni[Do#m]tà, [Re]di chi ha fi[La]ducia [Sim7]nella Tua bon[Mi]tà,
+    id: "canzone-della-speranza",
+    title: "CANZONE DELLA SPERANZA",
+    songNumber: 197,
+    body: `[La] [Mi] [Fa#m] [Do#m] [Re] [La] [Sim7] [Mi]
+[La]Canto di [Mi]pace [Fa#m]di sereni[Do#m]tà, [Re]di chi ha fi[La]ducia [Sim7]nella Tua bon[Mi]tà,
 [La]per la pro[Mi]messa [Fa#m]che non mori[Do#m]rà cre[Re]diamo in Cristo [La]vivo
 che cam[Sim]mina ogni mo[Do#]mento accanto a [Fa#m]noi
 e che per[Re]dona chi [La]vive col [Sim]cuore in umil[Mi]tà.
@@ -31,7 +32,11 @@ RIT.
 [Do]Vieni a can[Sol]tare la [Lam]gioia di [Mim]credere,
 [Fa]vieni a sco[Do]prire che [Rem]la Resurre[Sol]zione
 [Do]è la spe[Sol]ranza che [Lam]ci rende [Mim]liberi,
-[Fa]è la cer[Do]tezza di [Rem7]chi non [Sol4]muore [Do]mai.`,
+[Fa]è la cer[Do]tezza di [Rem7]chi non [Sol4]muore, [Mim7]chi non [La]muore
+[Re]Vieni a can[La]tare la [Sim]gioia di [Fa#m]credere,
+[Sol]vieni a sco[Re]prire che [Mim]la Resurre[La]zione
+[Re]è la spe[La]ranza che [Sim]ci rende [Fa#m]liberi,
+[Sol]è la cer[Re]tezza di [Mim7]chi non [La4]muore [Re]mai.`,
 }
 
 export default song

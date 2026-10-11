@@ -17,7 +17,7 @@ prima nel pen[Fa#m]siero e [Sol]poi nella tua [La7]mano.
 RIT.
 E [Re]imparerò a guar[Sol]dare tutto il [La]mondo [Re7]
 con gli [Sol]occhi tra[La]sparenti di un bam[Re]bino,
-e in[Sol]segnerò a chi[La]amarti &quot;Padre [Re]nostro&quot; [Si7]
+e in[Sol]segnerò a chi[La]amarti "Padre [Re]nostro" [Si7]
 ad [Mim]ogni figlio [Mi7]che diventa [La7]uomo.
 
 [Re]Io lo so Si[Fa#m]gnore che [Sol]Tu mi sei vi[Re]cino
@@ -33,13 +33,13 @@ e [Sol]so che posso [Mim]sempre con[Mi7]tare su di [La7]Te!
 RIT.
 E [Re]imparerò a guar[Sol]dare tutto il [La]mondo [Re7]
 con gli [Sol]occhi tra[La]sparenti di un bam[Re]bino,
-e in[Sol]segnerò a chi[La]amarti &quot;Padre [Re]nostro&quot; [Si7]
+e in[Sol]segnerò a chi[La]amarti "Padre [Re]nostro" [Si7]
 ad [Mim]ogni figlio [Mi7]che diventa [La7]uomo.
 
 RIT.
 E [Re]imparerò a guar[Sol]dare tutto il [La]mondo [Re7]
 con gli [Sol]occhi tra[La]sparenti di un bam[Re]bino,
-e in[Sol]segnerò a chi[La]amarti &quot;Padre [Re]nostro&quot; [Si7]
+e in[Sol]segnerò a chi[La]amarti "Padre [Re]nostro" [Si7]
 ad [Mim]ogni figlio [Mi7]che diventa [La7]uomo.`,
 }
 

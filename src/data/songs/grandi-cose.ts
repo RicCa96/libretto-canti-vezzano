@@ -4,7 +4,7 @@ const song: Song = {
   id: "grandi-cose",
   title: "GRANDI COSE",
   songNumber: 163,
-  body: `[Do] [Fa] [Do] [Sol4] [Sol]
+  body: `[Do] [Sol] [Rem] [Lam] [Do] [Fa] [Do] [Sol4] [Sol]
 RIT.
 [Do]Grandi [Sol]cose ha fatto [Rem]il Si[Lam]gnore per noi:
 [Do]ha fatto [Fa]germogliare [Do]fiori fra le [Sol4]roc[Sol]ce.

@@ -4,35 +4,35 @@ const song: Song = {
   id: "figlia-di-sion",
   title: "FIGLIA DI SION",
   songNumber: 249,
-  body: `[La]D’improvviso mi [La7+]son svegliata: [La7]il mio cuore è un [Re]battito d’ali [Rem]
-fra i colori del [La]nuovo giorno, da lon[Mi]tano l’ho visto arri[La]vare.
-[La]È vestito di [La7+]rosso il mio re, [La7]una fiamma sull’[Re]orizzonte [Rem]
-oro scende dai [La]suoi capelli ed i [Mi]fiumi ne son tutti [La]colmi.
+  body: `[Do]D’improvviso mi [Do7+]son svegliata: [Do7]il mio cuore è un [Fa]battito d’ali [Fam]
+fra i colori del [Do]nuovo giorno, da lon[Sol]tano l’ho visto arri[Do]vare.
+[Do]È vestito di [Do7+]rosso il mio re, [Do7]una fiamma sull’[Fa]orizzonte [Fam]
+oro scende dai [Do]suoi capelli ed i [Sol]fiumi ne son tutti [Do]colmi.
 
 RIT.
-[Re]D’oro e di [Mi]gemme mi vesti[La]rò, [La7]
-[Re]di tutte le [Mi]donne sarò la più [La]bella, [La7]
-[Re]e quando il [Mi]mio signore [Fa#m]mi guarde[Si]rà
-[Re]d’amore il suo [Mi]cuore trabocche[La]rà.
+[Fa]D’oro e di [Sol]gemme mi vesti[Do]rò, [Do7]
+[Fa]di tutte le [Sol]donne sarò la più [Do]bella, [Do7]
+[Fa]e quando il [Sol]mio signore [Lam]mi guarde[Re]rà
+[Fa]d’amore il suo [Sol]cuore trabocche[Do]rà.
 
-[La]Fate presto, cor[La7+]rete tutti: è [La7]il mio sposo che ar[Re]riva già, [Rem]
-sulla strada sten[La]dete i mantelli, ap[Mi]rite le porte [La]della città.
-[La]Quando il re ve[La7+]drà la sua sposa [La7]figlia di Sion mi chi[Re]amerà,
-né [Rem]giorno, né notte, né [La]sole, né luna:
-[Mi]della sua luce mi [La]ricoprirà.
-
-RIT.
-[Re]D’oro e di [Mi]gemme mi vesti[La]rò, [La7]
-[Re]di tutte le [Mi]donne sarò la più [La]bella, [La7]
-[Re]e quando il [Mi]mio signore [Fa#m]mi guarde[Si]rà
-[Re]d’amore il suo [Mi]cuore trabocche[La]rà.
+[Do]Fate presto, cor[Do7+]rete tutti: è [Do7]il mio sposo che ar[Fa]riva già, [Fam]
+sulla strada sten[Do]dete i mantelli, ap[Sol]rite le porte [Do]della città.
+[Do]Quando il re ve[Do7+]drà la sua sposa [Do7]figlia di Sion mi chi[Fa]amerà,
+né [Fam]giorno, né notte, né [Do]sole, né luna:
+[Sol]della sua luce mi [Do]ricoprirà.
 
 RIT.
-[Re]D’oro e di [Mi]gemme ti vesti[La]rai, [La7]
-(2)[Re]di tutte le [Mi]donne sarai la più [La]bella, [La7]
-[Re]e quando il [Mi]tuo signore [Fa#m]ti guarde[Si]rà
-[Re]d’amore il suo [Mi]cuore trabocche[La]rà.
-[Re]D’amore il suo [Mi]cuore trabocche[La]rà.`,
+[Fa]D’oro e di [Sol]gemme mi vesti[Do]rò, [Do7]
+[Fa]di tutte le [Sol]donne sarò la più [Do]bella, [Do7]
+[Fa]e quando il [Sol]mio signore [Lam]mi guarde[Re]rà
+[Fa]d’amore il suo [Sol]cuore trabocche[Do]rà.
+
+RIT.
+[Fa]D’oro e di [Sol]gemme ti vesti[Do]rai, [Do7]
+(2)[Fa]di tutte le [Sol]donne sarai la più [Do]bella, [Do7]
+[Fa]e quando il [Sol]tuo signore [Lam]ti guarde[Re]rà
+[Fa]d’amore il suo [Sol]cuore trabocche[Do]rà.
+[Fa]D’amore il suo [Sol]cuore trabocche[Do]rà.`,
 }
 
 export default song

@@ -1,36 +1,27 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "eccomi-signore",
-  title: "ECCOMI SIGNORE",
-  songNumber: 242,
-  body: `RIT.
-Eccomi, Signore, mi hai chiamato, da prima che io fossi
-hai pronunciato il nome mio con amore.
-Mi hai amato ed ora tu sai
-ardo del tuo desiderio.
-Fame e sete ho di te, mio Signor,
-non dimenticare il grido del tuo servo.
-Sii tu la luce, la guida al mio cuor,
-ardo del tuo desiderio.
+    id: "eccomi-signore",
+    title: "ECCOMI SIGNORE",
+    songNumber: 242,
+    body: `[Do] [Lam] [Mim]
+RIT.
+[Do]Eccomi, Si[Lam]gnore, mi hai chia[Mim]mato, da [Lam]prima che io [Mim]fossi
+hai pronun[Fa]ciato il [Rem]nome [Sol]mio con a[Do]more.
+[Lam]Mi hai a[Mim]mato ed [Fa]o[Rem]ra tu [Sol]sai
+[Do]ardo del [Fa]tuo desi[Sol]derio.
+[Da]Fame e [Mim]sete ho di [Fa]te, mio Si[Do]gnor,
+[Fa]non dimenti[Do]care il [Rem]grido del tuo [Sol]servo.
+[Lam]Sii tu la [Mim]luce, la [Fa]guida al mio [Sol]cuor,
+[Do]ardo del Fa]tuo desi[Sol]de[Do]rio.
 
-Quando piccolo e solo me ne andavo, lontano dalla casa costruivo
-la mia morte con le dita non c'é vita lontano dalla vita.
+Quando [Do]piccolo e [Sib]solo me ne an[Do]davo, lon[Fa]tano dalla [Sol]casa costru[Lam]ivo
+[Rem]la mia morte [Lam]con le dita [Sib]non c'é vita lontano dalla [Sol]vita.
 
 RIT.
 
-Tu non mi hai mai dimenticato: mi hai mostrato la strada dell’amore.
-La mia debolezza, Dio, tu ami, con tenera pazienza, ora mi chiami.
-
-RIT.
-
-Venite, amici! Su venite! Forza! Dio ama l’umiltà del nostro cuore.
-Alla sua mensa, dono d’amore, andiamo amici! Su, andiamo! Forza!
-
-RIT.
-
-Ora, mio Dio, ora tu vivi in me. Fa’ che io dimentichi me stesso;
-fa’ che la mia vita sia riflesso della vita tua, che è solo amore.
+[Do]Tu non mi [Sib]hai mai dimenti[Do]cato: mi hai most[Fa]rato la [Sol]strada dell’a[Lam]more.
+[Rem]La mia debolezza, [Lam]Dio, tu ami, con [Sib]tenera pazienza, ora mi [Sol]chiami.
 
 RIT.`,
 }
