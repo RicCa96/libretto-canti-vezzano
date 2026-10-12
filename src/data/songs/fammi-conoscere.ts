@@ -25,7 +25,7 @@ RIT.
 [Fa]Porterò con [Do]me i [Sib]tuoi insegna[Do]menti,
 [Rem]danno al mio [Sib]cuore [Fa]gio[Do]ia!
 [Fa]La Tua Pa[Do]rola e' [Sib]fonte di [Do]luce:
-[Rem]dona sag[Sib]gezza ai [LA]sempli[La7]ci.
+[Rem]dona sag[Sib]gezza ai [La]sempli[La7]ci.
 
 RIT.
 [Re]Fammi co[Mim]noscere la [Sol]tua volontà[Re].

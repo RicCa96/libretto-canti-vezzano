@@ -26,7 +26,7 @@ Tu che togli i pec[Sol]cati del [Re]mondo accogli la [Sim]nostra supplice pre[Mi
 Unigenito [La]figlio del Padre di [La7]noi pie[Re]tà.
 
 Tu che siedi alla [Sol]destra del [Re]padre misericor[Sim]dioso
-Dei [Mim]poveri [La]figli tuoi [La7]abbi pie[re]tà.
+Dei [Mim]poveri [La]figli tuoi [La7]abbi pie[Re]tà.
 
 Perché Tu solo il Santo, Tu [Re7]solo il signore, Tu [Sim]solo l’altissimo Cristo Ge[Mim]sù,
 Con lo [La]Spirito Santo in [La7]gloria del [Re]Padre.

@@ -45,7 +45,7 @@ e per[Mi]chè Tu hai voluto sal[La]varmi.
 [Mi]questo è mera[Re]viglia [La]del [Mi]Si[La]gnore.
 
 [La]Donaci salvezza e prosperità Si[Fa#m]gnore, co[Mi]lui che viene
-nel [re]nome del Si[Mi]gnore sia [La]benedetto.
+nel [Re]nome del Si[Mi]gnore sia [La]benedetto.
 [Do#m]Vi benedicia[Fa#m]mo, dalla Sua [Mi]casa. [Re] [La] [Mi] [La]
 
 [La]Il Signore Dio è la luce per noi [Fa#m]tutti

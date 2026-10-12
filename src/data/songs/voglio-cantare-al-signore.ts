@@ -22,7 +22,7 @@ Voglio can[Re]tare al Si[La]gnor e [Sol]dare gloria a [La]Lui
 voglio can[Re]tare per [La]sempre al Si[Sol]gnor
 
 La [La]destra del Signore ha annie[Re]ntato il nemico
-[Le]le sue schiere ha riversato [Re]in fondo al mare
+[La]le sue schiere ha riversato [Re]in fondo al mare
 [Sol]sull'asciutto tutto il Suo [La]popolo passò
 con [Sol]timpani e con danze al [La]Signore si esaltò.
 

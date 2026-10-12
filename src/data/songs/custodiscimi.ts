@@ -15,10 +15,10 @@ Custo[Rem]di[Solm]sci[Do]mi, mia [La]gioia Ge[Re]sù!
 Custo[Rem]di[Solm]sci[Do]mi, mia [Fa]forza sei [Solm]Tu,
 Custo[Rem]di[Solm]sci[Do]mi, mia [La]gioia Ge[Re]sù!
 
-[Rem]Ti pongo sempre in[Solm]nan[La]zi a [re]me
+[Rem]Ti pongo sempre in[Solm]nan[La]zi a [Rem]me
 al si[Do]curo sa[Fa]rò, mai va[Solm]cille[La]rò;
 [Rem]Via, Verità e [Solm]Vi[La]ta [Rem]sei,
-Mio [do]Dio, credo [Fa]che Tu mi [Solm]gui[La]de[Rem]rai.
+Mio [Do]Dio, credo [Fa]che Tu mi [Solm]gui[La]de[Rem]rai.
 
 RIT.
 Custo[Rem]di[Solm]sci[Do]mi, mia [Fa]forza sei [Solm]Tu,

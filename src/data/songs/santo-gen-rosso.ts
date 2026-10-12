@@ -3,7 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "santo-gen-rosso",
     title: "SANTO (GEN ROSSO)",
-    body: `[Re] [Sol] [Re] [La] [re]
+    body: `[Re] [Sol] [Re] [La] [Re]
 [Re]Santo, Santo, [Sol]Santo è [Re]il Signo[La]re
 [Re]Santo è [Sol]Dio dell’[Re]uni[La]ver[Re]so.
 [Re]Pieni sono i [Sol]cieli [Re]e la ter[La]ra

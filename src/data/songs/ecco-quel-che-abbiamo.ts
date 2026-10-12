@@ -25,7 +25,7 @@ per [Mim]dividere nel [Sim]mondo il pane [Do]che Tu hai [Re7]dato a [Sol]noi.
 [Mim]Le nostre gocce, pioggia [Sim]fra le mani tue,
 saranno linfa di una [Mim]nuova civiltà.
 E la [Lam]terra pre[Sim]pare[Do]rà la [Mim]festa del [Lam]pane [Sim]che
-ogni [Do]uomo condivide[re4]rà. [Re7]
+ogni [Do]uomo condivide[Re4]rà. [Re7]
 
 RIT.
 [Sol]Ecco quel che ab[Sim]biamo, nulla [Do]ci appartiene [Sol]ormai.

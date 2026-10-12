@@ -11,7 +11,7 @@ RIT.
 [Sol]Vi lascio la [Re]pace, vi [Mim]do la mia [Sim]pace, sha[Do]lom, sha[Re]lom, sha[Sol]lom. [Re]
 [Sol]Rimanete in [Re]me e [Mim]porterete [Sim]frutto, sha[Do]lom, sha[Re]lom, sha[Sol]lom.
 
-Fra[Do]telli state [Sol]lieti, re[Do]state nella [Sol]pace e il [So]Dio dell’a[Sol]more sa[La7]rà con [Re]voi.
+Fra[Do]telli state [Sol]lieti, re[Do]state nella [Sol]pace e il [Do]Dio dell’a[Sol]more sa[La7]rà con [Re]voi.
 La [Do]grazia del Si[Sol]gnore, l’a[Do]more di Dio [Sol]Padre,
 l’uni[Do]tà dello [Sol]Spirito [La7]sia con tutti [Re]voi. [Re7]
 
