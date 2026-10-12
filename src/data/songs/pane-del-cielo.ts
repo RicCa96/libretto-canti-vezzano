@@ -4,37 +4,38 @@ const song: Song = {
     id: "pane-del-cielo",
     title: "PANE DEL CIELO",
     songNumber: 186,
-    body: `RIT.
-[Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
-[Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.
-[Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
-[Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.
+    body: `[Re] [Mim] [Sol] [Re]
+RIT.
+[Re]Pane del [Fa#m]cielo, [Sol]sei Tu Ge[Re]sù,
+[Sim]via d'a[Mim]more: [Sol]Tu ci fai come [Re]Te.
+[Re]Pane del [Fa#m]cielo, [Sol]sei Tu Ge[Re]sù,
+[Sim]via d'a[Mim]more: [Sol]Tu ci fai come [Re]Te.
 
-[Fa]No, non è ri[Rem]masta fredda la [Sol]terra:
-[Mim]Tu sei ri[Fa]masto con [Do]noi [Fa]per nutrirci di [Do]Te.
-[Lam]Pane di [Sol]vita: [Lam]ed infiam[Sol]mare col tuo a[Mi]more [Sol]tutta l'u[Fa]mani[Do]tà.
+[Sol]No, non è ri[Mim]masta fredda la [La]terra:
+[Fa#m]Tu sei ri[Sol]masto con [Re]noi [Sol]per nutrirci di [Re]Te.
+[Sim]Pane di [La]vita: [Sim]ed infiam[La]mare col tuo a[Fa#]more [La]tutta l'u[Sol]mani[Re]tà.
 
 RIT.
-[Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
-[Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.
+[Re]Pane del [Fa#m]cielo, [Sol]sei Tu Ge[Re]sù,
+[Sim]via d'a[Mim]more: [Sol]Tu ci fai come [Re]Te.
 
-[Fa]Sì, il Cielo è [Rem]qui su questa [Sol]terra:
-[Mim]Tu sei ri[Fa]masto con [Do]noi, [Fa]ma ci porti con [Do]Te
-[Lam]nella tua [Sol]casa, [Lam]dove vi[Sol]vremo insieme a [Mi]Te [Sol]tutta l'e[Fa]terni[Do]tà.
-
-RIT.
-[Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
-[Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.
-
-[Fa]No, la morte non [Rem]può farci pa[Sol]ura:
-[Mim]Tu sei ri[Fa]masto con [Do]noi [Fa]e chi vive di [Do]Te,
-[Lam]vive per [Sol]sempre. [Lam]Sei Dio con [Sol]noi, sei Dio per [Mi]noi, [Sol]Dio in [Fa]mezzo a [Do]noi.
+[Sol]Sì, il Cielo è [Mim]qui su questa [La]terra:
+[Fa#m]Tu sei ri[Sol]masto con [Re]noi, [Sol]ma ci porti con [Re]Te
+[Sim]nella tua [La]casa, [Sim]dove vi[La]vremo insieme a [Fa#]Te [La]tutta l'e[Sol]terni[Re]tà.
 
 RIT.
-[Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
-[Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.
-[Do]Pane del [Mim]cielo, [Fa]sei Tu Ge[Do]sù,
-[Lam]via d'a[Rem]more: [Fa]Tu ci fai come [Do]Te.`,
+[Re]Pane del [Fa#m]cielo, [Sol]sei Tu Ge[Re]sù,
+[Sim]via d'a[Mim]more: [Sol]Tu ci fai come [Re]Te.
+
+[Sol]No, la morte non [Mim]può farci pa[La]ura:
+[Fa#m]Tu sei ri[Sol]masto con [Re]noi [Sol]e chi vive di [Re]Te,
+[Sim]vive per [La]sempre. [Sim]Sei Dio con [La]noi, sei Dio per [Fa#]noi, [La]Dio in [Sol]mezzo a [Re]noi.
+
+RIT.
+[Re]Pane del [Fa#m]cielo, [Sol]sei Tu Ge[Re]sù,
+[Sim]via d'a[Mim]more: [Sol]Tu ci fai come [Re]Te.
+[Re]Pane del [Fa#m]cielo, [Sol]sei Tu Ge[Re]sù,
+[Sim]via d'a[Mim]more: [Sol]Tu ci fai come [Re]Te.`,
 }
 
 export default song

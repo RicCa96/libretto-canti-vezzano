@@ -1,30 +1,33 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "il-germoglio-della-stirpe-di-david-dall-albero-di-iesse",
-  title: "IL GERMOGLIO DELLA STIRPE DI DAVID (DALL’ALBERO DI IESSE)",
-  songNumber: 47,
-  body: `Dall’albero di Iesse un virgulto spunterà
-e si poserà su lui lo Spirito del Signore.
-Spirito di sapienza, di consiglio, di fortezza,
-Spirito di scienza e di timore del Signore.
+    id: "il-germoglio-della-stirpe-di-david-dall-albero-di-iesse",
+    title: "IL GERMOGLIO DELLA STIRPE DI DAVID (DALL’ALBERO DI IESSE)",
+    songNumber: 47,
+    body: `[La9] [La] [La9] [La]
+Dall’[La]albero di Iesse un vir[Do#m]gulto spunterà
+[Fa#m]e si poserà su lui lo [Re]Spirito del Si[La9]gnore.
+[La]Spirito di sapienza, di con[Do#m]siglio, di fortezza,
+[Fa#m]Spirito di scienza e di ti[Re]more del Si[La]gnore. [Mi]
 
 RIT.
-Giudicherà con giustizia i poveri,
-ci colpirà con la verga della sua parola e l’empio morirà.
+[Re]Giudicherà con giustizia i pove[La]ri, [Mi]
+[Re]ci colpirà con la verga della sua pa[La]rola e l’[Mi]empio mori[Re]rà.
 
-E cingerà i suoi fianchi di giustizia e fedeltà
-e dimoreranno in pace insieme lupo e agnello.
-Pascoleranno insieme il vitello ed il leone
-e sul covo dei serpenti un bimbo stenderà la sua mano.
+[La9] [La] [La9] [La]
+
+E [La]cingerà i suoi fianchi di giu[Do#m]stizia e fedeltà
+[Fa#m]e dimoreranno in pace in[Re]sieme lupo e a[La]gnello.
+Pas[La]coleranno insieme il vi[Do#m]tello ed il leone
+[Fa#m]e sul covo dei serpenti un [Re]bimbo stenderà la sua [La]mano. [Mi]
 
 RIT.
-Sul suo monte santo non si compiranno stragi,
-(2)poiché sulla terra come l’acqua nel mare sarà
-la conoscenza del Signore.
+Sul [Re]suo monte santo non si compiranno [La]stragi, [Mi]
+poi[Re]ché sulla terra come l’acqua nel mare sa[La]rà
+la cono[Mi]scenza del Si[Re]gno[La]re.
 
-E sarà in quel giorno, si volgeranno le genti della terra
-verso la stirpe di David, che come un vessillo si eleva per i popoli.`,
+E sarà in quel [La]giorno, si volgeranno le [Do#m]genti della terra
+verso la [Fa#m]stirpe di David, che come un vessillo si e[Re]leva per i popo[La]li.`,
 }
 
 export default song

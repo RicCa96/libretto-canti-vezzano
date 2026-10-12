@@ -4,7 +4,8 @@ const song: Song = {
   id: "resta-qui-con-noi",
   title: "RESTA QUI CON NOI",
   songNumber: 30,
-  body: `[Re]Le ombre si distendono, [Sol]scende ormai la sera
+  body: `[Re] [Sol] [Re]
+[Re]Le ombre si distendono, [Sol]scende ormai la sera
 [Re]e s'allontanano dietro i [Mim]monti i riflessi di un [Sim]giorno che non fini[Fa#m]rà,
 di un [Mi]giorno che ora [Sol]correrà sempre,
 [Re]perché sap[Fa#m]piamo che [Sol]una nuova [Mim]vita da qui è par[Re]tita e mai [Sol]più si ferme[La4]rà[La].

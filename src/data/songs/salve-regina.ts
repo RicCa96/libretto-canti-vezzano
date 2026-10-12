@@ -4,7 +4,7 @@ const song: Song = {
     id: "salve-regina",
     title: "SALVE REGINA",
     songNumber: 271,
-    body: `
+    body: `[Sol] [Do] [Sol] [Do]
 RIT.
 [Sol]Salve Re[Re]gina, [Do]Mad[Mim]re [Lam]di miseri[Sol]cordia.
 Vita, dol[Re]cezza, speranza [Do]nostra, [Sol]salve! Salve Re[Re]gina!

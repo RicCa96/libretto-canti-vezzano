@@ -4,34 +4,26 @@ const song: Song = {
   id: "salmo-100-lodate-il-signore-voi-tutti-della-terra",
   title: "SALMO 100 (LODATE IL SIGNORE VOI TUTTI DELLA TERRA)",
   songNumber: 23,
-  body: `RIT.
-Lodate il Signore voi tutti della terra
-servite il Signore nella gioia
-Presentatevi a lui con esultanza.
+  body: `[Sol]
+RIT.
+Lo[Sol]date il Signore voi [Si]tutti della terra
+ser[Do]vite il Signore nella [Sol]gio[Re7]ia
+Presen[Do]tatevi a [Re7]Lui con esul[Sol]tanza.
 
-Riconoscete che il Signore è Dio, egli ci ha fatti e noi siamo Suoi,
-Suo popolo e gregge del Suo pascolo.
+[Mim]Riconoscete che il Si[Sim]gnore è Dio, [Do]Egli ci ha fatti e [Sim]noi siamo Suoi,
+[Do]Suo [Re7]popolo e [Sol]gregge del Suo [Do]pa - [Re]sco - [Sol]lo.
 
 RIT.
-Lodate il Signore voi tutti della terra
-servite il Signore nella gioia
-Presentatevi a lui con esultanza.
 
-Venite a Lui con inni di grazie, nei Suoi atri con canti di lode,
-benedite e lodate il Suo nome.
+[Mim]Venite a Lui con [Sim]inni di grazie, [Do]nei Suoi atri con [Sim]canti di lode,
+[Do]bene[Re7]dite e lo[Sol]date il Suo [Do]no - [Re]o - [Sol]me.
 
 RIT.
-Lodate il Signore voi tutti della terra
-servite il Signore nella gioia
-Presentatevi a lui con esultanza.
 
-Poiché buono è il Signore, poiché eterna è la Sua misericordia,
-Egli è fedele con tutti gli uomini.
+[Mim]Poiché buono [Sim]è il Signore, [Do]poiché eterna è la [Sim]Sua misericordia,
+[Do]Egli è fe[Re7]dele con [Sol]tutti gli [Do]uo - [Re]mi - [Sol]ni.
 
-RIT.
-Lodate il Signore voi tutti della terra
-servite il Signore nella gioia
-Presentatevi a lui con esultanza.`,
+RIT.`,
 }
 
 export default song

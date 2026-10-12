@@ -1,9 +1,9 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "salmo-148",
-  title: "SALMO 148 (LODINO TUTTI IL NOME DEL SIGNORE)",
-  body: `D: Alleluia, – U: lodate il Signore!
+    id: "salmo-148",
+    title: "SALMO 148 (LODINO TUTTI IL NOME DEL SIGNORE)",
+    body: `D: Alleluia, – U: lodate il Signore!
 Alleluia, – lodate il Signore!
 Lodatelo, – alleluia!
 Lodatelo, – alleluia!
