@@ -1,10 +1,10 @@
-import type { Song } from '../types.ts'
+import type {Song} from '../types.ts'
 
 const song: Song = {
-  id: "gloria-madagascar",
-  title: "GLORIA (MADAGASCAR)",
-  songNumber: 229,
-  body: `
+    id: "gloria-madagascar",
+    title: "GLORIA (MADAGASCAR)",
+    songNumber: 229,
+    body: `[Sol] [Mim] [Do] [Re] [Sol]
 RIT.
 [Sol]Gloria a [Re]Dio, a [Mim]Dio nell’alto [Sim]dei cieli,
 [Do]gloria a Dio nell’[Sol]alto dei [La]cie[Re4]li[Re].

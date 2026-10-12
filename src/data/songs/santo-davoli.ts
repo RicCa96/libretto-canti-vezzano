@@ -3,7 +3,7 @@ import type { Song } from '../types.ts'
 const song: Song = {
   id: "santo-davoli",
   title: "SANTO (DAVOLI)",
-  body: `
+  body: `[Do] [Fa] [Sol] [Fa] [Sol]
   [Do]San[Sol]to, [Fa]San[Sol]to,
   [Do]Santo [Fa]il Si[Sol]gnore
   [Do]Dio [Fa]dell'uni[Sol]verso

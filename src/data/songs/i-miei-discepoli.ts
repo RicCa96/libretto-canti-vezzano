@@ -4,7 +4,8 @@ const song: Song = {
     id: "i-miei-discepoli",
     title: "I MIEI DISCEPOLI",
     songNumber: 279,
-    body: `[Rem]In Cristo [Solm]nato [Lam]povero per [Fa]noi
+    body: `[Rem] [Solm] [Lam] [Fa]
+[Rem]In Cristo [Solm]nato [Lam]povero per [Fa]noi
 [Rem]l’abisso [Sib]della mia nulli[Do]tà
 in[Fa]contra il cielo [Solm]della Tua gran[Fa]dez[Do]za. [Sib] [Do]
 [Mib]In Lui, o Padre, mani[Rem]festi la Tua tenerezza infi[Sol]nita

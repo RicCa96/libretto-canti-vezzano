@@ -3,7 +3,7 @@ import type {Song} from '../types.ts'
 const song: Song = {
     id: "tutto-e-possibile",
     title: "TUTTO È POSSIBILE",
-    body: `
+    body: `[Do] [Sol] [Lam] [Fa]
 Questo è il [Do]luogo che Dio ha [Sol]scelto per te
 Questo è il [Lam]tempo pensato per [Fa]te
 Quella che [Do]vedi è la strada che [Sol]Lui traccerà
