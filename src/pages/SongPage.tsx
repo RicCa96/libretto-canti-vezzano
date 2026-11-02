@@ -4,6 +4,7 @@ import { songById } from '../data/songs/index.ts'
 import chordIds from '../data/chord-ids.json'
 import { hasChords } from '../lib/chordpro.ts'
 import { SongBody } from '../components/SongBody.tsx'
+import { ChordToolbar } from '../components/ChordToolbar.tsx'
 import { useFontSize, FONT_SIZES, FONT_REM } from '../hooks/useFontSize.ts'
 import './SongPage.css'
 
@@ -40,7 +41,10 @@ export function SongPage() {
   const showPdfToggle = !hasInline && hasPdf
 
   return (
-    <div style={{ ['--fs-lyric' as string]: FONT_REM[size] }}>
+    <div
+      className={view === 'chords' ? 'song-page--chord-toolbar' : undefined}
+      style={{ ['--fs-lyric' as string]: FONT_REM[size] }}
+    >
       <Link className="song-back" to={backTo}>
         {backLabel}
       </Link>
@@ -97,25 +101,6 @@ export function SongPage() {
             Spartito {view === 'pdf' ? 'on' : 'off'}
           </button>
         )}
-        {view === 'chords' && (
-          <span className="group">
-            <span>Tono</span>
-            <button
-              type="button"
-              aria-label="Abbassa tono"
-              onClick={() => setTranspose((t) => t - 1)}
-            >
-              −
-            </button>
-            <button
-              type="button"
-              aria-label="Alza tono"
-              onClick={() => setTranspose((t) => t + 1)}
-            >
-              +
-            </button>
-          </span>
-        )}
         {view !== 'pdf' && (
           <span className="group">
             <span>Testo</span>
@@ -151,6 +136,11 @@ export function SongPage() {
         </object>
       ) : (
         <SongBody body={song.body} chordsOn={view === 'chords'} transpose={transpose} />
+      )}
+
+      {/* Chord tools float so musicians (hands on the instrument) can reach them mid-song. */}
+      {view === 'chords' && (
+        <ChordToolbar transpose={transpose} onTransposeChange={setTranspose} />
       )}
     </div>
   )

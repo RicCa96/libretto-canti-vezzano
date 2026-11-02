@@ -100,6 +100,11 @@
   margin-right: var(--s-1);
 }
 
+/* Room so the floating chord toolbar never covers the last lines. */
+.song-page--chord-toolbar {
+  padding-bottom: 6rem;
+}
+
 .song-chord-pdf {
   display: block;
   width: 100%;

@@ -1,0 +1,184 @@
+.chord-toolbar {
+  position: fixed;
+  left: 50%;
+  bottom: calc(var(--s-4) + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: var(--s-3);
+  max-width: calc(100vw - 2 * var(--s-2));
+  padding: var(--s-2);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  box-shadow: 0 6px 20px rgba(20, 33, 61, 0.18);
+  font-family: var(--font-sans);
+}
+
+.chord-toolbar button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--s-1);
+  height: 44px;
+  min-width: 44px;
+  padding: 0 var(--s-3);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 500;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  cursor: pointer;
+  transition: border-color var(--t-fast), color var(--t-fast), background-color var(--t-fast);
+}
+
+.chord-toolbar button:hover:not(:disabled):not([data-running='true']) {
+  border-color: var(--hover-border);
+  color: var(--hover-fg);
+}
+
+.chord-toolbar button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.chord-toolbar .chord-toolbar__play {
+  padding: 0 var(--s-4);
+}
+
+.chord-toolbar .chord-toolbar__play[data-running='true'] {
+  background: var(--accent);
+  color: var(--accent-on);
+  border-color: var(--accent);
+}
+
+.chord-toolbar .chord-toolbar__play[data-running='true']:hover {
+  background: var(--press-bg);
+  border-color: var(--press-border);
+}
+
+.chord-toolbar__group {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-1);
+}
+
+.chord-toolbar__divider {
+  align-self: stretch;
+  width: 1px;
+  margin: var(--s-1) 0;
+  background: var(--rule);
+}
+
+/* Small label stacked over the value, so both groups stay identifiable on phones. */
+.chord-toolbar__value {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 3.5rem;
+  line-height: 1.1;
+  font-size: var(--fs-body);
+  font-weight: 600;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.chord-toolbar__label {
+  color: var(--muted);
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Collapsed state: compact pill in the bottom-right corner mirroring the toolbar. */
+.chord-toolbar-pill {
+  position: fixed;
+  right: calc(var(--s-4) + env(safe-area-inset-right, 0px));
+  bottom: calc(var(--s-4) + env(safe-area-inset-bottom, 0px));
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--s-2);
+  height: 48px;
+  padding: 0 var(--s-3);
+  font-family: var(--font-sans);
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: var(--r-pill);
+  box-shadow: 0 6px 20px rgba(20, 33, 61, 0.18);
+  cursor: pointer;
+  transition: border-color var(--t-fast), background-color var(--t-fast);
+}
+
+.chord-toolbar-pill:hover {
+  border-color: var(--hover-border);
+}
+
+.chord-toolbar-pill[data-running='true'] {
+  background: var(--accent);
+  color: var(--accent-on);
+  border-color: var(--accent);
+}
+
+.chord-toolbar-pill[data-running='true']:hover {
+  background: var(--press-bg);
+  border-color: var(--press-border);
+}
+
+.chord-toolbar-pill .chord-toolbar__value {
+  min-width: 2rem;
+  font-size: var(--fs-small);
+  color: inherit;
+}
+
+.chord-toolbar-pill[data-running='true'] .chord-toolbar__label {
+  color: inherit;
+  opacity: 0.75;
+}
+
+.chord-toolbar-pill[data-running='true'] .chord-toolbar__divider {
+  background: currentColor;
+  opacity: 0.35;
+}
+
+.chord-toolbar,
+.chord-toolbar-pill {
+  animation: chord-toolbar-in 160ms var(--ease);
+}
+
+@keyframes chord-toolbar-in {
+  from {
+    opacity: 0;
+    scale: 0.92;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chord-toolbar,
+  .chord-toolbar-pill {
+    animation: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .chord-toolbar {
+    gap: var(--s-2);
+  }
+  .chord-toolbar button {
+    height: 40px;
+    min-width: 40px;
+    padding: 0 var(--s-2);
+  }
+  /* Icon-only on phones; the aria-label still names it. */
+  .chord-toolbar .chord-toolbar__play {
+    padding: 0;
+  }
+  .chord-toolbar__play-text {
+    display: none;
+  }
+}
